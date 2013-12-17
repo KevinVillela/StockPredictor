@@ -25,7 +25,9 @@ def getAPIKey(user_number):
             18: "43e72eef35675d2bdd3f37246bddf052", #API KEY for DatumBox9 (DatumBox9)
             19: "ad34470ff161ffd414a82b9ff1194c62", #API KEY for DatumBox10 (DatumBox10)
             20: "88ce955d4d524ab8413c76dc59ef4ffa", #API KEY for DatumBox11 (DatumBox11)
-            21: "c0d357df5a8670b2ebda51d6330b7f0a"  #API KEY for DatumBox12 (DatumBox12)
+            21: "c0d357df5a8670b2ebda51d6330b7f0a", #API KEY for DatumBox12 (DatumBox12)
+            22: "c7c814acc9d58de49c5fa5ef45185740", #API KEY for DatumBox13 (DatumBox13)
+            23: "d95b2e27834af271918dc3e06883d042"  #API KEY for DatumBox14 (DatumBox14)
             }[user_number]
 MAX_PROXIES = 50
 MAX_TRIES = 7
@@ -277,7 +279,8 @@ class Crawler(object):
                     for thread in self.threads:
                         thread.join()
             for thread in self.threads:
-                        thread.join()
+                thread.join()
+            print
             self.articlesCompleted = 0
             if (dbError == True):
                 dbError = False
@@ -310,12 +313,12 @@ def getProxies(fileName):
             break
     f.close()
 def main():
-    year = 2011
-    month = 10
-    day = 26
-    daysToSearch = 300
-    userNumber = 21
-    fileName = "newarticlesentiments.psv"
+    year = 2013
+    month = 11
+    day = 8
+    daysToSearch = 12
+    userNumber = 23
+    fileName = "current.psv"
     #API_Key = getAPIKey(userNumber)
     #datum_box = DatumBox(API_Key)  
     #print "analysis: " + str(datum_box.sentiment_analysis("test"));
