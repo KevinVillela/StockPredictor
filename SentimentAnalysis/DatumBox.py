@@ -76,7 +76,7 @@ class DatumBox():
 	
 	def _classification_request(self, text, api_name, proxy):
 		full_url = DatumBox.base_url + api_name + ".json"
-		return self._send_request(full_url, {'text' : text.encode('utf-8')}, proxy)
+		return self._send_request(full_url, {'text' : text}, proxy)
 		
 	def _send_request(self, full_url, params_dict, proxy):
 		params_dict['api_key'] = self.api_key

@@ -24,7 +24,8 @@ def getAPIKey(user_number):
             17: "5d20722e009d6c2180aa8ddd1d7a1b5b", #API KEY for DatumBox8 (DatumBox8)
             18: "43e72eef35675d2bdd3f37246bddf052", #API KEY for DatumBox9 (DatumBox9)
             19: "ad34470ff161ffd414a82b9ff1194c62", #API KEY for DatumBox10 (DatumBox10)
-            20: "88ce955d4d524ab8413c76dc59ef4ffa" #API KEY for DatumBox11 (DatumBox11)
+            20: "88ce955d4d524ab8413c76dc59ef4ffa", #API KEY for DatumBox11 (DatumBox11)
+            21: "c0d357df5a8670b2ebda51d6330b7f0a"  #API KEY for DatumBox12 (DatumBox12)
             }[user_number]
 MAX_PROXIES = 50
 MAX_TRIES = 7
@@ -311,9 +312,9 @@ def getProxies(fileName):
 def main():
     year = 2011
     month = 10
-    day = 28
+    day = 26
     daysToSearch = 300
-    userNumber = 12
+    userNumber = 21
     fileName = "newarticlesentiments.psv"
     #API_Key = getAPIKey(userNumber)
     #datum_box = DatumBox(API_Key)  
