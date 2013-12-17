@@ -54,7 +54,6 @@ import urllib2
 import urllib3
 from urllib import urlencode, quote_plus
 from httplib import BadStatusLine
-from apiclient.discovery import build
 from bs4 import BeautifulSoup
 import gevent.monkey
 gevent.monkey.patch_socket()
@@ -310,11 +309,11 @@ def getProxies(fileName):
             break
     f.close()
 def main():
-    year = 2012
-    month = 2
-    day = 3
+    year = 2011
+    month = 10
+    day = 28
     daysToSearch = 300
-    userNumber = 13
+    userNumber = 12
     fileName = "newarticlesentiments.psv"
     #API_Key = getAPIKey(userNumber)
     #datum_box = DatumBox(API_Key)  
