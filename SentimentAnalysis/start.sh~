@@ -1,2 +1,0 @@
-#!/bin/sh
-python GoogleSentimentAnalysis.py 20 2012 6 5 10 newarticlesentiments.psv

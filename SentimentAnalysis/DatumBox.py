@@ -2,7 +2,6 @@
 import urllib2
 from urllib import urlencode
 import json
-import socket
 
 class DatumBox():
 	
@@ -11,9 +10,9 @@ class DatumBox():
 	def __init__(self, api_key):
 		self.api_key = api_key
 		
-	def sentiment_analysis(self, text, proxy):
+	def sentiment_analysis(self, text, proxy, subscriptionID = None):
 		"""Possible responses are "positive", "negative" or "neutral" """
-		return self._classification_request(text, "SentimentAnalysis", proxy)
+		return self._classification_request(text, "SentimentAnalysis", proxy, subscriptionID)
 
 	
 	def twitter_sentiment_analysis(self, text):
@@ -74,16 +73,22 @@ class DatumBox():
 		response = self._send_request(full_url, {'original': text, 'copy' : text2})
 		return response['Oliver'];
 	
-	def _classification_request(self, text, api_name, proxy):
+	def _classification_request(self, text, api_name, proxy, subscriptionID):
 		full_url = DatumBox.base_url + api_name + ".json"
-		return self._send_request(full_url, {'text' : text}, proxy)
+		data = {'text' : text, 'subscription_id' : None}
+		if (subscriptionID is not None):
+			data['subscription_id'] = subscriptionID
+		return self._send_request(full_url, data, proxy)
 		
 	def _send_request(self, full_url, params_dict, proxy):
 		params_dict['api_key'] = self.api_key
-		proxy_support = urllib2.ProxyHandler({'http': 'http://' + proxy})
+		if (params_dict['subscription_id'] is None): # If we don't get the 10k requests, use a proxy
+			print 'no sub id :('
+			proxy_support = urllib2.ProxyHandler({'http': 'http://' + proxy})
+			opener = urllib2.build_opener(proxy_support, urllib2.HTTPHandler(debuglevel=0))
+			urllib2.install_opener(opener)
+			
 		headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'}
-		opener = urllib2.build_opener(proxy_support, urllib2.HTTPHandler(debuglevel=0))
-		urllib2.install_opener(opener)
 		request = urllib2.Request(url=full_url, data=urlencode(params_dict), headers=headers)
 		f = urllib2.urlopen(request)
 		response = json.loads(f.read())
