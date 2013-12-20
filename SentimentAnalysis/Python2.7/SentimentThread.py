@@ -22,6 +22,7 @@ class SentimentThread(threading.Thread):
         self.proxy = proxy
         self.parent = parent
         self.MAX_TRIES = 7
+        self.MAX_STRIKES = 3
         self.separator = '|'
         self.subscriptionID = subscriptionID
     def run(self):
@@ -65,16 +66,13 @@ class SentimentThread(threading.Thread):
             except DatumBoxError, datumBoxError:
                 if (datumBoxError.error_code == 11):
                     print "Daily DatumBox Limit Reached for API KEY " + self.datum_box.api_key
-                    self.mutex_writefile.acquire()
-                    global dbError
-                    dbError = True
-                    self.mutex_writefile.release()
+                    self.parent.articleAnalyzed(False)
                     self.parent.killThreads()
                     return       
             except urllib2.URLError, error:
                 if (error.errno == 60): #Operation timed out
                     print("Operation timed out, likely due to the proxy.(Article #" + str(self.articleNumber) + ", attempt #" + str(tries + 1)  + ")")
-                    global proxies
+                    '''global proxies
                     global MAX_STRIKES
                     proxies[self.proxy] = proxies[self.proxy] + 1
                     tries = tries + 1 
@@ -82,6 +80,7 @@ class SentimentThread(threading.Thread):
                         print("Proxy " + self.proxy + " has struck out! Removing from list...")
                         del proxies[self.proxy]
                         return
+                    '''
             except socket.error, error:
                 if (error.errno == 54): #Connection reset by peer
                     print("Connection reset by peer. ugh. Trying again. (Article #" + str(self.articleNumber) + ", attempt #" + str(tries + 1) + ")")
@@ -101,4 +100,4 @@ class SentimentThread(threading.Thread):
         sentimentsFile.write("\n")
         sentimentsFile.close()
         self.mutex_writefile.release()
-        self.parent.articleAnalyzed()
+        self.parent.articleAnalyzed(True)
