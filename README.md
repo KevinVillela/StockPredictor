@@ -13,3 +13,8 @@ grequests (maybe. At the writing of this, it was not being used because of a pot
 
 Privoxy and Tor must be changed to make web queries anonymous.
 webarticle2text is now included in the project files.
+
+Installation instructions for Windows:
+
+Download and install Python3.3
+Download and install pip for Python3.3 (wwww.lfd.uci.edu/~gohlke/pythonlivs/#pip)

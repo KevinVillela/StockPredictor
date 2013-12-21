@@ -20,6 +20,7 @@ import gc
 import ssl
 from queue import Queue
 import justext
+import requests
 #import gevent.monkey
 #gevent.monkey.patch_all(thread=False)
 
@@ -82,8 +83,7 @@ class Crawler(object):
             numberOfResults = 50
             startPageQuery = "https://startpage.com/do/search?cat=web&cmd=process_search&language=english&engine0=v1all&abp=1&x=-843&y=-302&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1NsslEEE1N1Nfont_sizeEEEmediumN1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0&query=" + query
             #request = urllib2.Request('GET', startPageQuery, None, headers)
-            
-            print(startPageQuery)
+            #print(startPageQuery)
             ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv3) #monkey patch...
             opener = urllib.request.build_opener(urllib.request.HTTPSHandler(context=ssl_context)) #monkey patch...
             urllib.request.install_opener(opener) #monkey patch...
@@ -97,6 +97,8 @@ class Crawler(object):
                 if ('none' in resultDiv.get('class')):
                     continue
                 h3 = resultDiv.find("h3")
+                if (h3 is None):
+                    continue
                 url = h3.find("a", href=True)['href']
                 results.append(url)
             #except SearchError, e:
@@ -109,16 +111,17 @@ class Crawler(object):
                 articleURLs = []
                 total = len(results)
                 def fetch(url):
-                    request = urllib.request.Request(url)
-                    response = urllib.request.urlopen(request)
-                    resultsPage = response.read().decode('utf-8')
-                    paragraphs = justext.justext(resultsPage, justext.get_stoplist("English"))
+                    #request = urllib.request.Request(url)
+                    #response = urllib.request.urlopen(request)
+                    #resultsPage = response.read().decode('ascii')
+                    response = requests.get(url)
+                    paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
+                    #paragraphs = justext.justext(resultsPage, justext.get_stoplist("English"))
                     article = ""
                     for paragraph in paragraphs:
                       if not paragraph.is_boilerplate:
                         article += paragraph.text
-                    
-                    articles.append(webarticle2text.extractFromHTML(resultsPage))
+                    articles.append(article)
                     articleURLs.append(url)
                     #f.close()
                     print("\r" + str(len(articles)) + " / " + str(len(results)) + " articles crawled to.", end=' ')

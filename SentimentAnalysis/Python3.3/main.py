@@ -30,7 +30,7 @@ def getUsersInfo(fileName):
         apiKeysFileReader = csv.reader(csvFile, delimiter=',')
         userInfo = []
         for row in apiKeysFileReader:
-            apiObject = {"userNumber" : row[0], "APIKey" : row[1], "userName" : row[2], "subscriptionID" : row[3] if len(row) >= 4 else None}
+            apiObject = {"APIKey" : row[0], "userName" : row[1], "subscriptionID" : row[2] if len(row) >= 3 else None}
             userInfo.append(apiObject)
         csvFile.close()
         return userInfo
@@ -48,7 +48,7 @@ def getProxies(fileName):
     f.close()
 def main():
     params = getDefaultParameters("Data/DefaultParameters.csv")
-    userInfo = getUsersInfo("Data/DatumBoxAPIKeys.csv")
+    userInfo = getUsersInfo("Data/newKeys.csv")
     if (len(sys.argv) != 7):
         print("usage: ./main <user_number> <year_to_start_search> <month_to_start_search> <day_to_start_search> <days_to_search> <output_file_name>")
         print("Note that search goes backwards in time each day for <days_to_search> days or until API calls are exhausted")
