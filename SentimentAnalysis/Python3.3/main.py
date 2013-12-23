@@ -16,7 +16,9 @@ import sys
 import Crawler
 import pprint
 import csv # To read the API Keys
-#gevent.monkey.patch_socket()
+import urllib
+from subprocess import call
+
       
 def getDefaultParameters(fileName):
     with open(fileName, 'r', encoding='utf=-8') as csvFile:
@@ -47,6 +49,9 @@ def getProxies(fileName):
             break
     f.close()
 def main():
+    #call(["/usr/local/bin/tor"])
+    #proc = subprocess.Popen(["pgrep -x", "tor"], stdout=subprocess.PIPE) 
+    #print("process is " + str(proc))
     params = getDefaultParameters("Data/DefaultParameters.csv")
     userInfo = getUsersInfo("Data/newKeys.csv")
     if (len(sys.argv) != 7):

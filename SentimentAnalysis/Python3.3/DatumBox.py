@@ -3,6 +3,8 @@ import urllib.request, urllib.error, urllib.parse
 from urllib.parse import urlencode
 import json
 import pprint
+import socks
+import socket
 
 class DatumBox():
 	
@@ -85,9 +87,11 @@ class DatumBox():
 	def _send_request(self, full_url, params_dict, proxy):
 		params_dict['api_key'] = self.api_key
 		if (params_dict.get('subscription_id') is None): # If we don't get the 10k requests, use a proxy
-			proxy_support = urllib.request.ProxyHandler({'http': 'http://' + proxy})
-			opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPHandler(debuglevel=0))
-			urllib.request.install_opener(opener)
+			#proxy_support = urllib.request.ProxyHandler({'http': 'http://' + proxy})
+			#opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPHandler(debuglevel=0))
+			#urllib.request.install_opener(opener)
+			socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 9050)
+			socket.socket = socks.socksocket
 		
 		headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'}
 		binary_data = urlencode(params_dict).encode('utf-8') 
