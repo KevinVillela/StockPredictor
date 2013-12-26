@@ -17,18 +17,18 @@ import Crawler
 import pprint
 import csv # To read the API Keys
 import urllib
-from subprocess import call
+from stem.control import Controller
 
       
 def getDefaultParameters(fileName):
-    with open(fileName, 'r', encoding='utf=-8') as csvFile:
+    with open(fileName, 'r', encoding='utf-8') as csvFile:
         defaultParametersFileReader = csv.reader(csvFile, delimiter=',')
         for row in defaultParametersFileReader:
             defaultParameters = {"userNumber" : int(row[0]), "year" : int(row[1]), "month" : int(row[2]), "day" : int(row[3]), "daysToSearch" : int(row[4]), "fileName" : row[5]}
         csvFile.close()
         return defaultParameters
 def getUsersInfo(fileName):
-    with open(fileName, 'r', encoding='utf=-8') as csvFile:
+    with open(fileName, 'r', encoding='utf-8') as csvFile:
         apiKeysFileReader = csv.reader(csvFile, delimiter=',')
         userInfo = []
         for row in apiKeysFileReader:
@@ -49,9 +49,25 @@ def getProxies(fileName):
             break
     f.close()
 def main():
-    #call(["/usr/local/bin/tor"])
     #proc = subprocess.Popen(["pgrep -x", "tor"], stdout=subprocess.PIPE) 
     #print("process is " + str(proc))
+    '''import stem
+    import stem.connection
+    import stem.socket
+    try:
+        control_socket = stem.socket.ControlPort(port = 9050)
+        #stem.connection.authenticate(control_socket)
+    except stem.SocketError as exc:
+        print("Unable to connect to tor on port 9051: %s" % exc)
+        sys.exit(1)
+    except stem.connection.AuthenticationFailure as exc:
+        print("Unable to authenticate: %s" % exc)
+        sys.exit(1)
+    
+    print("Issuing 'GETINFO version' query...\n")
+    control_socket.send('GETINFO version')
+    print(control_socket.recv())
+    '''
     params = getDefaultParameters("Data/DefaultParameters.csv")
     userInfo = getUsersInfo("Data/newKeys.csv")
     if (len(sys.argv) != 7):

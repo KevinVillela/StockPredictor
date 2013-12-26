@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 import webarticle2text
 #from gevent.pool import Pool
 from SentimentThread import SentimentThread
+from TorThread import TorThread
 from datetime import timedelta
 import threading
 import gc
@@ -21,6 +22,9 @@ import ssl
 from queue import Queue
 import justext
 import requests
+import time
+import chardet
+import atexit
 #import gevent.monkey
 #gevent.monkey.patch_all(thread=False)
 
@@ -40,6 +44,7 @@ class Crawler(object):
         self.MIN_ARTICLES_PERCENT = MIN_ARTICLES_PERCENT
         self.MAX_THREADS = MAX_THREADS
         self.dbError = False
+        atexit.register(self.exitProgram)
         
     def getUser(self, userInfo, userNumber):
         for user in userInfo:
@@ -59,6 +64,10 @@ class Crawler(object):
         datum_box = DatumBox(user['APIKey'])  
         sentimentsFile = open(fileName, "a")
         daysToGoBack = 1;
+        print("Starting Tor...")
+        self.torThread = TorThread(self)
+        self.torThread.start()
+        time.sleep(5)
         #googleHttp = urllib3.PoolManager()
         while(daysToGoBack <= daysToSearch):
             #toSleep = 10
@@ -68,10 +77,14 @@ class Crawler(object):
             
             #try:
             julianDate = trunc(sum(jdcal.gcal2jd(dateToSearch.year, dateToSearch.month, dateToSearch.day)) + .5)
-            keyword = "investing"
-            sites = ["http://online.wsj.com/", "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance",  "http://www.usatoday.com/", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
-            query = "site:money.cnn.com"
+            keyword = "Boeing OR Caterpillar OR McDonalds OR Microsoft OR Nike OR Coca-Cola OR Visa OR Wal-Mart OR Disney OR Verizon OR Exxon OR IBM OR JPMorgan OR Intel"
+            sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
+            query = "site:" + sites[0]
+            first = True
             for site in sites:
+                if (first):
+                    first = False
+                    continue
                 query = query + " OR site:" + site
             query = query + " " + keyword + " daterange:" + str(julianDate) + "-" + str(julianDate);
             #print("Query: " + query);
@@ -82,6 +95,7 @@ class Crawler(object):
             headers={'User-agent' : 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6'}
             numberOfResults = 50
             startPageQuery = "https://startpage.com/do/search?cat=web&cmd=process_search&language=english&engine0=v1all&abp=1&x=-843&y=-302&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1NsslEEE1N1Nfont_sizeEEEmediumN1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0&query=" + query
+            print (startPageQuery)
             #request = urllib2.Request('GET', startPageQuery, None, headers)
             #print(startPageQuery)
             ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv3) #monkey patch...
@@ -115,7 +129,9 @@ class Crawler(object):
                     #response = urllib.request.urlopen(request)
                     #resultsPage = response.read().decode('ascii')
                     response = requests.get(url)
-                    paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
+                    #print (response.encoding)
+                    #print (chardet.detect(response.content))
+                    paragraphs = justext.justext(response.content, justext.get_stoplist("English"),default_encoding=chardet.detect(response.content)['encoding'])
                     #paragraphs = justext.justext(resultsPage, justext.get_stoplist("English"))
                     article = ""
                     for paragraph in paragraphs:
@@ -137,7 +153,9 @@ class Crawler(object):
                     t.start()
                     crawlThreads.append(t)
                 for thread in crawlThreads:
-                    thread.join()
+                    thread.join(60)
+                    if (thread.isAlive()):
+                        print("A URL has timed out")
                 # I was using grequests, but it appeared that they were leaking file descriptors... :(
                 #articleRequests = (grequests.get(res, hooks = {'response' : do_something}, timeout=60) for res in results)
                 #articlePages = grequests.map(articleRequests)
@@ -185,6 +203,13 @@ class Crawler(object):
                     user = userInfo[userNumber]
                     datum_box = DatumBox(user['APIKey']) 
                     print("Switching users and trying again.")
+                    self.torThread.stop()
+                    self.torThread.join()
+                    time.sleep(5)
+                    print("Tor stopped. Restarting...")
+                    self.torThread = TorThread(self)
+                    self.torThread.start()
+                    time.sleep(5)
                 
             #Next day!
             print()        
@@ -196,4 +221,7 @@ class Crawler(object):
         pass
         #for thread in self.threads:
             #   thread.stop()
+    def exitProgram(self):
+        self.torThread.stop()
+        print("Shut down successfully.")
     ''' End of Crawl Class ''' 

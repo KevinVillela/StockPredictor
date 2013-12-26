@@ -66,6 +66,10 @@ class SentimentThread(threading.Thread):
             except DatumBoxError as datumBoxError:
                 if (datumBoxError.error_code == 11):
                     print("Daily DatumBox Limit Reached for API KEY " + self.datum_box.api_key)
+                elif (datumBoxError.error_code == 4):
+                    print("DatumBox received an unexpected error. Its okay though. Continuing normally.")
+                    tries = tries + 1
+                    continue
                 else:
                     print("Datum Box received error code " + str(datumBoxError.error_code) + ", meaning: " + datumBoxError.error_message)   
                 self.parent.articleAnalyzed(False)
