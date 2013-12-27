@@ -93,7 +93,7 @@ class SentimentThread(threading.Thread):
                     tries = tries + 1 
             except BadStatusLine:
                 print(("Could not get article: BadStatusLine. (Article #" + str(self.articleNumber) + ", attempt #" + str(tries + 1) + ")"))
-                return
+                continue
             except SystemExit:
                 print('An exception flew by!')
         if ( tries == self.MAX_TRIES):

@@ -131,7 +131,8 @@ class Crawler(object):
                     response = requests.get(url)
                     #print (response.encoding)
                     #print (chardet.detect(response.content))
-                    paragraphs = justext.justext(response.content, justext.get_stoplist("English"),default_encoding=chardet.detect(response.content)['encoding'])
+                    #paragraphs = justext.justext(response.content, justext.get_stoplist("English"),default_encoding=chardet.detect(response.content)['encoding'])
+                    paragraphs = justext.justext(response.text, justext.get_stoplist("English"))
                     #paragraphs = justext.justext(resultsPage, justext.get_stoplist("English"))
                     article = ""
                     for paragraph in paragraphs:
