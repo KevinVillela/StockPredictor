@@ -70,15 +70,12 @@ class Crawler(object):
         time.sleep(5)
         #googleHttp = urllib3.PoolManager()
         while(daysToGoBack <= daysToSearch):
-            #toSleep = 10
-            #print "sleeping for " + str(toSleep) + " seconds in a pathetic attempt to bypass Google...."
-            #time.sleep(toSleep)
             print("Searching on date " + dateToSearch.strftime("%m/%d/%Y") + " (day " + str(daysToGoBack) + " of " + str(daysToSearch) + ")")
             
-            #try:
             julianDate = trunc(sum(jdcal.gcal2jd(dateToSearch.year, dateToSearch.month, dateToSearch.day)) + .5)
-            keyword = "Boeing OR Caterpillar OR McDonalds OR Microsoft OR Nike OR Coca-Cola OR Visa OR Wal-Mart OR Disney OR Verizon OR Exxon OR IBM OR JPMorgan OR Intel"
-            sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
+            keyword = '"3M Co" OR "American Express" OR "AT&T" OR "Boeing" OR "Caterpillar" OR "Chevron" OR "Cisco" OR "Dupont E I De Nemours" OR "Exxon" OR "General Electric" OR "Goldman Sachs" OR "Home Depot" OR "Intel" OR "IBM" OR "Johnson & Johnson" OR "JPMorgan Chase" OR "McDonald\'s" OR "Merck and Co" OR "Microsoft" OR "Nike" OR "Pfizer" OR "Procter & Gamble" OR "Coca-Cola" OR "Travelers Companies" OR "United Technologies" OR "UnitedHealth" OR "Verizon" OR "Visa" OR "Wal-Mart" OR "Walt Disney"'
+            #sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
+            sites = ["http://www.cnbc.com/"]
             query = "site:" + sites[0]
             first = True
             for site in sites:
@@ -87,23 +84,22 @@ class Crawler(object):
                     continue
                 query = query + " OR site:" + site
             query = query + " " + keyword + " daterange:" + str(julianDate) + "-" + str(julianDate);
-            #print("Query: " + query);
             query = quote_plus(query)
-            #gs = GoogleSearch(query);
-            #gs.results_per_page = 50
-            #results = gs.get_results()
-            headers={'User-agent' : 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6'}
             numberOfResults = 50
             startPageQuery = "https://startpage.com/do/search?cat=web&cmd=process_search&language=english&engine0=v1all&abp=1&x=-843&y=-302&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1NsslEEE1N1Nfont_sizeEEEmediumN1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0&query=" + query
-            print (startPageQuery)
-            #request = urllib2.Request('GET', startPageQuery, None, headers)
-            #print(startPageQuery)
+            #print (startPageQuery)
             ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv3) #monkey patch...
-            opener = urllib.request.build_opener(urllib.request.HTTPSHandler(context=ssl_context)) #monkey patch...
+            proxy_support = urllib.request.ProxyHandler({'http': '127.0.0.1:8118'})
+            opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPSHandler(context=ssl_context)) #monkey patch...
             urllib.request.install_opener(opener) #monkey patch...
+            
+            #headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'} #No longer used because StartPage blocked it for a while
+            headers={'User-agent' : 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6', 'Connection':'close'}
             request = urllib.request.Request(url=startPageQuery, data=None, headers=headers)
-            response = urllib.request.urlopen(request)
+            response = opener.open(request)
+            #response = urllib.request.urlopen(request)
             resultsPage = response.read().decode('utf-8')
+            #print(resultsPage)
             soup = BeautifulSoup(resultsPage)
             resultDivs = soup.findAll("div", { "class" : "result" })
             results = []
@@ -115,41 +111,34 @@ class Crawler(object):
                     continue
                 url = h3.find("a", href=True)['href']
                 results.append(url)
-            #except SearchError, e:
-            #    print "Search failed: %s" % e
-            #    continue
-            #Crawl to each web site and extract web articles
             try:
                 numberOfArticlePages = 0
                 articles = []
                 articleURLs = []
+                articleRanks = []
                 total = len(results)
-                def fetch(url):
-                    #request = urllib.request.Request(url)
-                    #response = urllib.request.urlopen(request)
-                    #resultsPage = response.read().decode('ascii')
+                def fetch(url, rank):
                     response = requests.get(url)
-                    #print (response.encoding)
-                    #print (chardet.detect(response.content))
-                    #paragraphs = justext.justext(response.content, justext.get_stoplist("English"),default_encoding=chardet.detect(response.content)['encoding'])
                     paragraphs = justext.justext(response.text, justext.get_stoplist("English"))
-                    #paragraphs = justext.justext(resultsPage, justext.get_stoplist("English"))
                     article = ""
+                    empty = True
                     for paragraph in paragraphs:
-                      if not paragraph.is_boilerplate:
-                        article += paragraph.text
+                        if not paragraph.is_boilerplate:
+                            empty = False
+                            article += paragraph.text
+                    if (empty == True):
+                        print("A website (" + url + ") had no non-article text! Removed.")
+                        return
                     articles.append(article)
                     articleURLs.append(url)
-                    #f.close()
+                    articleRanks.append(rank)
                     print("\r" + str(len(articles)) + " / " + str(len(results)) + " articles crawled to.", end=' ')
                     sys.stdout.flush()
-                    #response = requests.request('GET', url, hooks = {'response' : do_something}, timeout=60.0)
-                    #articlePages.append(response)
                 
                 # Was using gevent, but then switched to python3.3, which does not yet support gevent
                 crawlThreads = []
-                for res in results:
-                    t = threading.Thread(target=fetch, args={res})
+                for index,res in enumerate(results):
+                    t = threading.Thread(target=fetch, args=(res, index))
                     t.daemon = True  # thread dies when main thread (only non-daemon thread) exits.
                     t.start()
                     crawlThreads.append(t)
@@ -183,9 +172,9 @@ class Crawler(object):
             while (self.dbError == True): # This might get some articles twice, but its okay because once they are in the db it won't matter
                 self.dbError = False
                 self.threads = []
-                for articleText, articleURL in zip(articles, articleURLs):
+                for articleText, articleURL, articleRank in zip(articles, articleURLs, articleRanks):
                     #articleURL = res.url.encode("utf8")
-                    thread = SentimentThread(articleURL, articleText, i, fileName, dateToSearch, mutex_writefile, datum_box, "127.0.0.1:8118", self, user['subscriptionID'])
+                    thread = SentimentThread(articleURL, articleText, articleRank, i, fileName, dateToSearch, mutex_writefile, datum_box, "127.0.0.1:8118", self, user['subscriptionID'])
                     #thread.daemon = True
                     thread.start()
                     self.threads.append(thread)

@@ -10,10 +10,11 @@ import urllib.request, urllib.error, urllib.parse
 from DatumBox import DatumBoxError 
 import sys # for sys.exit()
 class SentimentThread(threading.Thread):
-    def __init__(self, articleURL, articleText, articleNumber, sentimentsFileName, dateToSearch, mutex_writefile, datum_box, proxy, parent, subscriptionID = None):
+    def __init__(self, articleURL, articleText, articleRank, articleNumber, sentimentsFileName, dateToSearch, mutex_writefile, datum_box, proxy, parent, subscriptionID = None):
         super(SentimentThread, self).__init__()
         self.articleURL = articleURL
         self.articleText = articleText
+        self.articleRank = articleRank
         self.articleNumber = articleNumber
         self.sentimentsFileName = sentimentsFileName
         self.dateToSearch = dateToSearch
@@ -102,7 +103,8 @@ class SentimentThread(threading.Thread):
         sentimentsFile = open(self.sentimentsFileName, 'a')
         sentimentsFile.write(self.articleURL + self.separator)
         sentimentsFile.write(self.dateToSearch.strftime("%m/%d/%Y") + self.separator)
-        sentimentsFile.write(sentiment);
+        sentimentsFile.write(sentiment + self.separator);
+        sentimentsFile.write(str(self.articleRank))
         sentimentsFile.write("\n")
         sentimentsFile.close()
         self.mutex_writefile.release()
