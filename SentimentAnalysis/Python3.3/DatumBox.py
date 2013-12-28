@@ -5,6 +5,7 @@ import json
 import pprint
 import socks
 import socket
+import requests
 
 class DatumBox():
 	
@@ -98,10 +99,12 @@ class DatumBox():
 		request = urllib.request.Request(url=full_url, data=binary_data, headers=headers)
 		if (params_dict.get('subscription_id') is None):
 			f = opener.open(request)
+			response = json.loads(f.read().decode('utf-8'))
+			f.close()
 		else:
-			f = urllib.request.urlopen(request)
-		response = json.loads(f.read().decode('utf-8'))
-		f.close()
+			f = urllib.request.urlopen( urllib.request.Request(url=full_url, data=binary_data, headers=headers))
+			response = json.loads(f.read().decode('utf-8'))
+			f.close()
 		return self._process_result(response)
 		
 	def _process_result(self, response):		
