@@ -11,7 +11,6 @@ import jdcal
 from urllib.parse import quote_plus
 import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
-import webarticle2text
 #from gevent.pool import Pool
 from SentimentThread import SentimentThread
 from TorThread import TorThread
