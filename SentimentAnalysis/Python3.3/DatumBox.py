@@ -93,18 +93,16 @@ class DatumBox():
 			urllib.request.install_opener(opener)
 			#socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 8118)
 			#socket.socket = socks.socksocket
+		else:
+			proxy_support = urllib.request.ProxyHandler({})
+			opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPHandler(debuglevel=0))
 		
 		headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'}
 		binary_data = urlencode(params_dict).encode('utf-8') 
 		request = urllib.request.Request(url=full_url, data=binary_data, headers=headers)
-		if (params_dict.get('subscription_id') is None):
-			f = opener.open(request)
-			response = json.loads(f.read().decode('utf-8'))
-			f.close()
-		else:
-			f = urllib.request.urlopen( urllib.request.Request(url=full_url, data=binary_data, headers=headers))
-			response = json.loads(f.read().decode('utf-8'))
-			f.close()
+		f = opener.open(request)
+		response = json.loads(f.read().decode('utf-8'))
+		f.close()
 		return self._process_result(response)
 		
 	def _process_result(self, response):		
