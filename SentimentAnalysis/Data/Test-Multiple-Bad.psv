@@ -1,3 +1,6 @@
+Query: The bigger names in the DOW. sites: "http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/". 
+Dates: 2013-12-20 to 2013-2-24
+Observations: This was an extension of the earlier test where a very strong correlation was found. Unfortunately, the correlation did not hold well for this data. We found that the more data we entered, the weaker the correlation became.
 http://www.cnbc.com/id/101289297|12/20/2013|-1
 http://www.cnbc.com/id/101289859|12/20/2013|0
 http://www.cnbc.com/id/101289014|12/20/2013|0

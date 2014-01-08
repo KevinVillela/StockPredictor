@@ -1,3 +1,6 @@
+Query: "Stocks". sites: "http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/". 
+Dates: 2012-5-15 to 2011-10-1
+Observations: Found a very high correlation during this time period! More testing is needed.
 http://money.cnn.com/video/news/2012/11/16/n-80-years-twinkie-history.cnnmoney/|11/16/2012|-1
 http://money.cnn.com/video/news/2012/11/16/n-hostess-ceo-twinkies.cnnmoney/|11/16/2012|-1
 http://money.cnn.com/2012/11/16/news/companies/twinkies-hoarding-hostess/|11/16/2012|0

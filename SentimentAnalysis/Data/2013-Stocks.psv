@@ -1,3 +1,5 @@
+Query: Stocks, Sites: "http://money.cnn.com/", "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/", 
+Observations: Did not work, many of the websites from money.cnn.com were of "quotes", which are not articles at all. 
 http://money.cnn.com/quote/profile/profile.html?symb=M|12/21/2013|-1
 http://money.cnn.com/quote/quote.html?symb=RBC|12/21/2013|-1
 http://money.cnn.com/news/newsfeeds/gigaom/articles/2013_12_20_visualizing_googles_million_row_copyright_claim_dataset.html|12/21/2013|1

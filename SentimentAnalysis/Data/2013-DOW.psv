@@ -1,3 +1,6 @@
+Query: DOW, Sites: "http://money.cnn.com/", "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/", 
+Notes: This test was created as a follow-up to the query DOW on three test dates, as they were very encouraging.
+Also note that some of these do not have great values because there are CNN quotes. Wtf is this file? haha the original three test data does not include those quotes...
 http://www.reuters.com/finance/stocks/companyNews?symbol=DOW.N|12/21/2013|-1
 http://money.cnn.com/quote/quote.html?symb=COF|12/21/2013|-1
 http://money.cnn.com/quote/quote.html?symb=HOLL|12/21/2013|-1

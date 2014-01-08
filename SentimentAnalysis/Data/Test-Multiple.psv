@@ -1,3 +1,6 @@
+Query: The bigger names in the DOW. sites: "http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/". 
+Dates: 2012-5-15 to 2011-10-1
+Observations: Found a very high correlation during this time period! More testing is needed.
 http://money.cnn.com/2012/05/15/technology/facebook-raises-price-range/|05/15/2012|-1
 http://money.cnn.com/2012/05/15/markets/buffett-general-motors-viacom/|05/15/2012|0
 http://www.cnbc.com/id/47413977|05/15/2012|1

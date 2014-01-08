@@ -24,9 +24,32 @@ import requests
 import time
 import chardet
 import atexit
+import random
+from urllib.parse import urlencode
 #import gevent.monkey
 #gevent.monkey.patch_all(thread=False)
 
+BROWSERS = (
+    # Top most popular browsers in my access.log on 2009.02.12
+    # tail -50000 access.log |
+    #  awk -F\" '{B[$6]++} END { for (b in B) { print B[b] ": " b } }' |
+    #  sort -rn |
+    #  head -20
+    'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6',
+    'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.6) Gecko/2009011912 Firefox/3.0.6',
+    'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6 (.NET CLR 3.5.30729)',
+    'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6',
+    'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6',
+    'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6 (.NET CLR 3.5.30729)',
+    'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.48 Safari/525.19',
+    'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648)',
+    'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6',
+    'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121621 Ubuntu/8.04 (hardy) Firefox/3.0.5',
+    'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1',
+    'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)',
+    'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)',
+    'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
+)
 
 class Crawler(object):
     '''def do_something(response, **kwargs):
@@ -72,9 +95,9 @@ class Crawler(object):
             print("Searching on date " + dateToSearch.strftime("%m/%d/%Y") + " (day " + str(daysToGoBack) + " of " + str(daysToSearch) + ")")
             
             julianDate = trunc(sum(jdcal.gcal2jd(dateToSearch.year, dateToSearch.month, dateToSearch.day)) + .5)
-            keyword = '"3M Co" OR "American Express" OR "AT&T" OR "Boeing" OR "Caterpillar" OR "Chevron" OR "Cisco" OR "Dupont E I De Nemours" OR "Exxon" OR "General Electric" OR "Goldman Sachs" OR "Home Depot" OR "Intel" OR "IBM" OR "Johnson & Johnson" OR "JPMorgan Chase" OR "McDonald\'s" OR "Merck and Co" OR "Microsoft" OR "Nike" OR "Pfizer" OR "Procter & Gamble" OR "Coca-Cola" OR "Travelers Companies" OR "United Technologies" OR "UnitedHealth" OR "Verizon" OR "Visa" OR "Wal-Mart" OR "Walt Disney"'
-            #sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
-            sites = ["http://www.cnbc.com/"]
+            #keyword = '"3M Co" OR "American Express" OR "AT&T" OR "Boeing" OR "Caterpillar" OR "Chevron" OR "Cisco" OR "Dupont E I De Nemours" OR "Exxon" OR "General Electric" OR "Goldman Sachs" OR "Home Depot" OR "Intel" OR "IBM"'# OR "Johnson & Johnson" OR "JPMorgan Chase" OR "McDonald\'s" OR "Merck and Co" OR "Microsoft" OR "Nike" OR "Pfizer" OR "Procter & Gamble" OR "Coca-Cola" OR "Travelers Companies" OR "United Technologies" OR "UnitedHealth" OR "Verizon" OR "Visa" OR "Wal-Mart" OR "Walt Disney"'
+            keyword = "Dow"
+            sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
             query = "site:" + sites[0]
             first = True
             for site in sites:
@@ -82,23 +105,24 @@ class Crawler(object):
                     first = False
                     continue
                 query = query + " OR site:" + site
-            query = query + " " + keyword + " daterange:" + str(julianDate) + "-" + str(julianDate);
+            query = query + " daterange:" + str(julianDate) + "-" + str(julianDate) + " " + keyword;
             query = quote_plus(query)
             numberOfResults = 50
-            startPageQuery = "https://startpage.com/do/search?cat=web&cmd=process_search&language=english&engine0=v1all&abp=1&x=-843&y=-302&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1NsslEEE1N1Nfont_sizeEEEmediumN1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0&query=" + query
-            #print (startPageQuery)
+            #startPageQuery = "https://startpage.com/do/search?cat=web&cmd=process_search&engine0=v1all&abp=1&x=-843&y=-302&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1NsslEEE1N1Nfont_sizeEEEmediumN1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0"
+            startPageQuery = "https://startpage.com/do/search?cat=web&abp=1&prfh=lang_homepageEEEs%2Fair%2Feng%2FN1Nenable_post_methodEEE0N1Nrecent_results_filterEEE1N1Nlanguage_uiEEEenglishN1Ndisable_open_in_new_windowEEE1N1Nnum_of_resultsEEE" + str(numberOfResults) + "N1N&suggestOn=0&query=" + query 
+            binaryData = urlencode({'language' : 'english', 'cmd' : 'process_search', 'engine0' :'v1all'}).encode('utf-8')
+            print (startPageQuery)
             ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv3) #monkey patch...
             proxy_support = urllib.request.ProxyHandler({'http': '127.0.0.1:8118'})
             opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPSHandler(context=ssl_context)) #monkey patch...
             urllib.request.install_opener(opener) #monkey patch...
-            
             #headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'} #No longer used because StartPage blocked it for a while
-            headers={'User-agent' : 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6', 'Connection':'close'}
-            request = urllib.request.Request(url=startPageQuery, data=None, headers=headers)
+            #headers={'User-agent' : 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Firefox/3.0.6', 'Connection':'close'}
+            browser = random.choice(BROWSERS)
+            headers={'User-agent' : browser}
+            request = urllib.request.Request(url=startPageQuery, data = None, headers=headers)
             response = opener.open(request)
-            #response = urllib.request.urlopen(request)
             resultsPage = response.read().decode('utf-8')
-            #print(resultsPage)
             soup = BeautifulSoup(resultsPage)
             resultDivs = soup.findAll("div", { "class" : "result" })
             results = []
@@ -126,7 +150,7 @@ class Crawler(object):
                             empty = False
                             article += paragraph.text
                     if (empty == True):
-                        print("A website (" + url + ") had no non-article text! Removed.")
+                        print("A website (" + url + ") had no article text! Removed.")
                         return
                     articles.append(article)
                     articleURLs.append(url)

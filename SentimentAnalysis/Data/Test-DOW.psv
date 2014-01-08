@@ -1,0 +1,3 @@
+Query: "DOW". sites: "http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/". 
+The object of this was to extend the data found earlier that produced good results with 3 test dates.
+Observations:

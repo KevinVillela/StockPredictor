@@ -27,5 +27,5 @@ class TorThread(threading.Thread):
         return
     def startTor(self):
         #call(["/usr/local/bin/tor"])
-        cmd = "~/usr/local/bin/tor"
+        cmd = "/usr/local/bin/tor"
         self.p = subprocess.Popen(args = cmd, shell=True, universal_newlines = True,preexec_fn=os.setsid)

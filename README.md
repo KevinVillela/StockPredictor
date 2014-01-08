@@ -13,7 +13,6 @@ jusText
 	or [sudo] pip install git+git://github.com/miso-belica/jusText.git, 
 	if not then https://pypi.python.org/pypi/jusText/2.0.0.
 	Alternative: download the ZIP file and run pip install -r requirements.txt in the unzipped directory)
-urllib3
 requests (pip install requests)
 tor (go to their project page and make sure a circuit is established)
 privoxy (go to their project page and make sure it is working, then chain it with tor. The project page has instructions for this as well)
@@ -21,7 +20,7 @@ stem (pip install stem)
 chardet (pip install chardet)
 
 Privoxy and Tor must be changed to make web queries anonymous.
-webarticle2text is now included in the project files.
+webarticle2text is now included in the project files, but is no longer used.
 
 Installation instructions for Windows:
 
@@ -59,9 +58,39 @@ usnews.com		.0377			.0129
 cnbc.com		.1461			.3675
 usatoday.com	.0230			.3293
 other			.0328			.1085
+
 On further review of usatoday's articles, their majority were about sports and topics largely unrelated to the stock market.
 After removing usatoday's articles from the early (good) data set, we saw an increase in correlation by 1%. 
 However, removing usatoday's articles from the later (bad) data set made the data much worse. This could be due to deleting almost %33 of the data set.
 Therefore, we retried the bad data set search without usatoday.com in the query.
 After about 120 days, the data gave us a worse correlation, but still a very good one at about %50. However, since the correlation dropped so much with the addition of only about 40 data points, more data must be inserted.
-After gathering data from December 20th, 2013 to May 12, 2012, we found: 
+After gathering data from May 12, 2012 to December 20th, 2013, we found that the more data you add, the lower the correlation becomes.
+
+In an attempt to discover the driving force behind the sentiment->market correlation, we decided to test each news source individually by using only their articles from the data set.
+This gave us the following table or maximum correlations:
+				early (good)	total (good and bad)
+money.cnn.com:	.06				59.9
+bloomberg.com	.07				55.8
+cnbc.com		.226			66.5
+
+Because of cnbc's supposed influence on the result, we decided to gather data for cnbc only. 
+However, if we did this with the current query of a few DOW Jones sites, we would likely not get enough data.
+Therefore, we gathered data from CNBC only and included ALL of the companies in the DOW in our query.
+Finally, we also realized that some websites were returning no text at all; or, more specifically, the justext module was not finding any article text in the websites. We removed these few occurrences from the analysis.
+After gathering data for cnbc from December 20th, 2013 to October 14, 2011, using every company in the DOW as the query, we found a terrible correlation. This didn't work at all. The data is stored in Current-All-CNBC.psv.
+
+After this, we tried all the companies but with all the websites except for usatoday.
+For some reason, about halfway through this query, we began getting a 414 error: URI too long. Further investigation revealed that Google limits the search terms to 32 characters.
+This meant that the previous query was getting cut off after the 2nd Johnson in "Johnson and Johnson".  In order to complete this test, the query was cut off before "Johnson and Johnson". Data from December 20,2013 to Octover 15, 2011 showed no correlation.
+
+This test also came up with a way to test our variables: using test dates. We use the following as test dates:
+April 12, 2012: As the DOW drops sharply after this until about June 1, 2012.
+December 28, 2012: As the DOW rises sharply after this until about February 1st and continues to rise slowly afterwards.
+January 25, 2013: As the DOW stays very similar between then and March 1, 2013
+
+Using these test dates and the query DOW, we came up with:
+DOW Drop after April 12 2012 -> 1.38 average sentiment over X days
+DOW rise after December 28 2012 -> -4.69 average sentiment over X days
+DOW steady after January 25 2013 -> -2.02 average sentiment over X days
+These results were enouraging, so we gathered data from December 1, 2013, back.
+Unfortunately, this data did not continue to match up.
