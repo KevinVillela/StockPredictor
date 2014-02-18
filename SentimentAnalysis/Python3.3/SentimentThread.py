@@ -60,6 +60,7 @@ class SentimentThread(threading.Thread):
         while (tries < self.MAX_TRIES):
             try:
                 sentiment = self.datum_box.sentiment_analysis(self.articleText, self.proxy, self.subscriptionID)
+                print("Sentiment: " + str(sentiment))
                 break;
             except socket.timeout:
                 print(("\t ^^Article #" + str(self.articleNumber) + " timed out " + str(tries + 1) + " time(s)..."))

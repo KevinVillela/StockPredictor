@@ -81,7 +81,7 @@ After gathering data for cnbc from December 20th, 2013 to October 14, 2011, usin
 
 After this, we tried all the companies but with all the websites except for usatoday.
 For some reason, about halfway through this query, we began getting a 414 error: URI too long. Further investigation revealed that Google limits the search terms to 32 characters.
-This meant that the previous query was getting cut off after the 2nd Johnson in "Johnson and Johnson".  In order to complete this test, the query was cut off before "Johnson and Johnson". Data from December 20,2013 to Octover 15, 2011 showed no correlation.
+This meant that the previous query was getting cut off after the 2nd Johnson in "Johnson and Johnson".  In order to complete this test, the query was cut off before "Johnson and Johnson". Data from December 20,2013 to October 15, 2011 showed no correlation.
 
 This test also came up with a way to test our variables: using test dates. We use the following as test dates:
 April 12, 2012: As the DOW drops sharply after this until about June 1, 2012.
@@ -92,5 +92,8 @@ Using these test dates and the query DOW, we came up with:
 DOW Drop after April 12 2012 -> 1.38 average sentiment over X days
 DOW rise after December 28 2012 -> -4.69 average sentiment over X days
 DOW steady after January 25 2013 -> -2.02 average sentiment over X days
-These results were enouraging, so we gathered data from December 1, 2013, back.
-Unfortunately, this data did not continue to match up.
+These results were encouraging, so we gathered data from December 1, 2013, back.
+From then to December 1, 2013, the data had an R squared value of .42 with 23 days back and 25 days forward. Adding more data before that dropped the correlation, but this could be because the number of articles found dropped as well.
+Therefore, we gathered the most recent data we could at the time to see if the correlation would be helped. After gathering data from December 13th, 2013, back, the correlation decreased to .35.
+
+Now, we are going to try getting every article from the above web sites without any keywords, but the results for the test days were poor.

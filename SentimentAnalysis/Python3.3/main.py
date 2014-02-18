@@ -18,6 +18,7 @@ import pprint
 import csv # To read the API Keys
 import urllib
 from stem.control import Controller
+import justext
 
       
 def getDefaultParameters(fileName):

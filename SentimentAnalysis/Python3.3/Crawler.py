@@ -96,7 +96,7 @@ class Crawler(object):
             
             julianDate = trunc(sum(jdcal.gcal2jd(dateToSearch.year, dateToSearch.month, dateToSearch.day)) + .5)
             #keyword = '"3M Co" OR "American Express" OR "AT&T" OR "Boeing" OR "Caterpillar" OR "Chevron" OR "Cisco" OR "Dupont E I De Nemours" OR "Exxon" OR "General Electric" OR "Goldman Sachs" OR "Home Depot" OR "Intel" OR "IBM"'# OR "Johnson & Johnson" OR "JPMorgan Chase" OR "McDonald\'s" OR "Merck and Co" OR "Microsoft" OR "Nike" OR "Pfizer" OR "Procter & Gamble" OR "Coca-Cola" OR "Travelers Companies" OR "United Technologies" OR "UnitedHealth" OR "Verizon" OR "Visa" OR "Wal-Mart" OR "Walt Disney"'
-            keyword = "Dow"
+            keyword = ""
             sites = ["http://money.cnn.com/" + dateToSearch.strftime("%Y"), "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/" ]
             query = "site:" + sites[0]
             first = True
@@ -141,7 +141,7 @@ class Crawler(object):
                 articleRanks = []
                 total = len(results)
                 def fetch(url, rank):
-                    response = requests.get(url)
+                    response = requests.get("http://www.cnbc.com/id/101329154")
                     paragraphs = justext.justext(response.text, justext.get_stoplist("English"))
                     article = ""
                     empty = True
@@ -193,6 +193,7 @@ class Crawler(object):
             #for res in results:
             self.dbError = True
             while (self.dbError == True): # This might get some articles twice, but its okay because once they are in the db it won't matter
+                print("Gathering articles")
                 self.dbError = False
                 self.threads = []
                 for articleText, articleURL, articleRank in zip(articles, articleURLs, articleRanks):
@@ -223,7 +224,7 @@ class Crawler(object):
                     self.torThread = TorThread(self)
                     self.torThread.start()
                     time.sleep(5)
-                
+                    print("Tor restarted. Continuing...")
             #Next day!
             print()        
             dateToSearch = dateToSearch - timedelta(1)
