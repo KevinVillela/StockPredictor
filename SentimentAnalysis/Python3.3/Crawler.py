@@ -80,16 +80,21 @@ class Crawler(object):
         print(("\r" + str(self.articlesCompleted) + " / " + str(len(self.threads)) + " articles analyzed."), end=' ')
         sys.stdout.flush()
 
-    def crawl(self, userInfo, userNumber, dateToSearch, daysToSearch, fileName):
+    def crawl(self, userInfo, userNumber, dateToSearch, daysToSearch, fileName, useTor):
+        self.useTor = useTor
         global proxies
         user = userInfo[userNumber]
         datum_box = DatumBox(user['APIKey'])  
         sentimentsFile = open(fileName, "a")
         daysToGoBack = 1;
-        print("Starting Tor...")
-        self.torThread = TorThread(self)
-        self.torThread.start()
-        time.sleep(5)
+        if useTor:
+            print("Starting Tor...")
+            self.torThread = TorThread(self)
+            self.torThread.start()
+            time.sleep(5)
+            proxyIP = '127.0.0.1:8118'
+        else:
+            proxyIP = ''
         #googleHttp = urllib3.PoolManager()
         while(daysToGoBack <= daysToSearch):
             print("Searching on date " + dateToSearch.strftime("%m/%d/%Y") + " (day " + str(daysToGoBack) + " of " + str(daysToSearch) + ")")
@@ -116,7 +121,7 @@ class Crawler(object):
                 binaryData = urlencode({'language' : 'english', 'cmd' : 'process_search', 'engine0' :'v1all'}).encode('utf-8')
                 print (startPageQuery)
                 ssl_context = ssl.SSLContext(ssl.PROTOCOL_SSLv3) #monkey patch...
-                proxy_support = urllib.request.ProxyHandler({'http': '127.0.0.1:8118'})
+                proxy_support = urllib.request.ProxyHandler({'http': proxyIP})
                 opener = urllib.request.build_opener(proxy_support, urllib.request.HTTPSHandler(context=ssl_context)) #monkey patch...
                 urllib.request.install_opener(opener) #monkey patch...
                 #headers={'User-agent' : 'Mozilla/5.0', 'Connection':'close'} #No longer used because StartPage blocked it for a while
@@ -126,7 +131,7 @@ class Crawler(object):
                 request = urllib.request.Request(url=startPageQuery, data = None, headers=headers)
                 response = opener.open(request)
                 resultsPage = response.read().decode('utf-8')#.decode('iso-8859-1')
-                #z print(resultsPage)
+                #print(resultsPage)
                 soup = BeautifulSoup(resultsPage)
                 resultDivs = soup.findAll("div", { "class" : "result" })
                 results = []
@@ -181,7 +186,7 @@ class Crawler(object):
                     self.threads = []
                     for article in articles:
                         #articleURL = res.url.encode("utf8")
-                        thread = SentimentThread(article, i, datum_box, "127.0.0.1:8118", self, keyword, fileName, dateToSearch, mutex_writefile, user['subscriptionID'])
+                        thread = SentimentThread(article, i, datum_box, proxyIP, self, keyword, fileName, dateToSearch, mutex_writefile, user['subscriptionID'])
                         #thread.daemon = True
                         thread.start()
                         self.threads.append(thread)
@@ -200,14 +205,15 @@ class Crawler(object):
                         user = userInfo[userNumber]
                         datum_box = DatumBox(user['APIKey']) 
                         print("Switching users and trying again.")
-                        self.torThread.stop()
-                        self.torThread.join()
-                        time.sleep(5)
-                        print("Tor stopped. Restarting...")
-                        self.torThread = TorThread(self)
-                        self.torThread.start()
-                        time.sleep(5)
-                        print("Tor restarted. Continuing...")
+                        if self.useTor:
+                            self.torThread.stop()
+                            self.torThread.join()
+                            time.sleep(5)
+                            print("Tor stopped. Restarting...")
+                            self.torThread = TorThread(self)
+                            self.torThread.start()
+                            time.sleep(5)
+                            print("Tor restarted. Continuing...")
                 print()        
             #Next day!
             print()        
@@ -220,6 +226,7 @@ class Crawler(object):
         #for thread in self.threads:
             #   thread.stop()
     def exitProgram(self):
-        self.torThread.stop()
+        if self.useTor:
+            self.torThread.stop()
         print("Shut down successfully.")
     ''' End of Crawl Class ''' 

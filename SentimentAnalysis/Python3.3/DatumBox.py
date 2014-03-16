@@ -5,7 +5,6 @@ import json
 import pprint
 import socks
 import socket
-import requests
 
 class DatumBox():
 	

@@ -4,5 +4,6 @@
 	"month" : 10,
 	"day" : 23,
 	"daysToSearch" : 300,
-	"fileName" : "ProductData/3MM_2013.psv"
+	"fileName" : "ProductData/3MM_2013.psv",
+	"useTor" : "No"
 }

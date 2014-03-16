@@ -26,7 +26,7 @@ def fetch(keyword, url, rank, articles, totalNumber):
                 mentions += 1 #paragraph.text.count(searchKeyword)
                 articleParagraphs.append(paragraph.text)
     if (mentions < minMentions):
-        print("A website (" + url + ") did not have the keyword enough times! Removed.")
+        #print("A website (" + url + ") did not have the keyword enough times! Removed.")
         return
     '''for searchKeyword in searchKeywords:
         searchKeyword = searchKeyword.replace('"', '').strip().split(' ', 1)[0] # Get the first word of the search term

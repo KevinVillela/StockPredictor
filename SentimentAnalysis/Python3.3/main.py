@@ -77,8 +77,8 @@ def main():
     '''
     params = getDefaultParametersFromDict("ProductData/DefaultParameters.dict")
     userInfo = getUsersInfo("ProductData/API_Keys.csv")
-    if (len(sys.argv) != 7):
-        print("usage: ./main <user_number> <year_to_start_search> <month_to_start_search> <day_to_start_search> <days_to_search> <output_file_name>")
+    if (len(sys.argv) != 8):
+        print("usage: ./main <user_number> <year_to_start_search> <month_to_start_search> <day_to_start_search> <days_to_search> <output_file_name> <use_tor>")
         print("Note that search goes backwards in time each day for <days_to_search> days or until API calls are exhausted")
         delay = 1
         print("Now running with default values in " + str(delay) + " seconds")
@@ -90,12 +90,19 @@ def main():
         params['day'] = int(sys.argv[4])
         params['daysToSearch'] = int(sys.argv[5])
         params['fileName'] = sys.argv[6]
+        params['useTor'] = sys.argv[7]
+        
     params['fileName'] = os.path.join(os.path.dirname(__file__), "../", params['fileName'])
-    print("\tRunning with values: user_number: " + str(params['userNumber']) + ", year: " + str(params['year']) + ", month: " + str(params['month']) + ", day: " + str(params['day']) + ", days to search: " + str(params['daysToSearch']) + ", file name: " + params['fileName'])
+    if params['useTor'][:1].lower() == 'y':
+        params['useTor'] = True
+    else:
+        params['useTor'] = False
+        
+    print("\tRunning with values: user_number: " + str(params['userNumber']) + ", year: " + str(params['year']) + ", month: " + str(params['month']) + ", day: " + str(params['day']) + ", days to search: " + str(params['daysToSearch']) + ", file name: " + params['fileName'] + ", use tor: " + str(params['useTor']))
     
     #getProxies("united_states_proxies.txt")
     crawler = Crawler.Crawler()
-    crawler.crawl(userInfo, params['userNumber'], datetime(params['year'], params['month'], params['day'], 12, 0, 0, 0), params['daysToSearch'], params['fileName'])
+    crawler.crawl(userInfo, params['userNumber'], datetime(params['year'], params['month'], params['day'], 12, 0, 0, 0), params['daysToSearch'], params['fileName'], params['useTor'])
 
 if __name__ == "__main__":
     main()
