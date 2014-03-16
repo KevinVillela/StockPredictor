@@ -18,17 +18,23 @@ import pprint
 import csv # To read the API Keys
 import urllib
 from stem.control import Controller
-import justext
+import os
 
       
-def getDefaultParameters(fileName):
+def getDefaultParametersFromCSV(fileName):
+    fileName = os.path.join(os.path.dirname(__file__), "../", fileName)
     with open(fileName, 'r', encoding='utf-8') as csvFile:
         defaultParametersFileReader = csv.reader(csvFile, delimiter=',')
         for row in defaultParametersFileReader:
             defaultParameters = {"userNumber" : int(row[0]), "year" : int(row[1]), "month" : int(row[2]), "day" : int(row[3]), "daysToSearch" : int(row[4]), "fileName" : row[5]}
         csvFile.close()
         return defaultParameters
+def getDefaultParametersFromDict(fileName):
+    fileName = os.path.join(os.path.dirname(__file__),"../", fileName)
+    with open(fileName, 'r', encoding='utf-8') as file:
+       return eval(file.read())
 def getUsersInfo(fileName):
+    fileName = os.path.join(os.path.dirname(__file__), "../", fileName)
     with open(fileName, 'r', encoding='utf-8') as csvFile:
         apiKeysFileReader = csv.reader(csvFile, delimiter=',')
         userInfo = []
@@ -69,8 +75,8 @@ def main():
     control_socket.send('GETINFO version')
     print(control_socket.recv())
     '''
-    params = getDefaultParameters("Data/DefaultParameters.csv")
-    userInfo = getUsersInfo("Data/newKeys.csv")
+    params = getDefaultParametersFromDict("ProductData/DefaultParameters.dict")
+    userInfo = getUsersInfo("ProductData/API_Keys.csv")
     if (len(sys.argv) != 7):
         print("usage: ./main <user_number> <year_to_start_search> <month_to_start_search> <day_to_start_search> <days_to_search> <output_file_name>")
         print("Note that search goes backwards in time each day for <days_to_search> days or until API calls are exhausted")
@@ -84,11 +90,12 @@ def main():
         params['day'] = int(sys.argv[4])
         params['daysToSearch'] = int(sys.argv[5])
         params['fileName'] = sys.argv[6]
+    params['fileName'] = os.path.join(os.path.dirname(__file__), "../", params['fileName'])
     print("\tRunning with values: user_number: " + str(params['userNumber']) + ", year: " + str(params['year']) + ", month: " + str(params['month']) + ", day: " + str(params['day']) + ", days to search: " + str(params['daysToSearch']) + ", file name: " + params['fileName'])
     
     #getProxies("united_states_proxies.txt")
     crawler = Crawler.Crawler()
-    crawler.crawl(userInfo, params['userNumber'], datetime(params['year'], params['month'], params['day'], 12, 0, 0, 0), params['daysToSearch'], "Data/" + params['fileName'])
+    crawler.crawl(userInfo, params['userNumber'], datetime(params['year'], params['month'], params['day'], 12, 0, 0, 0), params['daysToSearch'], params['fileName'])
 
 if __name__ == "__main__":
     main()

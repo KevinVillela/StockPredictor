@@ -1,0 +1,32 @@
+Simple python client to textalytics.com Social Media Analysis API
+
+Extract relevant information from any kind of text.
+
+
+Example Usage: 
+------------- 
+Use this command to analyze the contents of a text file and extract all relevant information 
+
+   python myclient.py --file example.txt <key>
+
+You need a <key> to call textalytics services. Register in the website to get your own
+By default, all types of analysis are included. If you want to analyze only some fields provide values with --fields with fieldnames separated by | and enclosed between quotes 
+
+For other uses:
+-------------- 
+   python myclient.py -h 
+
+
+Description
+-----------
+myclient.py  - example client 
+smaclient.py - help classes to wrap the API calls and the results 
+
+Usage, License and Copying
+--------------------------
+textalytics.com is a cloud service provided by DAEDALUS. S.A. 
+This client may be used in the terms described in the LICENSE file.
+
+For details please refer to: http://www.textalytics.com
+
+Copyright (c) 2013, DAEDALUS S.A. All rights reserved

@@ -10,11 +10,9 @@ import urllib.request, urllib.error, urllib.parse
 from DatumBox import DatumBoxError 
 import sys # for sys.exit()
 class SentimentThread(threading.Thread):
-    def __init__(self, articleURL, articleText, articleRank, articleNumber, sentimentsFileName, dateToSearch, mutex_writefile, datum_box, proxy, parent, subscriptionID = None):
+    def __init__(self, article, articleNumber, datum_box, proxy, parent=None, keyword="",sentimentsFileName="", dateToSearch=None, mutex_writefile=None, subscriptionID = None):
         super(SentimentThread, self).__init__()
-        self.articleURL = articleURL
-        self.articleText = articleText
-        self.articleRank = articleRank
+        self.article = article
         self.articleNumber = articleNumber
         self.sentimentsFileName = sentimentsFileName
         self.dateToSearch = dateToSearch
@@ -26,8 +24,11 @@ class SentimentThread(threading.Thread):
         self.MAX_STRIKES = 3
         self.separator = '|'
         self.subscriptionID = subscriptionID
+        self.keyword = keyword
     def run(self):
-        self.getSentimentOfArticle()
+        sentiment = self.getSentimentOfArticle()
+        if sentiment == "-1" or sentiment == "0" or sentiment == "1":
+            self.writeSentiment(sentiment)
     def stop(self):
         print("Thread stopping...")
         sys.exit()
@@ -59,8 +60,7 @@ class SentimentThread(threading.Thread):
         sentiment = ""
         while (tries < self.MAX_TRIES):
             try:
-                sentiment = self.datum_box.sentiment_analysis(self.articleText, self.proxy, self.subscriptionID)
-                print("Sentiment: " + str(sentiment))
+                sentiment = self.datum_box.sentiment_analysis(self.article.getText(), self.proxy, self.subscriptionID)
                 break;
             except socket.timeout:
                 print(("\t ^^Article #" + str(self.articleNumber) + " timed out " + str(tries + 1) + " time(s)..."))
@@ -78,18 +78,11 @@ class SentimentThread(threading.Thread):
                 self.parent.killThreads()
                 return    
             except urllib.error.URLError as error:
+                print("url error " + str(error));
                 if (error.errno == 60): #Operation timed out
                     print(("Operation timed out, likely due to the proxy.(Article #" + str(self.articleNumber) + ", attempt #" + str(tries + 1)  + ")"))
-                    '''global proxies
-                    global MAX_STRIKES
-                    proxies[self.proxy] = proxies[self.proxy] + 1
-                    tries = tries + 1 
-                    if (proxies[self.proxy] >= MAX_STRIKES):
-                        print("Proxy " + self.proxy + " has struck out! Removing from list...")
-                        del proxies[self.proxy]
-                        return
-                    '''
             except socket.error as error:
+                print("socket error " + str(error));
                 if (error.errno == 54): #Connection reset by peer
                     print(("Connection reset by peer. ugh. Trying again. (Article #" + str(self.articleNumber) + ", attempt #" + str(tries + 1) + ")"))
                     tries = tries + 1 
@@ -99,13 +92,22 @@ class SentimentThread(threading.Thread):
             except SystemExit:
                 print('An exception flew by!')
         if ( tries == self.MAX_TRIES):
-            return
+            return -100   
+        return sentiment
+         
+    def writeSentiment(self, sentiment):
         self.mutex_writefile.acquire()
         sentimentsFile = open(self.sentimentsFileName, 'a')
-        sentimentsFile.write(self.articleURL + self.separator)
+        sentimentsFile.write(self.article.URL + self.separator)
         sentimentsFile.write(self.dateToSearch.strftime("%m/%d/%Y") + self.separator)
-        sentimentsFile.write(sentiment + self.separator);
-        sentimentsFile.write(str(self.articleRank))
+        sentimentsFile.write(str(sentiment) + self.separator);
+        sentimentsFile.write(self.keyword + self.separator);
+        sentimentsFile.write(str(self.article.rank))
+        try:
+            for paragraph in self.article.paragraphs:
+                sentimentsFile.write("|" + paragraph)
+        except Exception as e:
+            print("printing error")
         sentimentsFile.write("\n")
         sentimentsFile.close()
         self.mutex_writefile.release()

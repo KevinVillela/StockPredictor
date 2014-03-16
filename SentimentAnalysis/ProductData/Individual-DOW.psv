@@ -1,0 +1,1249 @@
+Query: Each Company individually, Sites: "http://money.cnn.com/", "http://www.bloomberg.com/news/", "http://www.rttnews.com/", "http://www.reuters.com/finance", "money.usnews.com", "www.ft.com/home/us", "http://www.cnbc.com/",  "fool.com", "zacks.com"
+Notes: This is the first test with data that we are trying to put into our product!
+
+http://www.fool.com/investing/general/2013/12/01/american-express-a-cheaper-alternative-to-masterca.aspx|12/01/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/12/01/top-3-cyber-monday-scams.aspx|12/01/2013|0|"American Express"|1
+http://www.fool.com/investing/general/2013/12/01/this-cyber-monday-sale-is-the-best-way-for-googles.aspx|12/01/2013|0|"AT&T"|28
+http://www.fool.com/investing/general/2013/12/01/defense-news-roundup-the-pentagon-goes-christmas-s.aspx|12/01/2013|0|"Boeing"|2
+http://www.fool.com/investing/general/2013/12/01/5-things-you-probably-didnt-know-about-boeing.aspx|12/01/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/12/01/2-airline-stocks-back-from-the-dead.aspx|12/01/2013|0|"Boeing"|8
+http://www.fool.com/investing/general/2013/12/01/will-chinas-no-fly-zone-mean-billions-for-boeing.aspx|12/01/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/12/01/the-massive-oil-field-nobody-is-talking-about.aspx|12/01/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/12/01/americas-next-oil-boom.aspx|12/01/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/12/01/jim-cramer-is-right-this-is-the-best-oil-stock-i-2.aspx|12/01/2013|0|"Chevron"|4
+http://www.cnbc.com/id/101236958|12/01/2013|0|"Chevron"|3
+http://www.rttnews.com/2231854/mozambican-plane-crashes-in-namibia-killing-all-33-on-board.aspx|12/01/2013|0|"General Electric"|1
+http://www.bloomberg.com/news/2013-11-30/u-s-employment-gain-to-china-factory-slowdown-global-economy.html|12/01/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-12-01/most-read-on-bloomberg-in-november-twitter-trader-bonuses-sac.html|12/01/2013|0|"Goldman Sachs Group"|0
+http://www.fool.com/investing/general/2013/12/01/5-potential-fda-approvals-that-may-change-millions.aspx|12/01/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.cnbc.com/id/101237487|12/01/2013|0|"JP Morgan"|0
+http://www.fool.com/investing/general/2013/12/01/dow-november-report-how-these-4-stocks-helped-the.aspx|12/01/2013|0|"Merck & Co"|0
+http://www.fool.com/investing/general/2013/12/01/will-chinas-no-fly-zone-mean-billions-for-boeing.aspx|12/01/2013|0|"Nike"|0
+http://www.bloomberg.com/news/2013-12-01/will-bangladesh-ever-have-a-future-.html|12/01/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/12/01/3-drugs-that-changed-medicine-and-were-discovered.aspx|12/01/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/12/01/why-warren-buffett-loves-coca-cola.aspx|12/01/2013|0|"Coca-Cola"|0
+http://www.reuters.com/finance/stocks/CCL.AX/key-developments/article/2879109|12/01/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/12/01/dow-november-report-how-these-4-stocks-helped-the.aspx|12/01/2013|0|"UnitedHealth Group"|1
+http://www.fool.com/investing/general/2013/12/01/obamacare-delayed-what-it-could-mean-for-you.aspx|12/01/2013|0|"UnitedHealth Group"|2
+http://www.fool.com/investing/general/2013/12/01/10-obamacare-facts-you-need-to-know-after-2-months.aspx|12/01/2013|0|"UnitedHealth Group"|3
+http://www.fool.com/investing/general/2013/12/01/is-costcos-low-margin-strategy-failing.aspx|12/01/2013|0|"Wal-Mart"|4
+http://www.fool.com/investing/general/2013/12/01/how-long-till-walmart-fires-its-new-ceo.aspx|12/01/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/12/01/dow-dividend-aristocrat-wal-mart-warning-these-num.aspx|12/01/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/12/01/how-retailers-are-finally-tackling-safety-standard.aspx|12/01/2013|0|"Wal-Mart"|3
+http://www.bloomberg.com/news/2013-11-30/black-friday-traffic-seen-thinning-as-stores-open-early.html|12/01/2013|0|"Wal-Mart"|31
+http://www.bloomberg.com/news/2013-12-01/shoppers-spent-less-during-black-friday-weekend-nrf-says.html|12/01/2013|0|"Wal-Mart"|32
+http://www.bloomberg.com/news/2013-12-01/u-s-retail-holiday-sales-up-2-3-foot-traffic-declines.html|12/01/2013|0|"Wal-Mart"|30
+http://www.fool.com/investing/general/2013/11/30/better-buy-today-visa-or-ebay.aspx|11/30/2013|0|"American Express"|1
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"American Express"|2
+http://www.fool.com/investing/general/2013/11/30/this-weeks-top-3-dow-stocks.aspx|11/30/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"AT&T"|20
+http://www.thestreet.com/story/12130845/1/digging-into-the-dow-buyable-oil-stocks-jim-cramers-best-blogs.html|11/30/2013|0|"AT&T"|0
+http://www.fool.com/investing/beginning/2013/11/30/1-compelling-reason-the-dow-may-soar-into-2014.aspx|11/30/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/30/as-the-dow-reaches-new-highs-whats-holding-back-th.aspx|11/30/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/30/this-weeks-top-3-dow-stocks.aspx|11/30/2013|0|"Caterpillar Inc"|2
+http://www.fool.com/investing/beginning/2013/11/30/1-compelling-reason-the-dow-may-soar-into-2014.aspx|11/30/2013|0|"Caterpillar Inc"|3
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/30/take-tax-losses-without-missing-the-next-rally.aspx|11/30/2013|0|"Caterpillar Inc"|0
+http://www.fool.com/investing/general/2013/11/30/how-to-profit-from-the-gulf-of-mexico-being-back-i.aspx|11/30/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Cisco Systems"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"General Electric"|0
+http://www.bloomberg.com/news/2013-11-30/canada-s-dollar-weakens-a-second-month-amid-stimulus-speculation.html|11/30/2013|0|"Goldman Sachs Group"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Home Depot"|1
+http://www.fool.com/investing/general/2013/11/30/steer-clear-of-sears.aspx|11/30/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/30/is-forbes-right-about-mcdonalds-brand-value.aspx|11/30/2013|0|"International Business Machines"|1
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.fool.com/investing/general/2013/11/30/is-bank-of-america-unbuyable.aspx|11/30/2013|0|"JP Morgan"|0
+http://www.rttnews.com/2231829/india-s-satya-nadella-joins-mulally-as-lead-contenders-for-microsoft-top-job.aspx|11/30/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.reuters.com/finance/stocks/companyOfficers?symbol=DV|11/30/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.fool.com/investing/general/2013/11/30/is-cadillac-about-to-revive-the-eldorado.aspx|11/30/2013|0|"Nike"|6
+http://www.fool.com/investing/general/2013/11/30/just-do-it-and-buy-nike.aspx|11/30/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/30/best-sports-apparel-stock-nike-under-armour-or-lul.aspx|11/30/2013|0|"Nike"|0
+http://www.fool.com/investing/beginning/2013/11/30/1-compelling-reason-the-dow-may-soar-into-2014.aspx|11/30/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Pfizer"|1
+http://www.fool.com/investing/general/2013/11/30/5-jaw-dropping-facts-about-legal-marijuana.aspx|11/30/2013|0|"Pfizer"|0
+http://www.cnbc.com/id/101229701|11/30/2013|0|"Pfizer"|2
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Procter & Gamble" OR "Procter And Gamble"|1
+http://www.fool.com/investing/general/2013/11/30/warren-buffetts-3-favorite-consumer-products-stock.aspx|11/30/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.fool.com/investing/general/2013/11/30/is-coca-cola-the-new-philip-morris.aspx|11/30/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/30/3-high-quality-companies-for-the-long-run-hershey.aspx|11/30/2013|0|"Coca-Cola"|6
+http://www.fool.com/investing/general/2013/11/30/is-forbes-right-about-mcdonalds-brand-value.aspx|11/30/2013|0|"Coca-Cola"|3
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Coca-Cola"|4
+http://www.fool.com/investing/general/2013/11/30/3-perfect-stocks-ebay-mcdonalds-and-coca-cola.aspx|11/30/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/11/30/warren-buffetts-3-favorite-consumer-products-stock.aspx|11/30/2013|0|"Coca-Cola"|2
+http://www.fool.com/investing/general/2013/11/30/obamacare-website-will-the-november-fixes-solve-th.aspx|11/30/2013|0|"UnitedHealth Group"|0
+http://www.fool.com/investing/general/2013/11/30/this-obamacare-contractor-just-got-the-boot-who-co.aspx|11/30/2013|0|"UnitedHealth Group"|2
+http://www.fool.com/investing/general/2013/11/30/why-these-3-states-have-ultra-low-unemployment-rat.aspx|11/30/2013|0|"UnitedHealth Group"|3
+http://www.fool.com/how-to-invest/personal-finance/2013/11/30/obamacare-generation-gap-why-young-people-will-mak.aspx|11/30/2013|0|"UnitedHealth Group"|1
+http://www.fool.com/investing/general/2013/11/30/this-obamacare-contractor-just-got-the-boot-who-co.aspx|11/30/2013|0|"Verizon Communications"|0
+http://www.fool.com/investing/general/2013/11/30/the-3-dow-stocks-you-werent-thankful-for-this-past.aspx|11/30/2013|0|"Wal-Mart"|8
+http://www.fool.com/investing/general/2013/11/30/does-wal-mart-have-a-liquidity-problem.aspx|11/30/2013|0|"Wal-Mart"|2
+http://www.fool.com/investing/general/2013/11/30/steer-clear-of-sears.aspx|11/30/2013|0|"Wal-Mart"|3
+http://www.fool.com/investing/general/2013/11/30/1-video-game-to-rule-them-all-this-holiday-season.aspx|11/30/2013|0|"Wal-Mart"|30
+http://www.fool.com/investing/general/2013/11/30/choose-chipotle-whole-foods-and-hain-celestial-for.aspx|11/30/2013|0|"Wal-Mart"|22
+http://www.fool.com/investing/general/2013/11/30/4-shocking-facts-about-wal-mart.aspx|11/30/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/11/30/warren-buffetts-3-favorite-consumer-products-stock.aspx|11/30/2013|0|"Wal-Mart"|4
+http://www.fool.com/investing/general/2013/11/30/why-costco-will-continue-outgrowing-wal-mart-and-t.aspx|11/30/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/11/29/which-credit-card-companies-are-crushing-it.aspx|11/29/2013|0|"American Express"|0
+http://www.fool.com/how-to-invest/personal-finance/credit/2013/11/29/what-googles-prepaid-card-means-for-you.aspx|11/29/2013|0|"American Express"|1
+http://www.fool.com/investing/general/2013/11/29/should-you-bet-on-the-action-at-time-warner-cable.aspx|11/29/2013|0|"AT&T"|3
+http://www.bloomberg.com/news/2013-11-29/corporate-bond-sales-surge-to-highest-in-ten-months-in-europe.html|11/29/2013|0|"AT&T"|39
+http://www.bloomberg.com/news/2013-11-29/apple-retreats-to-the-suburbs.html|11/29/2013|0|"AT&T"|17
+http://www.zacks.com/stock/news/115654/ATampT-Boosts-Revs-with-Holiday-Offers|11/29/2013|0|"AT&T"|0
+http://www.zacks.com/stock/news/115702/Still-Neutral-on-Novatel|11/29/2013|0|"AT&T"|1
+http://www.fool.com/investing/general/2013/11/29/boeing-takes-a-break-for-t-day.aspx|11/29/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/29/why-the-dow-missed-out-on-a-black-friday-record.aspx|11/29/2013|0|"Boeing"|2
+http://www.fool.com/investing/general/2013/11/29/what-2014-has-in-store-for-nike.aspx|11/29/2013|0|"Boeing"|9
+http://www.fool.com/investing/general/2013/11/29/why-arent-giant-jets-selling.aspx|11/29/2013|0|"Boeing"|3
+http://www.zacks.com/stock/news/115631/Tesla-Motor-Fires-Hit-Lithium-ETF|11/29/2013|0|"Boeing"|10
+http://www.zacks.com/stock/news/115682/Northrop-Gets-DoD-Contract|11/29/2013|0|"Boeing"|4
+http://www.zacks.com/stock/news/115673/Boeing-Kept-at-Neutral|11/29/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/29/why-exxon-mobil-has-lagged-behind-chevron-and-the.aspx|11/29/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/29/epa-biofuel-cuts-should-be-no-surprise.aspx|11/29/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/11/29/warren-buffett-and-hedge-funds-dont-see-eye-to-eye.aspx|11/29/2013|0|"Chevron"|2
+http://www.bloomberg.com/news/2013-11-29/statoil-says-east-canadian-oil-finds-may-signal-moroccan-crude.html|11/29/2013|0|"Chevron"|3
+http://www.zacks.com/stock/news/115643/Repsol-YPF-Settle-Expropriation-Issue|11/29/2013|0|"Chevron"|4
+http://www.zacks.com/stock/news/115659/Eni-in-Exploration-Pact-with-Ukraine|11/29/2013|0|"Chevron"|5
+http://www.fool.com/investing/general/2013/11/29/what-should-cisco-buy-next.aspx|11/29/2013|0|"Cisco Systems"|0
+http://www.bloomberg.com/news/2013-11-29/san-jose-pension-crush-spurs-bid-to-ease-california-pacts.html|11/29/2013|0|"Cisco Systems"|1
+http://www.bloomberg.com/news/2013-11-29/apple-retreats-to-the-suburbs.html|11/29/2013|0|"DuPont"|1
+http://www.bloomberg.com/news/2013-11-29/basf-chief-spreads-development-risks-to-avoid-betting-the-farm-.html|11/29/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/29/why-exxon-mobil-has-lagged-behind-chevron-and-the.aspx|11/29/2013|0|"Exxon Mobil"|1
+http://www.cnbc.com/id/101235148|11/29/2013|0|"Exxon Mobil"|3
+http://www.bloomberg.com/news/2013-11-29/mogadishu-mom-misses-out-in-somalia-shilling-s-rally-currencies.html|11/29/2013|0|"Exxon Mobil"|9
+http://www.zacks.com/stock/news/115627/PetroChina-Buys-Exxon-Stake-in-Iraq|11/29/2013|0|"Exxon Mobil"|0
+http://www.bloomberg.com/news/2013-11-29/apple-retreats-to-the-suburbs.html|11/29/2013|0|"General Electric"|5
+http://www.fool.com/how-to-invest/personal-finance/savings/2013/11/29/why-this-jaw-dropping-bank-move-is-an-empty-threat.aspx|11/29/2013|0|"General Electric"|1
+http://www.thestreet.com/story/12128113/1/danaher-looks-like-a-relative-bargain.html|11/29/2013|0|"General Electric"|2
+http://www.thestreet.com/story/12130082/1/dow-today-microsoft-corporation-msft-leads-the-day-higher-general-electric-ge-lags.html|11/29/2013|0|"General Electric"|0
+http://www.bloomberg.com/news/2013-11-28/euro-holds-jump-to-yen-on-inflation-as-japan-futures-fall.html|11/29/2013|0|"General Electric"|7
+http://www.bloomberg.com/news/2013-11-28/morgan-stanley-leads-japan-m-a-for-first-time-since-1997.html|11/29/2013|0|"Goldman Sachs Group"|6
+http://www.bloomberg.com/news/2013-11-28/credit-suisse-to-ubs-property-bankers-said-to-start-own-company.html|11/29/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-29/gold-bears-persist-as-prices-near-year-s-low-on-fed-commodities.html|11/29/2013|0|"Goldman Sachs Group"|10
+http://www.bloomberg.com/news/2013-11-29/india-growth-quickens-as-possible-rate-increases-imperil-rebound.html|11/29/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-29/u-k-stocks-are-little-changed-as-experian-shares-retreat.html|11/29/2013|0|"Goldman Sachs Group"|2
+http://www.bloomberg.com/news/2013-11-29/carney-s-alarm-bell-on-housing-nudges-boe-toward-stimulus-exit.html|11/29/2013|0|"Goldman Sachs Group"|9
+http://www.bloomberg.com/news/2013-11-29/citigroup-s-banker-pay-in-london-tops-lloyds-santander.html|11/29/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-11-28/hong-kong-stocks-to-extend-rally-on-china-reform-optimism.html|11/29/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-29/banks-too-big-to-fail-debate-hurts-gas-securities-muni-credit.html|11/29/2013|0|"Goldman Sachs Group"|4
+http://www.bloomberg.com/news/2013-11-29/fx-to-libor-probes-leave-u-k-traders-looking-for-lawyers.html|11/29/2013|0|"Goldman Sachs Group"|8
+http://www.thestreet.com/story/12130167/1/dow-today-goldman-sachs-group-gs-higher.html|11/29/2013|0|"Goldman Sachs Group"|0
+http://www.thestreet.com/story/12128590/1/four-obstacles-in-selling-foreign-brands-to-china.html|11/29/2013|0|"Home Depot"|1
+http://www.zacks.com/stock/news/115574/3-ETFs-For-This-Holiday-Season|11/29/2013|0|"Home Depot"|0
+http://www.zacks.com/stock/news/115661/Comcast-Remains-Neutral|11/29/2013|0|"Home Depot"|25
+http://www.zacks.com/stock/news/115685/Intel-to-Sell-OnCue|11/29/2013|0|"Intel Corp"|0
+http://www.zacks.com/stock/news/115632/Micron-Shares-Hit-52Week-High|11/29/2013|0|"Intel Corp"|1
+http://www.bloomberg.com/news/2013-11-29/solar-data-trove-cutting-power-use-in-threat-to-utilities.html|11/29/2013|0|"International Business Machines"|0
+http://www.bloomberg.com/news/2013-11-29/apple-retreats-to-the-suburbs.html|11/29/2013|0|"International Business Machines"|4
+http://www.zacks.com/stock/news/115634/HP-Selected-by-HHS|11/29/2013|0|"International Business Machines"|1
+http://www.fool.com/investing/general/2013/11/29/johnson-johnson-stock-3-things-to-know-before-2014.aspx|11/29/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.bloomberg.com/news/2013-11-29/credit-suisse-super-rich-clients-head-boegli-to-step-down-1-.html|11/29/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|8
+http://www.zacks.com/stock/news/115663/Greatbatch-Stays-Outperform|11/29/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|5
+http://www.zacks.com/stock/news/115656/Cooper-Companies-Remains-Neutral|11/29/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|3
+http://www.fool.com/investing/general/2013/11/29/bank-of-america-vs-jpmorgan-why-it-doesnt-matter.aspx|11/29/2013|0|"JP Morgan"|0
+http://www.cnbc.com/id/101235033|11/29/2013|0|"McDonald's Corp"|0
+http://www.thestreet.com/story/12130013/1/buy-today-merck-co-incs-buy-recommendation-reiterated.html|11/29/2013|0|"Merck & Co"|0
+http://www.fool.com/investing/general/2013/11/29/johnson-johnson-stock-3-things-to-know-before-2014.aspx|11/29/2013|0|"Merck & Co"|1
+http://www.thestreet.com/story/12130082/1/dow-today-microsoft-corporation-msft-leads-the-day-higher-general-electric-ge-lags.html|11/29/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.cnbc.com/id/101236059|11/29/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.bloomberg.com/news/2013-11-29/microsoft-yahoo-upgrades-shows-snowden-won-obama-failed.html|11/29/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.zacks.com/stock/news/115696/Nokia-to-Present-Lumia-525|11/29/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|5
+http://www.fool.com/investing/general/2013/11/29/what-2014-has-in-store-for-nike.aspx|11/29/2013|0|"Nike"|0
+http://www.fool.com/investing/general/2013/11/29/how-quickly-can-organovo-holdings-generate-revenue.aspx|11/29/2013|0|"Nike"|4
+http://www.fool.com/investing/general/2013/11/29/why-arent-giant-jets-selling.aspx|11/29/2013|0|"Nike"|5
+http://www.cnbc.com/id/101235268|11/29/2013|0|"Nike"|6
+http://www.fool.com/investing/general/2013/11/29/teva-stock-3-key-things-to-know.aspx|11/29/2013|0|"Pfizer"|1
+http://www.fool.com/investing/general/2013/11/29/how-you-can-buy-the-dow-almost-anytime.aspx|11/29/2013|0|"Pfizer"|7
+http://www.fool.com/investing/general/2013/11/29/pfizer-stock-3-things-to-know-before-2014.aspx|11/29/2013|0|"Pfizer"|0
+http://www.bloomberg.com/news/2013-11-29/apple-retreats-to-the-suburbs.html|11/29/2013|0|"Pfizer"|2
+http://www.fool.com/investing/general/2013/11/29/what-you-need-to-know-in-the-beverage-industry.aspx|11/29/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/29/its-a-traders-world-youre-just-living-in-it.aspx|11/29/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/11/29/6-inviolable-rules-for-analyzing-stocks.aspx|11/29/2013|0|"Coca-Cola"|4
+http://www.bloomberg.com/news/2013-11-28/euro-holds-jump-to-yen-on-inflation-as-japan-futures-fall.html|11/29/2013|0|"United Technologies Corp"|0
+http://www.bloomberg.com/news/2013-11-29/porter-s-bombardier-fueled-expansion-hits-snag-corporate-canada.html|11/29/2013|0|"United Technologies Corp"|1
+http://www.fool.com/investing/general/2013/11/29/brazils-big-opportunity-cant-wait-for-this-health.aspx|11/29/2013|0|"UnitedHealth Group"|0
+http://www.thestreet.com/story/12130017/1/verizon-communications-inc-stock-buy-recommendation-reiterated-vz.html|11/29/2013|0|"Verizon Communications"|0
+http://www.zacks.com/stock/news/115698/Orange-Westbound-for-Wireless-Scope|11/29/2013|0|"Verizon Communications"|4
+http://www.zacks.com/stock/news/115685/Intel-to-Sell-OnCue|11/29/2013|0|"Verizon Communications"|2
+http://www.cnbc.com/id/101235033|11/29/2013|0|"Visa Inc"|0
+http://money.cnn.com/2013/11/29/news/economy/walmart-black-friday/|11/29/2013|0|"Wal-Mart"|0
+http://www.cnbc.com/id/101235627|11/29/2013|0|"Wal-Mart"|1
+http://www.zacks.com/stock/news/115645/WalMart-Hits-a-52Week-High|11/29/2013|0|"Wal-Mart"|6
+http://money.cnn.com/2013/11/29/investing/stocks-markets/|11/29/2013|0|"Wal-Mart"|15
+http://www.fool.com/investing/general/2013/11/29/dow-morning-report-how-wal-mart-microsoft-and-visa.aspx|11/29/2013|0|"Wal-Mart"|4
+http://money.cnn.com/2013/11/29/pf/walmart-thanksgiving/|11/29/2013|0|"Wal-Mart"|3
+http://money.cnn.com/2013/11/29/news/companies/holiday-shopping-fights/|11/29/2013|0|"Wal-Mart"|10
+http://www.fool.com/investing/general/2013/11/29/investor-beat-black-friday-edition-nov-29-2013.aspx|11/29/2013|0|"Wal-Mart"|11
+http://money.cnn.com/2013/11/29/news/economy/black-friday/|11/29/2013|0|"Wal-Mart"|17
+http://www.fool.com/investing/general/2013/11/29/black-friday-2013-the-many-ways-wal-mart-is-gunnin.aspx|11/29/2013|0|"Wal-Mart"|5
+http://www.fool.com/investing/general/2013/11/29/black-friday-2013-who-is-winning-the-retail-arms-r.aspx|11/29/2013|0|"Wal-Mart"|16
+http://www.fool.com/investing/general/2013/11/29/target-best-buy-gamestop-and-wal-mart-gear-up-for.aspx|11/29/2013|0|"Wal-Mart"|7
+http://www.thestreet.com/story/12128872/1/costco-target-and-wal-mart-are-dominant-us-department-stores.html|11/29/2013|0|"Wal-Mart"|8
+http://www.cnbc.com/id/101230065|11/29/2013|0|"Wal-Mart"|36
+http://www.fool.com/investing/general/2013/11/29/from-main-street-to-wall-street-black-friday-is-al.aspx|11/29/2013|0|"Wal-Mart"|12
+http://www.fool.com/how-to-invest/personal-finance/credit/2013/11/29/what-googles-prepaid-card-means-for-you.aspx|11/29/2013|0|"Wal-Mart"|47
+http://www.thestreet.com/story/12130184/1/black-friday-shoppers-snap-up-deals-and-apple-ipads.html|11/29/2013|0|"Wal-Mart"|27
+http://www.bloomberg.com/news/2013-11-29/shullman-of-shullman-research-sees-wmt-amzn-goliaths-audio-.html|11/29/2013|0|"Wal-Mart"|37
+http://www.cnbc.com/id/101235261|11/29/2013|0|"Wal-Mart"|13
+http://www.bloomberg.com/news/2013-11-28/wal-mart-uses-wristbands-to-deter-holiday-shopper-melees.html|11/29/2013|0|"Wal-Mart"|2
+http://www.cnbc.com/id/101235071|11/29/2013|0|"Wal-Mart"|9
+http://www.fool.com/investing/general/2013/11/28/3-reasons-im-thankful-for-warren-buffett.aspx|11/28/2013|0|"American Express"|1
+http://www.fool.com/investing/general/2013/11/28/credit-card-companies-want-to-bankroll-black-frida.aspx|11/28/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/28/meet-the-technology-that-could-forever-change-blac.aspx|11/28/2013|0|"AT&T"|0
+http://www.bloomberg.com/news/2013-11-27/deutsche-telekom-ceo-says-it-s-time-for-europe-industry-mergers.html|11/28/2013|0|"AT&T"|12
+http://www.cnbc.com/id/101234283|11/28/2013|0|"Boeing"|2
+http://www.bloomberg.com/news/2013-11-28/thomas-cook-posts-first-profit-since-2010-as-cost-cuts-deliver.html|11/28/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/28/2-major-challenges-facing-lng-projects.aspx|11/28/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/28/2-key-drivers-of-anadarkos-growth.aspx|11/28/2013|0|"Chevron"|2
+http://www.bloomberg.com/news/2013-11-28/nigeria-to-offer-31-lower-volume-oilfields-to-broaden-investors.html|11/28/2013|0|"Chevron"|1
+http://www.bloomberg.com/news/2013-11-28/one-alliance-ceo-says-targets-expansion-in-africa-re-insurance.html|11/28/2013|0|"Chevron"|3
+http://www.fool.com/investing/general/2013/11/28/how-dupont-crushed-dow-chemical-and-the-dow-jones.aspx|11/28/2013|0|"DuPont"|0
+http://www.bloomberg.com/news/2013-11-28/top-oil-market-news-wti-crude-tumbles-to-lowest-in-six-months.html|11/28/2013|0|"DuPont"|2
+http://www.bloomberg.com/news/2013-11-28/nigeria-to-offer-31-lower-volume-oilfields-to-broaden-investors.html|11/28/2013|0|"Exxon Mobil"|5
+http://www.bloomberg.com/news/2013-11-28/petrochina-to-buy-25-stake-in-exxon-s-west-qurna-iraq-field.html|11/28/2013|0|"Exxon Mobil"|0
+http://www.cnbc.com/id/101234099|11/28/2013|0|"Exxon Mobil"|1
+http://www.rttnews.com/2231389/petrochina-to-acquire-exxon-mobi1-s-25-stake-in-iraq-oil-field.aspx|11/28/2013|0|"Exxon Mobil"|2
+http://www.rttnews.com/2231187/exxon-to-sell-25-stake-in-iraq-oil-field-to-petrochina-reports.aspx|11/28/2013|0|"Exxon Mobil"|4
+http://www.bloomberg.com/news/2013-11-28/petrochina-to-buy-25-stake-in-exxon-s-west-qurna-1-iraq-field.html|11/28/2013|0|"Exxon Mobil"|3
+http://www.fool.com/investing/general/2013/11/28/should-trina-solar-be-looking-over-its-shoulders.aspx|11/28/2013|0|"General Electric"|0
+http://www.bloomberg.com/news/2013-11-28/one-alliance-ceo-says-targets-expansion-in-africa-re-insurance.html|11/28/2013|0|"General Electric"|3
+http://www.thestreet.com/story/12129249/1/rsising-demand-for-natural-gas-trucks-in-new-york.html|11/28/2013|0|"General Electric"|2
+http://www.bloomberg.com/news/2013-11-28/global-infrastructure-said-to-sell-brisbane-port-stake-to-caisse.html|11/28/2013|0|"General Electric"|4
+http://www.bloomberg.com/news/2013-11-28/first-palm-crop-slump-since-98-extends-bull-market-commodities.html|11/28/2013|0|"Goldman Sachs Group"|4
+http://www.bloomberg.com/news/2013-11-28/corpbanca-said-to-hire-goldman-bofa-to-sell-controlling-stake.html|11/28/2013|0|"Goldman Sachs Group"|0
+http://www.bloomberg.com/news/2013-11-28/canada-dollar-rises-from-5-month-low-before-current-account-data.html|11/28/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-11-28/japan-s-tax-free-granny-gifts-unlocking-retiree-savings-economy.html|11/28/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-28/pound-approaches-strongest-level-since-january-before-boe-report.html|11/28/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-28/letta-s-bank-of-italy-market-boosts-intesa-unicredit.html|11/28/2013|0|"Goldman Sachs Group"|2
+http://www.fool.com/investing/general/2013/11/28/3-companies-completely-changing-the-way-we-treat-d.aspx|11/28/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.fool.com/investing/general/2013/11/28/3-strong-stocks-for-your-holiday-shopping-list.aspx|11/28/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.reuters.com/finance/stocks/MMCB.KL/key-developments|11/28/2013|0|"JP Morgan"|2
+http://www.reuters.com/finance/stocks/MONC.MI/key-developments|11/28/2013|0|"JP Morgan"|1
+http://www.fool.com/investing/general/2013/11/28/will-this-top-dow-health-care-stock-stay-healthy-i.aspx|11/28/2013|0|"Merck & Co"|0
+http://www.bloomberg.com/news/2013-11-28/microsoft-board-said-to-lean-to-mulally-nadella-in-ceo-search.html|11/28/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.bloomberg.com/news/2013-11-27/deutsche-telekom-ceo-says-it-s-time-for-europe-industry-mergers.html|11/28/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.bloomberg.com/news/2013-11-27/nokia-software-revived-in-challenge-to-android.html|11/28/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.bloomberg.com/news/2013-11-28/campofrio-rises-on-report-shuanghui-is-considering-rival-bid.html|11/28/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.fool.com/investing/general/2013/11/28/dow-morning-report-how-the-dollar-affects-the-dows.aspx|11/28/2013|0|"Nike"|1
+http://www.cnbc.com/id/101233576|11/28/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/28/will-this-top-dow-health-care-stock-stay-healthy-i.aspx|11/28/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/11/28/3-companies-completely-changing-the-way-we-treat-d.aspx|11/28/2013|0|"Pfizer"|2
+http://www.bloomberg.com/news/2013-11-28/ucb-not-for-sale-as-billionaire-shareholder-awaits-reward.html|11/28/2013|0|"Pfizer"|1
+http://www.fool.com/investing/general/2013/11/28/3-strong-stocks-for-your-holiday-shopping-list.aspx|11/28/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.bloomberg.com/news/2013-11-28/veolia-targets-food-processing-industry-to-revive-profitability.html|11/28/2013|0|"Coca-Cola"|1
+http://www.fool.com/how-to-invest/personal-finance/2013/11/28/obamacare-confusion-what-medicare-recipients-must.aspx|11/28/2013|0|"UnitedHealth Group"|0
+http://www.fool.com/investing/general/2013/11/28/meet-the-technology-that-could-forever-change-blac.aspx|11/28/2013|0|"Verizon Communications"|1
+http://www.bloomberg.com/news/2013-11-28/h-p-said-to-bump-verizon-unit-as-obamacare-website-host.html|11/28/2013|0|"Verizon Communications"|0
+http://www.bloomberg.com/news/2013-11-28/record-1-trillion-cash-haul-to-spur-euro-growth-credit-markets.html|11/28/2013|0|"Verizon Communications"|2
+http://www.fool.com/investing/general/2013/11/28/5-things-you-may-not-know-about-black-friday.aspx|11/28/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/11/28/black-friday-2013-how-to-game-bf-sales-walmart.aspx|11/28/2013|0|"Wal-Mart"|0
+http://www.thestreet.com/story/12127274/1/why-people-shop-on-thanksgiving-day.html|11/28/2013|0|"Wal-Mart"|24
+http://www.fool.com/investing/general/2013/11/28/five-surprising-ways-costco-lures-the-rich.aspx|11/28/2013|0|"Wal-Mart"|23
+http://www.cnbc.com/id/101234495|11/28/2013|0|"Wal-Mart"|21
+http://www.cnbc.com/id/101234126|11/28/2013|0|"Wal-Mart"|27
+http://www.thestreet.com/story/12128769/1/3m-co-mmm-todays-featured-conglomerates-winner.html|11/27/2013|0|"3M Co"|0
+http://www.thestreet.com/story/12128083/1/new-lifetime-high-for-3m-mmm.html|11/27/2013|0|"3M Co"|1
+http://www.fool.com/investing/general/2013/11/27/a-holiday-message-from-peter-lynch-invest-in-whats.aspx|11/27/2013|0|"American Express"|8
+http://www.fool.com/investing/general/2013/11/27/is-the-government-coming-after-your-credit-card-re.aspx|11/27/2013|0|"American Express"|2
+http://www.fool.com/investing/general/2013/11/27/3-companies-immune-to-the-drama-over-thanksgiving.aspx|11/27/2013|0|"American Express"|3
+http://www.fool.com/investing/general/2013/11/27/investor-beat-november-27-2013.aspx|11/27/2013|0|"American Express"|7
+http://www.thestreet.com/story/12127969/1/the-new-15-most-shorted-dow-component-american-express.html|11/27/2013|0|"American Express"|1
+http://www.thestreet.com/story/12128374/1/buffett-banks-are-poised-to-return-most-capital-in-fed-stress-tests.html|11/27/2013|0|"American Express"|5
+http://www.thestreet.com/story/12128093/1/small-business-saturday--marketing-ruse-or-do-gooder-campaign.html|11/27/2013|0|"American Express"|4
+http://www.fool.com/investing/general/2013/11/27/american-express-offers-discounts-for-responsible.aspx|11/27/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/27/can-the-lumia-520-help-microsoft-control-15-of-the.aspx|11/27/2013|0|"AT&T"|16
+http://www.fool.com/investing/general/2013/11/27/boeing-wins-defense-contracts-for-v-22-new-uav.aspx|11/27/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/27/are-boeings-new-planes-too-good.aspx|11/27/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/27/small-jets-used-jets-and-new-jets-what-they-mean-f.aspx|11/27/2013|0|"Boeing"|7
+http://www.fool.com/investing/general/2013/11/27/pentagon-awards-334-million-in-defense-contracts-w.aspx|11/27/2013|0|"Boeing"|8
+http://www.cnbc.com/id/101232066|11/27/2013|0|"Boeing"|12
+http://www.thestreet.com/story/12128103/1/dow-today-boeing-ba-leads-the-day-higher-intel-intc-lags.html|11/27/2013|0|"Boeing"|5
+http://www.bloomberg.com/news/2013-11-27/alibaba-starts-cloud-service-for-chinese-financial-institutions.html|11/27/2013|0|"Boeing"|13
+http://www.cnbc.com/id/101232539|11/27/2013|0|"Boeing"|6
+http://www.cnbc.com/id/101231915|11/27/2013|0|"Boeing"|4
+http://www.cnbc.com/id/101230129|11/27/2013|0|"Boeing"|9
+http://www.cnbc.com/id/101233383|11/27/2013|0|"Boeing"|34
+http://www.zacks.com/stock/news/115544/More-DoD-Orders-for-Boeing|11/27/2013|0|"Boeing"|3
+http://www.zacks.com/stock/news/115494/Stock-Markets-are-Showing-a-Positive-Trend|11/27/2013|0|"Boeing"|10
+http://www.fool.com/investing/general/2013/11/27/general-motors-to-convert-preferred-stock-and-ford.aspx|11/27/2013|0|"Caterpillar Inc"|4
+http://www.fool.com/investing/general/2013/11/27/morning-dow-report-good-news-for-caterpillar-home.aspx|11/27/2013|0|"Caterpillar Inc"|1
+http://www.cnbc.com/id/101233046|11/27/2013|0|"Caterpillar Inc"|2
+http://www.bloomberg.com/news/2013-11-27/kkr-s-bis-industries-scraps-plan-for-australian-share-sale.html|11/27/2013|0|"Caterpillar Inc"|3
+http://www.fool.com/investing/general/2013/11/27/dow-afternoon-report-exxon-mobil-and-chevron-fall.aspx|11/27/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/27/should-you-invest-in-oil-sands.aspx|11/27/2013|0|"Chevron"|7
+http://www.fool.com/investing/general/2013/11/27/the-2-companies-most-responsible-for-the-worlds-gr.aspx|11/27/2013|0|"Chevron"|5
+http://www.fool.com/investing/general/2013/11/27/which-member-of-big-oil-has-the-most-to-lose-from.aspx|11/27/2013|0|"Chevron"|2
+http://www.cnbc.com/id/101233408|11/27/2013|0|"Chevron"|8
+http://www.thestreet.com/story/12127970/1/coca-cola-becomes-14-most-shorted-dow-stock-replacing-chevron.html|11/27/2013|0|"Chevron"|1
+http://www.cnbc.com/id/101233212|11/27/2013|0|"Chevron"|6
+http://www.bloomberg.com/news/2013-11-27/bp-seeks-forties-crude-algeria-raises-saharan-blend-price.html|11/27/2013|0|"Chevron"|11
+http://www.bloomberg.com/news/2013-11-27/ex-n-j-senator-rejoins-wolff-samson-business-of-law.html|11/27/2013|0|"Chevron"|4
+http://www.bloomberg.com/news/2013-11-27/who-won-repsol-s-war-with-argentina-.html|11/27/2013|0|"Chevron"|3
+http://www.thestreet.com/story/12124731/1/fast-money-recap-hp-resurgence.html|11/27/2013|0|"Cisco Systems"|3
+http://www.fool.com/investing/general/2013/11/27/why-hewlett-packard-shares-popped.aspx|11/27/2013|0|"Cisco Systems"|4
+http://www.fool.com/investing/general/2013/11/27/nasdaq-then-and-now-lessons-for-todays-technology.aspx|11/27/2013|0|"Cisco Systems"|1
+http://www.cnbc.com/id/101232066|11/27/2013|0|"Cisco Systems"|6
+http://www.thestreet.com/story/12128402/1/dow-today-cisco-systems-csco-higher.html|11/27/2013|0|"Cisco Systems"|0
+http://www.bloomberg.com/news/2013-11-27/hp-boosted-by-corporate-demand-while-bracing-for-margin-pressure.html|11/27/2013|0|"Cisco Systems"|7
+http://www.fool.com/investing/general/2013/11/27/dow-afternoon-report-exxon-mobil-and-chevron-fall.aspx|11/27/2013|0|"Exxon Mobil"|0
+http://money.cnn.com/2013/11/27/technology/innovation/nasdaq-tech-bubble/|11/27/2013|0|"Exxon Mobil"|5
+http://www.thestreet.com/story/12128731/1/dow-today-goldman-sachs-group-gs-leads-the-day-higher-exxon-mobil-corporation-xom-lags.html|11/27/2013|0|"Exxon Mobil"|1
+http://www.zacks.com/stock/news/115378/Time-for-This-ValueFocused-ETF|11/27/2013|0|"Exxon Mobil"|3
+http://www.fool.com/investing/general/2013/11/27/the-most-important-question-facing-general-electri.aspx|11/27/2013|0|"General Electric"|0
+http://www.fool.com/investing/general/2013/11/27/when-it-comes-to-renewable-energy-buffetts-not-blo.aspx|11/27/2013|0|"General Electric"|5
+http://www.cnbc.com/id/101231915|11/27/2013|0|"General Electric"|4
+http://www.thestreet.com/story/12127967/1/general-electric-becomes-26-most-shorted-dow-stock-replacing-home-depot.html|11/27/2013|0|"General Electric"|1
+http://www.cnbc.com/id/101233046|11/27/2013|0|"General Electric"|7
+http://www.thestreet.com/story/12126870/1/dril-quip-is-great-but-so-are-the-expectations.html|11/27/2013|0|"General Electric"|6
+http://www.cnbc.com/id/101232539|11/27/2013|0|"General Electric"|3
+http://www.bloomberg.com/news/2013-11-27/siemens-s-solmssen-quits-with-compliance-role-handed-to-kaeser.html|11/27/2013|0|"General Electric"|11
+http://www.bloomberg.com/news/2013-11-27/zeppelins-seen-hauling-caterpillars-to-mine-siberia-commodities.html|11/27/2013|0|"General Electric"|13
+http://www.bloomberg.com/news/2013-11-26/sony-seeks-smartwig-patent-for-hairpieces-with-camera-sensors.html|11/27/2013|0|"General Electric"|16
+http://www.zacks.com/stock/news/115541/GE-Gas-Turbines-to-Power-Saudi-Arabia|11/27/2013|0|"General Electric"|2
+http://www.thestreet.com/story/12128731/1/dow-today-goldman-sachs-group-gs-leads-the-day-higher-exxon-mobil-corporation-xom-lags.html|11/27/2013|0|"Goldman Sachs Group"|0
+http://www.bloomberg.com/news/2013-11-27/kkr-s-bis-industries-scraps-plan-for-australian-share-sale.html|11/27/2013|0|"Goldman Sachs Group"|10
+http://www.zacks.com/stock/news/115557/Dover-Issues-Notes-Moodys-Assigns-A2-Rating|11/27/2013|0|"Goldman Sachs Group"|21
+http://www.cnbc.com/id/101232640|11/27/2013|0|"Goldman Sachs Group"|18
+http://www.cnbc.com/id/101231312|11/27/2013|0|"Goldman Sachs Group"|13
+http://www.bloomberg.com/news/2013-11-27/s-korea-sees-most-growth-since-10-even-as-won-gains-economy.html|11/27/2013|0|"Goldman Sachs Group"|17
+http://www.bloomberg.com/news/2013-11-27/italian-bonds-fall-before-tomorrow-s-debt-sale-berlusconi-vote.html|11/27/2013|0|"Goldman Sachs Group"|15
+http://www.bloomberg.com/news/2013-11-27/canada-dollar-falls-as-crude-oil-price-decline-for-fourth-day.html|11/27/2013|0|"Goldman Sachs Group"|16
+http://www.bloomberg.com/news/2013-11-27/hong-kong-police-says-cheung-kong-office-gets-letter-with-powder.html|11/27/2013|0|"Goldman Sachs Group"|9
+http://www.bloomberg.com/news/2013-11-27/india-s-nifty-index-futures-decline-before-derivatives-expiry.html|11/27/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-27/cable-defends-royal-mail-ipo-valuation-from-lawmaker-criticism.html|11/27/2013|0|"Goldman Sachs Group"|11
+http://www.bloomberg.com/news/2013-11-26/spain-s-bad-bank-offering-rental-homes-tests-demand.html|11/27/2013|0|"Goldman Sachs Group"|14
+http://www.bloomberg.com/news/2013-11-27/u-k-stocks-rise-before-economic-data-royal-mail-gains.html|11/27/2013|0|"Goldman Sachs Group"|6
+http://www.bloomberg.com/news/2013-11-27/germany-s-10-year-bonds-snap-two-day-advance-before-debt-auction.html|11/27/2013|0|"Goldman Sachs Group"|8
+http://www.bloomberg.com/news/2013-11-27/goldman-to-bofa-pitch-venezuela-deals-to-drum-up-dollars.html|11/27/2013|0|"Goldman Sachs Group"|2
+http://www.bloomberg.com/news/2013-11-26/gensler-gives-wall-street-two-months-to-meet-cross-border-policy.html|11/27/2013|0|"Goldman Sachs Group"|23
+http://www.bloomberg.com/news/2013-11-26/goldman-sachs-to-glg-open-asia-hedge-funds-as-big-is-chic.html|11/27/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-27/scene-jon-stewart-s-egyptian-twin-buzzfeed-in-black-tie.html|11/27/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-27/crude-traders-skeptical-that-iran-deal-will-bolster-oil-supplies.html|11/27/2013|0|"Goldman Sachs Group"|22
+http://www.bloomberg.com/news/2013-11-26/alfred-feld-goldman-sachs-s-longest-serving-worker-dies-at-98.html|11/27/2013|0|"Goldman Sachs Group"|1
+http://www.zacks.com/stock/news/115567/China-Hiring-Probe-Extends-to-Morgan-Stanley-Citigroup|11/27/2013|0|"Goldman Sachs Group"|12
+http://www.thestreet.com/story/12127967/1/general-electric-becomes-26-most-shorted-dow-stock-replacing-home-depot.html|11/27/2013|0|"Home Depot"|1
+http://www.thestreet.com/story/12124731/1/fast-money-recap-hp-resurgence.html|11/27/2013|0|"Home Depot"|5
+http://www.fool.com/investing/general/2013/11/27/where-is-the-best-value-in-a-strong-home-improveme.aspx|11/27/2013|0|"Home Depot"|2
+http://www.fool.com/investing/general/2013/11/27/morning-dow-report-good-news-for-caterpillar-home.aspx|11/27/2013|0|"Home Depot"|0
+http://www.cnbc.com/id/101232784|11/27/2013|0|"Home Depot"|3
+http://www.zacks.com/stock/news/115499/Stock-Market-News-for-November-27-2013|11/27/2013|0|"Home Depot"|6
+http://www.bloomberg.com/news/2013-11-27/zeppelins-seen-hauling-caterpillars-to-mine-siberia-commodities.html|11/27/2013|0|"Intel Corp"|0
+http://www.cnbc.com/id/101231546|11/27/2013|0|"Intel Corp"|1
+http://www.bloomberg.com/news/2013-11-27/sac-s-steinberg-sought-proprietary-information-jury-told.html|11/27/2013|0|"Intel Corp"|4
+http://www.zacks.com/stock/news/115526/NVIDIA-to-Offer-Senior-Notes|11/27/2013|0|"Intel Corp"|2
+http://www.bloomberg.com/news/2013-11-27/alibaba-starts-cloud-service-for-chinese-financial-institutions.html|11/27/2013|0|"International Business Machines"|7
+http://www.bloomberg.com/news/2013-11-27/hp-boosted-by-corporate-demand-while-bracing-for-margin-pressure.html|11/27/2013|0|"International Business Machines"|2
+http://www.bloomberg.com/news/2013-11-26/sony-seeks-smartwig-patent-for-hairpieces-with-camera-sensors.html|11/27/2013|0|"International Business Machines"|5
+http://www.fool.com/investing/general/2013/11/27/keep-an-eye-on-gw-pharmaceuticals-johnson-johnson.aspx|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.fool.com/investing/general/2013/11/27/johnson-johnson-falls-on-a-shaky-day-from-the-dow.aspx|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.fool.com/investing/general/2013/11/27/why-pay-royalties-just-buy-the-whole-company.aspx|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|3
+http://www.fool.com/investing/general/2013/11/27/will-europe-kill-the-e-cigarette.aspx|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|9
+http://www.bloomberg.com/news/2013-11-27/j-j-may-pay-1-billion-in-medical-costs-under-hip-accord.html|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|5
+http://www.fool.com/investing/general/2013/11/27/could-teva-merge-with-mylan-or-valeant.aspx|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|8
+http://www.zacks.com/stock/news/115443/JampJs-Olysio-Approved-in-the-US|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|2
+http://www.zacks.com/stock/news/115547/New-Data-on-BioLineRx-BL7040|11/27/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|7
+http://www.fool.com/investing/general/2013/11/27/stock-market-today-hp-and-crocs-jump-banks-could-o.aspx|11/27/2013|0|"JP Morgan"|8
+http://www.cnbc.com/id/101231363|11/27/2013|0|"JP Morgan"|1
+http://www.bloomberg.com/news/2013-11-26/jpmorgan-pressured-to-disclose-13b-accord-complaint.html|11/27/2013|0|"JP Morgan"|0
+http://www.thestreet.com/story/12128082/1/trade-ideas-mcdonalds-corporation-mcd-is-todays-roof-leaker-stock.html|11/27/2013|0|"McDonald's Corp"|0
+http://www.thestreet.com/story/12127971/1/nike-becomes-13-most-shorted-dow-stock-replacing-mcdonalds.html|11/27/2013|0|"McDonald's Corp"|1
+http://www.cnbc.com/id/101226130|11/27/2013|0|"McDonald's Corp"|3
+http://www.zacks.com/stock/news/115520/Burger-King-to-Grow-in-France|11/27/2013|0|"McDonald's Corp"|2
+http://www.bloomberg.com/news/2013-11-26/alfred-feld-goldman-sachs-s-longest-serving-worker-dies-at-98.html|11/27/2013|0|"Merck & Co"|1
+http://www.fool.com/investing/general/2013/11/27/keep-an-eye-on-gw-pharmaceuticals-johnson-johnson.aspx|11/27/2013|0|"Merck & Co"|0
+http://www.bloomberg.com/news/2013-11-26/sony-seeks-smartwig-patent-for-hairpieces-with-camera-sensors.html|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|8
+http://www.cnbc.com/id/101232066|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|4
+http://www.cnbc.com/id/101231480|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.cnbc.com/id/101231882|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.cnbc.com/id/101230904|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|9
+http://www.bloomberg.com/news/2013-11-27/nokia-software-revived-in-challenge-to-android-as-jolla-debuts.html|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|7
+http://www.cnbc.com/id/101228506|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|5
+http://www.cnbc.com/id/101232786|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|6
+http://www.zacks.com/stock/news/115446/Microsoft-Files-Lawsuit-Against-Acacia|11/27/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.thestreet.com/story/12127971/1/nike-becomes-13-most-shorted-dow-stock-replacing-mcdonalds.html|11/27/2013|0|"Nike"|0
+http://www.thestreet.com/story/12127969/1/the-new-15-most-shorted-dow-component-american-express.html|11/27/2013|0|"Nike"|3
+http://www.fool.com/investing/general/2013/11/27/a-holiday-message-from-peter-lynch-invest-in-whats.aspx|11/27/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/27/investor-beat-november-27-2013.aspx|11/27/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/10/why-the-2014-mini-cooper-is-crucial-for-bmw.aspx|11/27/2013|0|"Nike"|8
+http://www.bloomberg.com/news/2013-11-26/alex-rodriguez-files-new-complaint-against-major-league-baseball.html|11/27/2013|0|"Nike"|4
+http://www.fool.com/investing/general/2013/11/27/are-boeings-new-planes-too-good.aspx|11/27/2013|0|"Nike"|11
+http://www.bloomberg.com/news/2013-11-27/crocs-said-to-discuss-possible-investment-with-buyout-firms-2-.html|11/27/2013|0|"Nike"|7
+http://www.zacks.com/stock/news/115487/Biotech-Stock-Roundup-EU-News-Boosts-Biogen-Gilead-amp-Celgene|11/27/2013|0|"Pfizer"|13
+http://www.bloomberg.com/news/2013-11-26/alfred-feld-goldman-sachs-s-longest-serving-worker-dies-at-98.html|11/27/2013|0|"Procter & Gamble" OR "Procter And Gamble"|1
+http://www.fool.com/investing/general/2013/11/27/what-will-procter-and-gamble-do-in-2014.aspx|11/27/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.thestreet.com/story/12127970/1/coca-cola-becomes-14-most-shorted-dow-stock-replacing-chevron.html|11/27/2013|0|"Coca-Cola"|2
+http://www.thestreet.com/story/12128081/1/todays-roof-leaker-stock-is-coca-cola-ko.html|11/27/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/11/27/why-coca-cola-couldnt-out-pop-pepsico-and-the-dow.aspx|11/27/2013|0|"Coca-Cola"|0
+http://www.thestreet.com/story/12128032/1/wish-list-for-thanksgiving.html|11/27/2013|0|"Coca-Cola"|3
+http://www.cnbc.com/id/101233046|11/27/2013|0|"United Technologies Corp"|0
+http://www.cnbc.com/id/101233235|11/27/2013|0|"Verizon Communications"|3
+http://www.cnbc.com/id/101212040|11/27/2013|0|"Verizon Communications"|0
+http://www.cnbc.com/id/101233403|11/27/2013|0|"Verizon Communications"|2
+http://www.bloomberg.com/news/2013-11-27/long-bonds-spurned-as-buyers-seek-taper-shelter-credit-markets.html|11/27/2013|0|"Verizon Communications"|5
+http://www.zacks.com/stock/news/115535/Verizon-to-Support-Apple-AirPlay|11/27/2013|0|"Verizon Communications"|1
+http://www.thestreet.com/story/12128437/1/analyst-favorites-with-strong-buyback-activity-monster-worldwide-ranks-as-a-top-pick.html|11/27/2013|0|"Visa Inc"|0
+http://www.thestreet.com/story/12128093/1/small-business-saturday--marketing-ruse-or-do-gooder-campaign.html|11/27/2013|0|"Wal-Mart"|27
+http://www.fool.com/investing/general/2013/11/27/where-is-the-best-value-in-a-strong-home-improveme.aspx|11/27/2013|0|"Wal-Mart"|44
+http://www.fool.com/investing/general/2013/11/27/amazons-plan-to-take-over-the-world-is-almost-comp.aspx|11/27/2013|0|"Wal-Mart"|25
+http://www.fool.com/investing/general/2013/11/27/mastercard-makes-an-unexpected-move.aspx|11/27/2013|0|"Wal-Mart"|16
+http://money.cnn.com/2013/11/27/pf/black-friday-2013/|11/27/2013|0|"Wal-Mart"|2
+http://www.fool.com/investing/general/2013/11/27/4-golden-rules-for-beating-the-street.aspx|11/27/2013|0|"Wal-Mart"|38
+http://www.fool.com/investing/general/2013/11/27/news-holiday-online-shopping-on-the-rise.aspx|11/27/2013|0|"Wal-Mart"|21
+http://money.cnn.com/2013/11/27/pf/black-friday/|11/27/2013|0|"Wal-Mart"|11
+http://www.fool.com/investing/general/2013/11/27/best-buy-should-you-buy-after-the-plunge.aspx|11/27/2013|0|"Wal-Mart"|7
+http://www.fool.com/investing/general/2013/11/27/5-black-friday-deals-you-wont-want-to-miss.aspx|11/27/2013|0|"Wal-Mart"|40
+http://www.fool.com/investing/general/2013/11/27/why-is-black-friday-in-danger.aspx|11/27/2013|0|"Wal-Mart"|14
+http://www.fool.com/investing/general/2013/11/27/3-challenges-new-wal-mart-ceo-doug-mcmillion.aspx|11/27/2013|0|"Wal-Mart"|1
+http://www.cnbc.com/id/101229008|11/26/2013|0|"3M Co"|0
+http://www.thestreet.com/story/12126342/1/american-express-axp-hits-new-lifetime-high-today.html|11/26/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/26/where-the-money-is-november-26.aspx|11/26/2013|0|"American Express"|2
+http://www.fool.com/investing/general/2013/11/26/everybody-wants-to-be-retailmenot.aspx|11/26/2013|0|"American Express"|4
+http://www.fool.com/investing/general/2013/11/26/black-friday-2013s-winners-and-losers.aspx|11/26/2013|0|"American Express"|6
+http://www.cnbc.com/id/101229008|11/26/2013|0|"American Express"|5
+http://www.bloomberg.com/news/2013-11-26/pillsbury-orrick-deal-dies-on-conflicts-business-of-law.html|11/26/2013|0|"American Express"|1
+http://www.zacks.com/commentary/30089/invest-like-a-young-buffett|11/26/2013|0|"American Express"|3
+http://www.fool.com/investing/general/2013/11/26/general-electric-secures-1-billion-in-contracts-an.aspx|11/26/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/26/will-this-low-cost-airlines-latest-move-shake-up-t.aspx|11/26/2013|0|"Boeing"|3
+http://www.fool.com/investing/general/2013/11/26/8-high-performance-alloys-for-aircraft-engines.aspx|11/26/2013|0|"Boeing"|5
+http://www.thestreet.com/story/12127102/1/dow-today-boeing-ba-leads-the-day-higher-goldman-sachs-group-gs-lags.html|11/26/2013|0|"Boeing"|2
+http://www.bloomberg.com/news/2013-11-26/boeing-787-engines-ice-risk-spurs-faa-to-warn-airlines.html|11/26/2013|0|"Boeing"|0
+http://www.bloomberg.com/news/2013-11-26/mtu-cuts-jobs-to-boost-profitability-amid-growth-in-new-engines.html|11/26/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/26/these-10-dow-jones-facts-will-blow-your-mind.aspx|11/26/2013|0|"Caterpillar Inc"|2
+http://www.fool.com/investing/general/2013/11/26/caterpillar-dumps-on-investors.aspx|11/26/2013|0|"Caterpillar Inc"|0
+http://www.cnbc.com/id/101229008|11/26/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/26/these-10-dow-jones-facts-will-blow-your-mind.aspx|11/26/2013|0|"Chevron"|5
+http://www.fool.com/investing/general/2013/11/26/petrobras-better-get-production-going.aspx|11/26/2013|0|"Chevron"|11
+http://www.thestreet.com/story/12129331/1/top-10-gas-companies-h1-2013.html|11/26/2013|0|"Chevron"|16
+http://www.cnbc.com/id/101228985|11/26/2013|0|"Chevron"|7
+http://www.cnbc.com/id/101228141|11/26/2013|0|"Chevron"|1
+http://www.bloomberg.com/news/2013-11-26/chevron-claims-trial-showed-proof-of-fraud-in-ecuador.html|11/26/2013|0|"Chevron"|0
+http://www.cnbc.com/id/101229008|11/26/2013|0|"Chevron"|3
+http://www.zacks.com/stock/news/115369/Stock-Market-News-for-November-26-2013|11/26/2013|0|"Chevron"|4
+http://www.zacks.com/stock/news/115391/Oil-amp-Gas-Stock-Roundup-CVX-Shelves-Project-DVN-Goes-Shopping|11/26/2013|0|"Chevron"|2
+http://www.thestreet.com/story/12121162/1/fast-money-recap-a-brief-nasdaq-stay-above-4000.html|11/26/2013|0|"Cisco Systems"|7
+http://www.fool.com/investing/general/2013/11/26/cisco-systems-took-a-wild-ride-in-2013.aspx|11/26/2013|0|"Cisco Systems"|0
+http://www.fool.com/investing/general/2013/11/26/the-motley-fools-third-best-ceo-of-the-year-is.aspx|11/26/2013|0|"Cisco Systems"|4
+http://www.fool.com/investing/general/2013/11/26/us-tech-companies-are-hurting-in-china.aspx|11/26/2013|0|"Cisco Systems"|3
+http://www.fool.com/investing/general/2013/11/26/heres-why-hewlett-packard-shares-will-pop-on-wedne.aspx|11/26/2013|0|"Cisco Systems"|5
+http://www.cnbc.com/id/101229008|11/26/2013|0|"Cisco Systems"|10
+http://www.fool.com/investing/general/2013/11/26/3-stocks-this-multibillion-dollar-hedge-fund-is-bu.aspx|11/26/2013|0|"Cisco Systems"|9
+http://www.cnbc.com/id/101230527|11/26/2013|0|"Cisco Systems"|1
+http://www.bloomberg.com/news/2013-11-26/nsa-spying-risks-35-billion-in-u-s-technology-sales.html|11/26/2013|0|"Cisco Systems"|2
+http://www.bloomberg.com/news/2013-11-25/qualcomm-s-china-growth-plans-threatened-by-anti-monopoly-probe.html|11/26/2013|0|"Cisco Systems"|12
+http://www.bloomberg.com/news/2013-11-26/hewlett-packard-fourth-quarter-sales-top-estimates.html|11/26/2013|0|"Cisco Systems"|6
+http://www.cnbc.com/id/101230393|11/26/2013|0|"DuPont"|1
+http://www.cnbc.com/id/101230535|11/26/2013|0|"DuPont"|0
+http://www.zacks.com/stock/news/115391/Oil-amp-Gas-Stock-Roundup-CVX-Shelves-Project-DVN-Goes-Shopping|11/26/2013|0|"Exxon Mobil"|5
+http://www.zacks.com/commentary/30089/invest-like-a-young-buffett|11/26/2013|0|"Exxon Mobil"|7
+http://www.thestreet.com/story/12126523/1/91video93-jim-cramer-iran-means-oil-downgrades-coming.html|11/26/2013|0|"Exxon Mobil"|6
+http://buzz.money.cnn.com/2013/11/26/google-exxon-market-value/|11/26/2013|0|"Exxon Mobil"|0
+http://www.thestreet.com/story/12125016/1/trends-of-the-future-favor-dividend-investing.html|11/26/2013|0|"Exxon Mobil"|3
+http://www.cnbc.com/id/101228140|11/26/2013|0|"Exxon Mobil"|11
+http://www.bloomberg.com/news/2013-11-26/u-s-stock-futures-little-changed-before-confidence-data.html|11/26/2013|0|"Exxon Mobil"|1
+http://www.bloomberg.com/news/2013-11-25/asian-futures-drop-as-energy-shares-slip-yen-holds-slide.html|11/26/2013|0|"Exxon Mobil"|2
+http://www.bloomberg.com/news/2013-11-26/fracking-bonanza-eludes-wastewater-recycling-investors.html|11/26/2013|0|"General Electric"|7
+http://www.reuters.com/finance/stocks/companyOfficers?symbol=PRXL.O|11/26/2013|0|"General Electric"|16
+http://www.fool.com/investing/general/2013/11/26/general-electric-secures-1-billion-in-contracts-an.aspx|11/26/2013|0|"General Electric"|0
+http://www.fool.com/investing/general/2013/11/26/general-electric-wins-700-million-saudi-contract.aspx|11/26/2013|0|"General Electric"|1
+http://www.fool.com/investing/general/2013/11/26/to-xfinity-and-beyond.aspx|11/26/2013|0|"General Electric"|9
+http://www.fool.com/investing/general/2013/11/26/8-high-performance-alloys-for-aircraft-engines.aspx|11/26/2013|0|"General Electric"|6
+http://www.fool.com/investing/general/2013/11/26/can-hill-rom-succeed-against-stryker.aspx|11/26/2013|0|"General Electric"|5
+http://www.cnbc.com/id/101228853|11/26/2013|0|"General Electric"|4
+http://www.thestreet.com/story/12126198/1/general-electric-cos-buy-recommendation-affirmed.html|11/26/2013|0|"General Electric"|2
+http://www.rttnews.com/2230392/harsco-closes-deal-to-sell-infrastructure-unit-into-joint-venture-with-cd-r.aspx|11/26/2013|0|"General Electric"|17
+http://www.cnbc.com/id/101230194|11/26/2013|0|"General Electric"|11
+http://www.bloomberg.com/news/2013-11-25/groupe-gorge-push-on-3-d-starts-with-one-worker-company.html|11/26/2013|0|"General Electric"|13
+http://www.bloomberg.com/news/2013-11-25/boeing-warns-of-ice-risks-for-ge-powered-787s-in-storms.html|11/26/2013|0|"General Electric"|3
+http://www.thestreet.com/story/12127102/1/dow-today-boeing-ba-leads-the-day-higher-goldman-sachs-group-gs-lags.html|11/26/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-11-26/u-s-stock-futures-little-changed-before-confidence-data.html|11/26/2013|0|"Goldman Sachs Group"|20
+http://www.bloomberg.com/news/2013-11-25/asian-futures-drop-as-energy-shares-slip-yen-holds-slide.html|11/26/2013|0|"Goldman Sachs Group"|18
+http://www.cnbc.com/id/101230393|11/26/2013|0|"Goldman Sachs Group"|13
+http://www.thestreet.com/story/12126521/1/dow-component-goldman-sachs-group-gs-to-go-ex-dividend-tomorrow.html|11/26/2013|0|"Goldman Sachs Group"|0
+http://www.thestreet.com/story/12126982/1/morgan-stanleys-mssb-acquisition-a-game-changer-ubs.html|11/26/2013|0|"Goldman Sachs Group"|8
+http://www.cnbc.com/id/101230535|11/26/2013|0|"Goldman Sachs Group"|12
+http://www.bloomberg.com/news/2013-11-26/most-emerging-stocks-rise-on-technology-rally-as-rupiah-weakens.html|11/26/2013|0|"Goldman Sachs Group"|19
+http://www.bloomberg.com/news/2013-11-26/horse-gambling-frenchman-parlays-system-into-best-u-s-forecasts.html|11/26/2013|0|"Goldman Sachs Group"|22
+http://www.bloomberg.com/news/2013-11-26/blackstone-vies-with-goldman-in-spain-rental-housing-bet.html|11/26/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-26/blankfein-with-buffett-assures-detroit-says-ny-recovered.html|11/26/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-26/iron-ore-seen-slumping-from-westpac-to-goldman-as-supply-gains.html|11/26/2013|0|"Goldman Sachs Group"|6
+http://www.bloomberg.com/news/2013-11-26/goldman-says-buy-china-russia-stocks-on-valuations-to-reforms.html|11/26/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-26/goldman-sees-s-p-500-falling-10-next-year-before-rally-to-1-900.html|11/26/2013|0|"Goldman Sachs Group"|4
+http://www.bloomberg.com/news/2013-11-26/korean-won-trades-near-2-year-high-as-intervention-concern-eases.html|11/26/2013|0|"Goldman Sachs Group"|10
+http://www.bloomberg.com/news/2013-11-25/india-office-boom-turns-glut-with-vacancies-real-estate.html|11/26/2013|0|"Goldman Sachs Group"|24
+http://www.bloomberg.com/news/2013-11-25/india-growth-seen-stuck-below-5-for-longest-stretch-since-2005.html|11/26/2013|0|"Goldman Sachs Group"|15
+http://www.bloomberg.com/news/2013-11-26/cftc-needs-nominee-to-battle-wall-street-lobbying-democrats-say.html|11/26/2013|0|"Goldman Sachs Group"|9
+http://www.bloomberg.com/news/2013-11-26/chrysler-ipo-said-delayed-over-need-for-letter-from-irs.html|11/26/2013|0|"Goldman Sachs Group"|14
+http://www.bloomberg.com/news/2013-11-26/carlyle-buys-hedge-fund-investor-dgam-to-expand-beyond-lbos-1-.html|11/26/2013|0|"Goldman Sachs Group"|16
+http://www.bloomberg.com/news/2013-11-26/fdic-s-hoenig-to-weigh-easing-of-u-s-bank-leverage-rule.html|11/26/2013|0|"Goldman Sachs Group"|21
+http://www.bloomberg.com/news/2013-11-26/goldman-currency-trading-definition-shows-disclosure-gap.html|11/26/2013|0|"Goldman Sachs Group"|2
+http://www.fool.com/investing/general/2013/11/26/the-most-insightful-comments-from-home-depots-and.aspx|11/26/2013|0|"Home Depot"|1
+http://www.fool.com/investing/general/2013/11/26/morning-dow-report-disney-home-depot-lead-stocks-h.aspx|11/26/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/26/iran-deal-hits-oil-as-dow-hits-new-high.aspx|11/26/2013|0|"Home Depot"|3
+http://www.fool.com/investing/general/2013/11/26/lowes-monday.aspx|11/26/2013|0|"Home Depot"|2
+http://www.cnbc.com/id/101211985|11/26/2013|0|"Home Depot"|4
+http://www.cnbc.com/id/101229224|11/26/2013|0|"Home Depot"|7
+http://www.bloomberg.com/news/2013-11-26/prologis-to-boost-japan-rents-buy-warehouses-on-abenomics-bonus.html|11/26/2013|0|"Home Depot"|5
+http://www.thestreet.com/story/12126674/1/4-stocks-moving-the-retail-industry-upward.html|11/26/2013|0|"Home Depot"|15
+http://www.bloomberg.com/news/2013-11-26/frozen-turkey-pileup-signaling-discounts-for-thanksgiving.html|11/26/2013|0|"Home Depot"|13
+http://www.cnbc.com/id/101228953|11/26/2013|0|"Home Depot"|9
+http://www.cnbc.com/id/101226410|11/26/2013|0|"Home Depot"|24
+http://www.bloomberg.com/news/2013-11-25/wintry-storm-delaying-air-travel-moving-northeast-with-hard-rain.html|11/26/2013|0|"Home Depot"|39
+http://www.bloomberg.com/news/2013-11-26/fannie-mae-home-loan-limits-to-remain-unchanged-in-early-2014.html|11/26/2013|0|"Home Depot"|26
+http://www.bloomberg.com/news/2013-11-26/nsa-spying-risks-35-billion-in-u-s-technology-sales.html|11/26/2013|0|"Intel Corp"|2
+http://www.cnbc.com/id/101228131|11/26/2013|0|"Intel Corp"|3
+http://www.cnbc.com/id/101228159|11/26/2013|0|"Intel Corp"|1
+http://www.bloomberg.com/news/2013-11-25/intel-said-asking-500-million-for-streaming-pay-tv-unit.html|11/26/2013|0|"Intel Corp"|0
+http://www.zacks.com/stock/news/115390/Qualcomm-Faces-Chinese-Probe|11/26/2013|0|"Intel Corp"|4
+http://www.thestreet.com/story/12126766/1/dow-today-international-business-machines-ibm-lower.html|11/26/2013|0|"International Business Machines"|0
+http://www.bloomberg.com/news/2013-11-26/hewlett-packard-fourth-quarter-sales-top-estimates.html|11/26/2013|0|"International Business Machines"|4
+http://www.bloomberg.com/news/2013-11-26/nsa-spying-risks-35-billion-in-u-s-technology-sales.html|11/26/2013|0|"International Business Machines"|3
+http://www.bloomberg.com/news/2013-11-25/qualcomm-s-china-growth-plans-threatened-by-anti-monopoly-probe.html|11/26/2013|0|"International Business Machines"|8
+http://www.thestreet.com/story/12127201/1/twitter-inc-twtr-targets-retail-companies-to-boost-ad-revenue.html|11/26/2013|0|"International Business Machines"|5
+http://www.fool.com/investing/general/2013/11/26/us-tech-companies-are-hurting-in-china.aspx|11/26/2013|0|"International Business Machines"|6
+http://www.cnbc.com/id/101230527|11/26/2013|0|"International Business Machines"|1
+http://www.bloomberg.com/news/2013-11-25/silver-lake-said-to-plan-new-1-billion-technology-fund.html|11/26/2013|0|"International Business Machines"|7
+http://www.bloomberg.com/news/2013-11-26/twitter-woos-retailers-to-narrow-facebook-holiday-ad-lead.html|11/26/2013|0|"International Business Machines"|11
+http://www.bloomberg.com/news/2013-11-26/tech-factories-luring-migrants-risk-u-s-labor-violations.html|11/26/2013|0|"International Business Machines"|10
+http://www.bloomberg.com/news/2013-11-26/a-computer-might-come-after-your-job-next.html|11/26/2013|0|"International Business Machines"|2
+http://www.cnbc.com/id/101230535|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://money.cnn.com/2013/11/26/technology/hp-earnings/|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|4
+http://www.fool.com/investing/general/2013/11/26/keep-an-eye-on-immunocellular-merrimack-bayer-and.aspx|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|7
+http://www.fool.com/investing/general/2013/11/26/3-cant-miss-food-and-drug-administration-actions-c.aspx|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|5
+http://www.cnbc.com/id/101228415|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|6
+http://www.bloomberg.com/news/2013-11-26/bayer-in-early-stage-talks-to-buy-cancer-drug-partner-algeta.html|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|9
+http://www.zacks.com/stock/news/115379/Cubist-Pharma-Soars-on-Positive-Data|11/26/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.cnbc.com/id/101230497|11/26/2013|0|"JP Morgan"|5
+http://www.zacks.com/stock/news/115300/ProShares-Launches-Emerging-Market-Bond-ETF-EMSH|11/26/2013|0|"JP Morgan"|0
+http://www.fool.com/investing/general/2013/11/26/can-zoetis-beat-its-big-pharma-competition.aspx|11/26/2013|0|"Merck & Co"|3
+http://www.fool.com/investing/general/2013/11/26/novo-nordisks-biggest-strength-and-weakness.aspx|11/26/2013|0|"Merck & Co"|6
+http://www.fool.com/investing/general/2013/11/26/is-biomarins-vimizim-grabbing-suitors-attention.aspx|11/26/2013|0|"Merck & Co"|7
+http://www.rttnews.com/2230124/merck-gets-fda-approval-for-noxafil-delayed-release-tablets-quick-facts.aspx|11/26/2013|0|"Merck & Co"|0
+http://www.fool.com/investing/general/2013/11/26/merck-gets-fda-approval-for-noxafil-tablets-increa.aspx|11/26/2013|0|"Merck & Co"|1
+http://www.bloomberg.com/news/2013-11-25/parental-attitudes-on-sex-costs-stymie-hpv-vaccinations.html|11/26/2013|0|"Merck & Co"|2
+http://www.cnbc.com/id/101230527|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.bloomberg.com/news/2013-11-26/wal-mart-to-microsoft-shifts-show-ceo-change-fastest-since-08.html|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|5
+http://www.bloomberg.com/news/2013-11-26/nsa-spying-risks-35-billion-in-u-s-technology-sales.html|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|6
+http://www.bloomberg.com/news/2013-11-26/hewlett-packard-fourth-quarter-sales-top-estimates.html|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|8
+http://www.cnbc.com/id/101230257|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.cnbc.com/id/101227798|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|4
+http://www.cnbc.com/id/101228735|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|9
+http://www.cnbc.com/id/101227788|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|11
+http://www.zacks.com/stock/news/115408/Host-Hotels-Sells-Four-Seasons-Atlanta-revised|11/26/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.fool.com/investing/general/2013/11/26/lebron-james-dines-with-the-worlds-second-richest.aspx|11/26/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/26/black-friday-2013s-winners-and-losers.aspx|11/26/2013|0|"Nike"|0
+http://www.bloomberg.com/news/2013-11-26/pesek-on-asia-snowden-fallout-spreads-.html|11/26/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/26/can-zoetis-beat-its-big-pharma-competition.aspx|11/26/2013|0|"Pfizer"|0
+http://www.cnbc.com/id/101228415|11/26/2013|0|"Pfizer"|2
+http://www.fool.com/investing/general/2013/11/26/3-dividend-growth-companies-with-great-fundamental.aspx|11/26/2013|0|"Procter & Gamble" OR "Procter And Gamble"|1
+http://www.fool.com/investing/general/2013/11/26/bill-ackman-bails-on-jc-penney-and-procter-gamble.aspx|11/26/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.thestreet.com/story/12125016/1/trends-of-the-future-favor-dividend-investing.html|11/26/2013|0|"Coca-Cola"|6
+http://www.fool.com/investing/general/2013/11/26/the-latest-news-in-the-beverage-industry-coca-cola.aspx|11/26/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/26/3-dividend-growth-companies-with-great-fundamental.aspx|11/26/2013|0|"Coca-Cola"|3
+http://www.thestreet.com/story/12119246/1/gevo-biofuel-sees-growth-on-ford-coke-ties.html|11/26/2013|0|"Coca-Cola"|2
+http://www.zacks.com/commentary/30089/invest-like-a-young-buffett|11/26/2013|0|"Coca-Cola"|5
+http://www.cnbc.com/id/101229040|11/26/2013|0|"United Technologies Corp"|1
+http://www.zacks.com/stock/news/115324/Will-Sikorsky-Win-68B-Air-Force-Deal|11/26/2013|0|"United Technologies Corp"|0
+http://www.thestreet.com/story/12126106/1/scarlet-says-good-bye-childrens-book-wins-moms-choice-award.html|11/26/2013|0|"UnitedHealth Group"|2
+http://www.bloomberg.com/news/2013-11-26/thermo-fisher-wins-conditional-approval-for-life-deal-from-eu.html|11/26/2013|0|"UnitedHealth Group"|1
+http://www.bloomberg.com/news/2013-11-26/obama-nightly-reading-reveals-angst-about-health-site-fix.html|11/26/2013|0|"UnitedHealth Group"|5
+http://www.zacks.com/stock/news/115429/Aetna-Bolsters-Intl-Biz-Buys-InterGlobal|11/26/2013|0|"UnitedHealth Group"|0
+http://www.thestreet.com/story/12127037/1/frost-sullivan-names-verizon-as-leader-in-australian-managed-security-services-for-the-sixth-consecutive-year.html|11/26/2013|0|"Verizon Communications"|1
+http://www.bloomberg.com/news/2013-11-25/intel-said-asking-500-million-for-streaming-pay-tv-unit.html|11/26/2013|0|"Verizon Communications"|3
+http://www.bloomberg.com/news/2013-11-26/tivo-quarterly-profit-beats-estimates-on-new-subscribers.html|11/26/2013|0|"Verizon Communications"|5
+http://www.cnbc.com/id/101227788|11/26/2013|0|"Verizon Communications"|4
+http://www.bloomberg.com/news/2013-11-26/wal-mart-to-microsoft-shifts-show-ceo-change-fastest-since-08.html|11/26/2013|0|"Wal-Mart"|3
+http://www.bloomberg.com/news/2013-11-26/wal-mart-returns-to-sam-walton-roots-naming-new-ceo.html|11/26/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/11/26/petsmart-feels-no-pain-from-ecommerce-takeover.aspx|11/26/2013|0|"Wal-Mart"|16
+http://www.fool.com/investing/general/2013/11/26/jc-penney-sells-100-bills-for-80-and-celebrates.aspx|11/26/2013|0|"Wal-Mart"|23
+http://www.fool.com/investing/general/2013/11/26/which-of-these-companies-can-thrive-in-india.aspx|11/26/2013|0|"Wal-Mart"|10
+http://www.fool.com/investing/general/2013/11/26/black-friday-2013s-winners-and-losers.aspx|11/26/2013|0|"Wal-Mart"|47
+http://www.fool.com/investing/general/2013/11/26/intels-fall-weighs-on-the-dows-wobbly-day.aspx|11/26/2013|0|"Wal-Mart"|9
+http://www.fool.com/investing/general/2013/11/26/1-stock-to-watch-this-holiday-season.aspx|11/26/2013|0|"Wal-Mart"|12
+http://www.fool.com/investing/general/2013/11/26/how-does-best-buy-plan-to-turnaround-its-business.aspx|11/26/2013|0|"Wal-Mart"|15
+http://www.fool.com/investing/general/2013/11/26/black-friday-2013-changes-walmart-target-amazon.aspx|11/26/2013|0|"Wal-Mart"|32
+http://www.thestreet.com/story/12126449/1/wal-mart-stores-stock-hits-new-52-week-high-wmt.html|11/26/2013|0|"Wal-Mart"|5
+http://www.cnbc.com/id/101228667|11/26/2013|0|"Wal-Mart"|26
+http://www.cnbc.com/id/101230106|11/26/2013|0|"Wal-Mart"|40
+http://www.cnbc.com/id/101228777|11/26/2013|0|"Wal-Mart"|11
+http://www.cnbc.com/id/101230081|11/26/2013|0|"Wal-Mart"|7
+http://www.bloomberg.com/news/2013-11-26/wal-mart-s-new-ceo-has-to-take-on-amazon-and-unions.html|11/26/2013|0|"Wal-Mart"|1
+http://www.cnbc.com/id/101225568|11/26/2013|0|"Wal-Mart"|20
+http://www.zacks.com/stock/news/115410/Walmart-Names-New-CEO|11/26/2013|0|"Wal-Mart"|6
+http://www.fool.com/investing/general/2013/11/25/book-your-next-hotel-stay-on-twitter.aspx|11/25/2013|0|"American Express"|1
+http://www.thestreet.com/story/12124599/1/one-put-one-call-option-to-know-about-for-american-express-co-axp.html|11/25/2013|0|"American Express"|0
+http://www.thestreet.com/story/12124272/1/5-hold-rated-dividend-stocks-to-check-out-acc-ctl-pot-hr-cbl.html|11/25/2013|0|"American Express"|4
+http://www.fool.com/investing/general/2013/11/25/can-analog-devices-win-big-from-att-and-sprint.aspx|11/25/2013|0|"AT&T"|0
+http://www.fool.com/investing/general/2013/11/25/att-is-chomping-at-the-bit.aspx|11/25/2013|0|"AT&T"|1
+http://www.fool.com/investing/general/2013/11/25/whats-wrong-with-these-3-dow-stocks.aspx|11/25/2013|0|"AT&T"|2
+http://www.thestreet.com/story/12124617/1/catching-fire-misses-lions-gate-tumbles-time-warner-cable-hears-footsteps-media-roundup.html|11/25/2013|0|"AT&T"|32
+http://www.bloomberg.com/news/2013-11-25/broadcasters-airwaves-sharing-deal-with-defense-is-close.html|11/25/2013|0|"AT&T"|41
+http://www.fool.com/investing/general/2013/11/25/dow-afternoon-report-ibm-and-boeing-hold-back-high.aspx|11/25/2013|0|"Boeing"|3
+http://www.fool.com/investing/general/2013/11/25/pentagon-awards-425-million-in-defense-contracts-m.aspx|11/25/2013|0|"Boeing"|13
+http://www.fool.com/investing/general/2013/11/25/how-the-787-dreamliner-dragged-down-the-dows-hotte.aspx|11/25/2013|0|"Boeing"|9
+http://www.fool.com/investing/general/2013/11/25/whats-wrong-with-these-3-dow-stocks.aspx|11/25/2013|0|"Boeing"|10
+http://www.fool.com/investing/general/2013/11/25/morning-dow-report-boeing-plunges-caterpillar-clim.aspx|11/25/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/25/heres-what-the-guy-who-sued-apple-is-buying-and-se.aspx|11/25/2013|0|"Boeing"|45
+http://www.fool.com/investing/general/2013/11/25/why-boeings-latest-engine-problem-could-attract-he.aspx|11/25/2013|0|"Boeing"|2
+http://www.thestreet.com/story/12125113/1/boeing-co-ba-todays-featured-aerospacedefense-laggard.html|11/25/2013|0|"Boeing"|7
+http://www.cnbc.com/id/101227412|11/25/2013|0|"Boeing"|8
+http://www.thestreet.com/story/12124334/1/dow-today-caterpillar-cat-leads-the-day-higher-boeing-ba-lags.html|11/25/2013|0|"Boeing"|6
+http://www.cnbc.com/id/101225864|11/25/2013|0|"Boeing"|23
+http://www.bloomberg.com/news/2013-11-24/boeing-to-ubs-help-luxoft-lessen-country-risks-russia-overnight.html|11/25/2013|0|"Boeing"|1
+http://www.cnbc.com/id/101226904|11/25/2013|0|"Boeing"|21
+http://www.bloomberg.com/news/2013-11-25/south-carolina-issues-bonds-to-lure-boeing-muni-deal.html|11/25/2013|0|"Boeing"|0
+http://www.cnbc.com/id/101227193|11/25/2013|0|"Boeing"|49
+http://www.bloomberg.com/news/2013-11-25/opposition-doesn-t-threaten-pacific-trade-deal-pritzker.html|11/25/2013|0|"Boeing"|22
+http://www.cnbc.com/id/101224828|11/25/2013|0|"Boeing"|11
+http://www.bloomberg.com/news/2013-11-25/obama-aides-brief-u-s-jewish-leaders-on-iran-agreement.html|11/25/2013|0|"Boeing"|25
+http://www.cnbc.com/id/101224872|11/25/2013|0|"Boeing"|19
+http://www.bloomberg.com/news/2013-11-25/yahoo-courts-couric-as-mayer-accelerates-turnaround-effort.html|11/25/2013|0|"Boeing"|16
+http://www.zacks.com/stock/news/115293/Boeing-Korea-Air-in-Pilot-Training-Project|11/25/2013|0|"Boeing"|5
+http://www.zacks.com/stock/news/115307/TXT-to-Buy-Flight-Simulator-Companies|11/25/2013|0|"Boeing"|18
+http://www.zacks.com/stock/news/115285/Lockheed-Set-to-Win-F35-S-Korea-Deal|11/25/2013|0|"Boeing"|14
+http://www.zacks.com/stock/news/115304/New-United-Hanger-at-Dulles|11/25/2013|0|"Boeing"|15
+http://www.thestreet.com/story/12124334/1/dow-today-caterpillar-cat-leads-the-day-higher-boeing-ba-lags.html|11/25/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/25/caterpillar-upgraded-and-fords-2015-mustang-debut.aspx|11/25/2013|0|"Caterpillar Inc"|4
+http://www.fool.com/investing/general/2013/11/25/morning-dow-report-boeing-plunges-caterpillar-clim.aspx|11/25/2013|0|"Caterpillar Inc"|2
+http://www.cnbc.com/id/101224872|11/25/2013|0|"Caterpillar Inc"|8
+http://www.fool.com/investing/general/2013/11/25/whats-wrong-with-these-3-dow-stocks.aspx|11/25/2013|0|"Caterpillar Inc"|7
+http://www.fool.com/investing/general/2013/11/25/mondays-top-upgrades-and-downgrades.aspx|11/25/2013|0|"Caterpillar Inc"|5
+http://www.fool.com/investing/general/2013/11/25/caterpillars-bounce-leads-the-dows-record-rise.aspx|11/25/2013|0|"Caterpillar Inc"|3
+http://www.bloomberg.com/news/2013-11-25/u-s-stock-index-futures-rise-on-iran-nuclear-agreement.html|11/25/2013|0|"Caterpillar Inc"|6
+http://www.fool.com/investing/general/2013/11/25/why-chevrons-solid-returns-have-lagged-the-dow-in.aspx|11/25/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/25/the-cost-of-producing-lng-is-rising-but-investment.aspx|11/25/2013|0|"Chevron"|3
+http://www.fool.com/investing/general/2013/11/25/its-time-to-sink-or-swim-for-offshore-drillers.aspx|11/25/2013|0|"Chevron"|4
+http://www.fool.com/investing/general/2013/11/25/the-basic-needs-portfolio.aspx|11/25/2013|0|"Chevron"|2
+http://www.thestreet.com/story/12123769/1/investors-like-apaches-asset-sales.html|11/25/2013|0|"Chevron"|7
+http://www.bloomberg.com/news/2013-11-25/angola-s-central-bank-cuts-main-interest-rate-by-most-on-record.html|11/25/2013|0|"Chevron"|6
+http://www.thestreet.com/story/12124596/1/interesting-january-2014-stock-options-for-cvx.html|11/25/2013|0|"Chevron"|5
+http://www.thestreet.com/story/12124333/1/jim-cramer-for-oil-the-iran-deal-wont-change-much.html|11/25/2013|0|"Chevron"|12
+http://www.cnbc.com/id/101226315|11/25/2013|0|"Chevron"|14
+http://www.bloomberg.com/news/2013-11-24/total-s-kaombo-clov-may-make-angola-top-african-oil-producer.html|11/25/2013|0|"Chevron"|8
+http://www.zacks.com/stock/news/115260/Cameron-Provides-Rosebank-Deal-Update|11/25/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/11/25/when-government-spying-shorts-investors.aspx|11/25/2013|0|"Cisco Systems"|1
+http://www.fool.com/investing/general/2013/11/25/should-you-worry-about-ciscos-terrible-guidance.aspx|11/25/2013|0|"Cisco Systems"|0
+http://www.bloomberg.com/news/2013-11-25/london-hipsters-lose-to-cambridge-labs-in-venture-funding.html|11/25/2013|0|"Cisco Systems"|4
+http://www.bloomberg.com/news/2013-11-25/activist-investors-help-companies-not-workers.html|11/25/2013|0|"DuPont"|0
+http://www.bloomberg.com/news/2013-11-25/angola-s-central-bank-cuts-main-interest-rate-by-most-on-record.html|11/25/2013|0|"Exxon Mobil"|1
+http://www.bloomberg.com/news/2013-11-24/total-s-kaombo-clov-may-make-angola-top-african-oil-producer.html|11/25/2013|0|"Exxon Mobil"|2
+http://www.thestreet.com/story/12124333/1/jim-cramer-for-oil-the-iran-deal-wont-change-much.html|11/25/2013|0|"Exxon Mobil"|5
+http://www.thestreet.com/story/12123769/1/investors-like-apaches-asset-sales.html|11/25/2013|0|"Exxon Mobil"|4
+http://www.bloomberg.com/news/2013-11-25/opposition-doesn-t-threaten-pacific-trade-deal-pritzker.html|11/25/2013|0|"Exxon Mobil"|8
+http://www.cnbc.com/id/101226241|11/25/2013|0|"Exxon Mobil"|0
+http://www.cnbc.com/id/101226315|11/25/2013|0|"Exxon Mobil"|6
+http://www.cnbc.com/id/101224371|11/25/2013|0|"Exxon Mobil"|7
+http://www.fool.com/investing/general/2013/11/25/why-boeings-latest-engine-problem-could-attract-he.aspx|11/25/2013|0|"General Electric"|4
+http://www.fool.com/investing/general/2013/11/25/morning-dow-report-boeing-plunges-caterpillar-clim.aspx|11/25/2013|0|"General Electric"|3
+http://www.fool.com/investing/general/2013/11/25/how-the-787-dreamliner-dragged-down-the-dows-hotte.aspx|11/25/2013|0|"General Electric"|1
+http://www.fool.com/investing/general/2013/11/25/dow-afternoon-report-ibm-and-boeing-hold-back-high.aspx|11/25/2013|0|"General Electric"|5
+http://www.fool.com/investing/general/2013/11/25/is-it-time-to-sell-these-3d-printing-highfliers.aspx|11/25/2013|0|"General Electric"|2
+http://www.cnbc.com/id/101227412|11/25/2013|0|"General Electric"|7
+http://www.cnbc.com/id/101224872|11/25/2013|0|"General Electric"|8
+http://www.cnbc.com/id/101225551|11/25/2013|0|"General Electric"|10
+http://www.cnbc.com/id/101224828|11/25/2013|0|"General Electric"|6
+http://www.cnbc.com/id/101226904|11/25/2013|0|"General Electric"|9
+http://www.bloomberg.com/news/2013-11-25/japan-s-topix-index-gains-as-yen-touches-4-month.html|11/25/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-25/u-s-stock-index-futures-rise-on-iran-nuclear-agreement.html|11/25/2013|0|"Goldman Sachs Group"|11
+http://www.thestreet.com/story/12123956/1/buy-recommendation-reiterated-for-goldman-sachs-group-inc.html|11/25/2013|0|"Goldman Sachs Group"|1
+http://www.thestreet.com/story/12125012/1/dow-today-goldman-sachs-group-gs-leads-the-day-higher-walt-disney-dis-lags.html|11/25/2013|0|"Goldman Sachs Group"|0
+http://www.bloomberg.com/news/2013-11-25/equity-residential-said-in-talks-to-sell-unit-to-deutsche-bank.html|11/25/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-25/is-the-sec-s-new-enforcement-zeal-for-real-.html|11/25/2013|0|"Goldman Sachs Group"|6
+http://www.zacks.com/stock/news/115256/Goldman-to-Vend-Uranium-Trading-Unit|11/25/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-25/what-is-goldman-sachs-doing-with-venezuela-s-gold-.html|11/25/2013|0|"Goldman Sachs Group"|2
+http://www.bloomberg.com/news/2013-11-25/ex-soros-adviser-s-dalton-china-fund-beat-peers-with-25-return.html|11/25/2013|0|"Goldman Sachs Group"|12
+http://www.bloomberg.com/news/2013-11-25/fluid-s-watson-powered-shopping-app-will-debut-next-year.html|11/25/2013|0|"Goldman Sachs Group"|19
+http://www.bloomberg.com/news/2013-11-25/brent-slide-leads-energy-prices-lower-after-iran-accord.html|11/25/2013|0|"Goldman Sachs Group"|18
+http://www.bloomberg.com/news/2013-11-25/canada-pension-names-warmbold-as-cfo-amid-management-shuffle.html|11/25/2013|0|"Goldman Sachs Group"|10
+http://www.bloomberg.com/news/2013-11-25/chinalco-group-said-to-exit-bidding-for-glencore-s-bambas-mine.html|11/25/2013|0|"Goldman Sachs Group"|4
+http://www.bloomberg.com/news/2013-11-22/gensler-rushes-to-lock-in-swap-rules-as-wall-street-pushes-back.html|11/25/2013|0|"Goldman Sachs Group"|14
+http://www.bloomberg.com/news/2013-11-24/hedge-fund-gold-bets-less-bullish-as-paulson-holds-commodities.html|11/25/2013|0|"Goldman Sachs Group"|16
+http://www.bloomberg.com/news/2013-11-24/brent-crude-slumps-from-six-week-high-after-iran-nuclear-accord.html|11/25/2013|0|"Goldman Sachs Group"|17
+http://www.bloomberg.com/news/2013-11-25/chrysler-ipo-said-delayed-to-2014-by-u-s-tax-confusion.html|11/25/2013|0|"Goldman Sachs Group"|8
+http://www.bloomberg.com/news/2013-11-24/u-s-says-iran-oil-exports-can-t-increase-under-nuclear-accord.html|11/25/2013|0|"Goldman Sachs Group"|15
+http://www.fool.com/investing/general/2013/11/25/home-depots-deeply-dedicated-to-its-shareholders.aspx|11/25/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/25/whitney-tilson-is-wrong-about-lumber-liquidators.aspx|11/25/2013|0|"Home Depot"|19
+http://www.fool.com/investing/general/2013/11/25/should-you-bet-on-the-action-at-tile-shop-holdings.aspx|11/25/2013|0|"Home Depot"|4
+http://www.fool.com/investing/general/2013/11/25/dow-and-sp-500-climb-last-week-to-record-highs.aspx|11/25/2013|0|"Home Depot"|6
+http://www.thestreet.com/story/12124593/1/one-put-one-call-option-to-know-about-for-home-depot.html|11/25/2013|0|"Home Depot"|1
+http://www.thestreet.com/story/12124390/1/all-i-want-for-christmas-is-a-few-good-reits.html|11/25/2013|0|"Home Depot"|7
+http://www.cnbc.com/id/101226377|11/25/2013|0|"Home Depot"|14
+http://www.bloomberg.com/news/2013-11-25/faucets-at-1-000-abound-as-home-equity-spigot-opens-mortgages.html|11/25/2013|0|"Home Depot"|3
+http://www.thestreet.com/story/12123957/1/what-to-buy-home-depot-incs-buy-recommendation-reiterated.html|11/25/2013|0|"Home Depot"|2
+http://www.rttnews.com/2229691/bloomberg-intel-looking-to-sell-internet-tv-service-for-500-mln.aspx|11/25/2013|0|"Intel Corp"|0
+http://www.bloomberg.com/news/2013-11-25/fluid-s-watson-powered-shopping-app-will-debut-next-year.html|11/25/2013|0|"International Business Machines"|1
+http://www.fool.com/investing/general/2013/11/25/should-you-worry-about-ciscos-terrible-guidance.aspx|11/25/2013|0|"International Business Machines"|2
+http://www.fool.com/investing/general/2013/11/25/ibm-dark-horse-of-the-tech-sector.aspx|11/25/2013|0|"International Business Machines"|3
+http://www.fool.com/investing/general/2013/11/25/growth-and-shareholder-value-make-accenture-underv.aspx|11/25/2013|0|"International Business Machines"|9
+http://www.thestreet.com/story/12124335/1/dow-today-international-business-machines-ibm-lower.html|11/25/2013|0|"International Business Machines"|0
+http://www.thestreet.com/story/12124125/1/new-lifetime-high-for-hcc-insurance-holdings-hcc.html|11/25/2013|0|"International Business Machines"|10
+http://www.bloomberg.com/news/2013-11-25/qualcomm-says-china-agency-started-anti-monopoly-law-probe.html|11/25/2013|0|"International Business Machines"|7
+http://www.zacks.com/stock/news/115218/CA-Hits-52Week-High|11/25/2013|0|"International Business Machines"|4
+http://www.fool.com/investing/general/2013/11/25/caterpillars-bounce-leads-the-dows-record-rise.aspx|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|3
+http://www.fool.com/investing/general/2013/11/25/johnson-johnson-wins-hep-c-battle-war-doesnt-look.aspx|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.fool.com/investing/general/2013/11/25/is-novo-nordisk-still-an-attractive-investment.aspx|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|2
+http://www.fool.com/investing/general/2013/11/25/keep-an-eye-on-johnson-johnson-orexigen-repros-and.aspx|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.cnbc.com/id/101226955|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|4
+http://www.cnbc.com/id/101221221|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|8
+http://www.zacks.com/stock/news/115246/Gilead-Soars-on-Positive-CHMP-Opinion|11/25/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|9
+http://www.reuters.com/finance/stocks/GBXPY.PK/key-developments/article/2877818|11/25/2013|0|"JP Morgan"|4
+http://www.zacks.com/stock/news/115032/Can-Bank-ETFs-Bounce-Back-After-Recent-Downgrade|11/25/2013|0|"JP Morgan"|1
+http://www.zacks.com/stock/news/115035/3-ETFs-to-Play-Platinums-Coming-Shortfall|11/25/2013|0|"JP Morgan"|3
+http://www.bloomberg.com/news/2013-11-25/levine-on-wall-street-smaller-fines-bigger-paychecks.html|11/25/2013|0|"JP Morgan"|0
+http://www.thestreet.com/story/12123960/1/buy-recommendation-reiterated-for-mcdonalds-corporation.html|11/25/2013|0|"McDonald's Corp"|0
+http://www.fool.com/investing/general/2013/11/25/johnson-johnson-wins-hep-c-battle-war-doesnt-look.aspx|11/25/2013|0|"Merck & Co"|1
+http://www.bloomberg.com/news/2013-11-25/yahoo-courts-couric-as-mayer-accelerates-turnaround-effort.html|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|4
+http://www.cnbc.com/id/101224630|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|7
+http://www.bloomberg.com/news/2013-11-25/activist-investors-help-companies-not-workers.html|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.cnbc.com/id/101225741|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|6
+http://www.bloomberg.com/news/2013-11-25/spy-world-links-plus-obama-ties-stoke-concern-about-nsa-review.html|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.zacks.com/stock/news/115296/HST-Sells-Marriott-Property|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.bloomberg.com/news/2013-11-24/apple-agrees-to-350-million-deal-for-israel-s-primesense.html|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.bloomberg.com/news/2013-11-24/obama-hitting-seven-democratic-fundraisers-on-west-coast.html|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|11
+http://www.cnbc.com/id/101225704|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|13
+http://www.cnbc.com/id/101224872|11/25/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|10
+http://www.fool.com/investing/general/2013/11/25/motorola-and-3d-systems-join-forces-to-change-the.aspx|11/25/2013|0|"Nike"|0
+http://www.fool.com/investing/general/2013/11/25/is-it-time-to-sell-these-3d-printing-highfliers.aspx|11/25/2013|0|"Nike"|6
+http://www.bloomberg.com/news/2013-11-25/sampson-upset-made-hawaii-basketball-tournament-espn-slam-dunk.html|11/25/2013|0|"Nike"|3
+http://www.cnbc.com/id/101225903|11/25/2013|0|"Nike"|1
+http://www.bloomberg.com/news/2013-11-25/alabama-football-dominance-powered-by-greyhound-fortune.html|11/25/2013|0|"Nike"|2
+http://www.zacks.com/stock/news/115255/Iconix-Reiterated-at-Outperform|11/25/2013|0|"Nike"|4
+http://www.fool.com/investing/general/2013/11/25/is-novo-nordisk-still-an-attractive-investment.aspx|11/25/2013|0|"Pfizer"|3
+http://www.fool.com/investing/general/2013/11/25/3-new-breast-cancer-treatments-worth-watching.aspx|11/25/2013|0|"Pfizer"|1
+http://www.zacks.com/stock/news/115266/Glaxo-Shares-Rise-on-Tivicay-News|11/25/2013|0|"Pfizer"|2
+http://www.rttnews.com/2229207/sensex-rallies-on-iran-nuclear-deal.aspx|11/25/2013|0|"Pfizer"|28
+http://www.rttnews.com/2229129/pfizer-india-wyeth-to-merge-set-7-10-swap-ratio.aspx|11/25/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/11/25/the-basic-needs-portfolio.aspx|11/25/2013|0|"Procter & Gamble" OR "Procter And Gamble"|1
+http://www.thestreet.com/story/12124657/1/dow-today-procter-gamble-pg-higher.html|11/25/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.fool.com/investing/general/2013/11/25/why-sodastreams-new-innovative-flavor-caps-are-a-b.aspx|11/25/2013|0|"Coca-Cola"|2
+http://www.thestreet.com/story/12124069/1/buy-recommendation-reiterated-for-coca-cola-co.html|11/25/2013|0|"Coca-Cola"|1
+http://www.bloomberg.com/news/2013-11-25/beermaker-efes-no-match-for-putin-faces-downgrade-turkey-credit.html|11/25/2013|0|"Coca-Cola"|4
+http://www.cnbc.com/id/101224767|11/25/2013|0|"Coca-Cola"|10
+http://www.bloomberg.com/news/2013-11-25/why-can-i-buy-a-coke-without-sugar-or-caffeine-but-not-water-dumb-question.html|11/25/2013|0|"Coca-Cola"|0
+http://www.thestreet.com/story/12124586/1/one-put-one-call-option-to-know-about-for-united-technologies.html|11/25/2013|0|"United Technologies Corp"|1
+http://www.thestreet.com/story/12123971/1/what-to-buy-united-technologies-corps-buy-recommendation-reiterated.html|11/25/2013|0|"United Technologies Corp"|0
+http://www.bloomberg.com/news/2013-11-25/emirates-pits-rolls-against-ge-to-improve-airbus-a380-superjumbo.html|11/25/2013|0|"United Technologies Corp"|4
+http://www.zacks.com/stock/news/115285/Lockheed-Set-to-Win-F35-S-Korea-Deal|11/25/2013|0|"United Technologies Corp"|3
+http://www.zacks.com/stock/news/115319/CHC-Orders-More-Sikorsky-S92-Helicopters|11/25/2013|0|"United Technologies Corp"|2
+http://www.fool.com/investing/general/2013/11/25/can-unitedhealth-overcome-obamacares-shaky-start-i.aspx|11/25/2013|0|"UnitedHealth Group"|0
+http://www.bloomberg.com/news/2013-11-25/fda-tells-google-backed-23andme-to-halt-dna-test-service.html|11/25/2013|0|"UnitedHealth Group"|1
+http://www.fool.com/investing/general/2013/11/25/att-is-chomping-at-the-bit.aspx|11/25/2013|0|"Verizon Communications"|0
+http://www.fool.com/investing/general/2013/11/25/can-analog-devices-win-big-from-att-and-sprint.aspx|11/25/2013|0|"Verizon Communications"|1
+http://www.rttnews.com/2229691/bloomberg-intel-looking-to-sell-internet-tv-service-for-500-mln.aspx|11/25/2013|0|"Verizon Communications"|37
+http://www.cnbc.com/id/101225903|11/25/2013|0|"Visa Inc"|1
+http://money.cnn.com/2013/11/25/news/companies/walmart-new-ceo/|11/25/2013|0|"Wal-Mart"|0
+http://www.cnbc.com/id/101212061|11/25/2013|0|"Wal-Mart"|1
+http://www.bloomberg.com/news/2013-11-25/wal-mart-names-doug-mcmillon-ceo-to-succeed-mike-duke.html|11/25/2013|0|"Wal-Mart"|2
+http://www.fool.com/investing/general/2013/11/25/wal-mart-picks-a-new-ceo.aspx|11/25/2013|0|"Wal-Mart"|5
+http://www.fool.com/investing/general/2013/11/25/5-states-with-the-lowest-median-household-income.aspx|11/25/2013|0|"Wal-Mart"|49
+http://www.fool.com/investing/general/2013/11/25/ashton-kutcher-vs-wal-mart.aspx|11/25/2013|0|"Wal-Mart"|14
+http://www.fool.com/investing/general/2013/11/25/morning-dow-report-boeing-plunges-caterpillar-clim.aspx|11/25/2013|0|"Wal-Mart"|10
+http://www.fool.com/investing/general/2013/11/25/can-mcmillon-turn-wal-mart-around.aspx|11/25/2013|0|"Wal-Mart"|16
+http://www.fool.com/investing/general/2013/11/25/sears-surges-on-rumor-pandora-plunges-on-paltry-pr.aspx|11/25/2013|0|"Wal-Mart"|18
+http://www.fool.com/investing/general/2013/11/25/will-costco-wal-mart-and-target-disappoint-this-ho.aspx|11/25/2013|0|"Wal-Mart"|11
+http://www.fool.com/investing/general/2013/11/25/3-reasons-walmart-went-international-with-its-new.aspx|11/25/2013|0|"Wal-Mart"|12
+http://www.fool.com/investing/general/2013/11/25/investor-beat-november-25-2013.aspx|11/25/2013|0|"Wal-Mart"|40
+http://www.fool.com/investing/general/2013/11/25/can-clinics-move-the-needle-for-cvs-walgreen-and-w.aspx|11/25/2013|0|"Wal-Mart"|8
+http://www.fool.com/investing/general/2013/11/25/wal-mart-gets-a-new-chief-and-sears-jumps-on-a-pot.aspx|11/25/2013|0|"Wal-Mart"|15
+http://www.fool.com/investing/general/2013/11/25/target-is-singing-the-canada-blues.aspx|11/25/2013|0|"Wal-Mart"|42
+http://www.rttnews.com/2229337/wal-mart-appoints-doug-mcmillon-to-succeed-mike-duke-as-president-and-ceo.aspx|11/25/2013|0|"Wal-Mart"|13
+http://www.fool.com/investing/general/2013/11/25/inside-targets-pre-holiday-disaster.aspx|11/25/2013|0|"Wal-Mart"|45
+http://www.fool.com/investing/general/2013/11/25/will-these-retailers-see-more-online-sales-this-ho.aspx|11/25/2013|0|"Wal-Mart"|17
+http://www.thestreet.com/story/12124085/1/wal-mart-desperate-for-growth-picks-global-head-as-ceo.html|11/25/2013|0|"Wal-Mart"|6
+http://www.cnbc.com/id/101226904|11/25/2013|0|"Wal-Mart"|19
+http://www.cnbc.com/id/101224580|11/25/2013|0|"Wal-Mart"|7
+http://www.cnbc.com/id/101226156|11/25/2013|0|"Wal-Mart"|9
+http://www.cnbc.com/id/101225306|11/25/2013|0|"Wal-Mart"|4
+http://www.bloomberg.com/news/2013-11-25/macy-s-joining-wal-mart-on-thanksgiving-energizes-labor.html|11/25/2013|0|"Wal-Mart"|3
+http://www.thestreet.com/story/12124121/1/new-lifetime-high-today-walt-disney-dis.html|11/25/2013|0|"Walt Disney Company"|1
+http://www.thestreet.com/story/12125012/1/dow-today-goldman-sachs-group-gs-leads-the-day-higher-walt-disney-dis-lags.html|11/25/2013|0|"Walt Disney Company"|0
+http://www.fool.com/investing/general/2013/11/24/3-retailers-for-a-long-term-portfolio.aspx|11/24/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/24/dow-16000-should-you-dump-these-losing-dow-stocks.aspx|11/24/2013|0|"AT&T"|0
+http://www.fool.com/investing/general/2013/11/24/boeing-vs-caterpillar-which-stocks-dividend-domina.aspx|11/24/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/24/is-alcoa-destined-for-greatness.aspx|11/24/2013|0|"Boeing"|6
+http://www.fool.com/investing/general/2013/11/24/steel-is-cooked-if-this-auto-trend-catches-fire.aspx|11/24/2013|0|"Boeing"|3
+http://www.fool.com/investing/general/2013/11/24/will-fuel-efficiency-lower-ticket-prices-for-flier.aspx|11/24/2013|0|"Boeing"|2
+http://www.fool.com/investing/general/2013/11/24/defense-news-roundup-pentagon-awards-a-53-billion.aspx|11/24/2013|0|"Boeing"|5
+http://www.fool.com/investing/general/2013/11/24/will-middle-eastern-carriers-crush-the-us-airlines.aspx|11/24/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/24/dow-16000-should-you-dump-these-losing-dow-stocks.aspx|11/24/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/24/boeing-vs-caterpillar-which-stocks-dividend-domina.aspx|11/24/2013|0|"Caterpillar Inc"|0
+http://www.fool.com/investing/general/2013/11/24/is-buffett-looking-for-exxonmobil-to-break-up.aspx|11/24/2013|0|"Chevron"|2
+http://www.fool.com/investing/general/2013/11/24/fleetcor-a-fleeting-growth-opportunity.aspx|11/24/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/11/24/gold-bugs-heres-your-shot-to-call-out-warren-buffe.aspx|11/24/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/24/can-tivo-make-money-after-settling-with-google-and.aspx|11/24/2013|0|"Cisco Systems"|0
+http://www.cnbc.com/id/101223767|11/24/2013|0|"Cisco Systems"|1
+http://www.fool.com/investing/general/2013/11/24/2-companies-teaming-up-to-tackle-monsanto.aspx|11/24/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/24/is-isobutanol-the-perfect-olive-branch-for-the-epa.aspx|11/24/2013|0|"DuPont"|1
+http://www.fool.com/investing/general/2013/11/24/is-buffett-looking-for-exxonmobil-to-break-up.aspx|11/24/2013|0|"Exxon Mobil"|0
+http://www.fool.com/investing/general/2013/11/24/natural-gas-trains-are-here.aspx|11/24/2013|0|"General Electric"|0
+http://www.fool.com/investing/general/2013/11/24/home-depot-vs-target-which-stocks-dividend-dominat.aspx|11/24/2013|0|"Home Depot"|0
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/24/taxes-2014-1-big-break-you-shouldnt-miss.aspx|11/24/2013|0|"Home Depot"|2
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.fool.com/investing/general/2013/11/24/3-alternative-treatments-to-alzheimers-disease.aspx|11/24/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.rttnews.com/2229030/sunday-telegraph-lloyds-to-sell-up-to-50-stake-in-tsb-at-ipo.aspx|11/24/2013|0|"JP Morgan"|2
+http://www.fool.com/investing/general/2013/11/24/10-bagger-returns-without-rd.aspx|11/24/2013|0|"Merck & Co"|1
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Merck & Co"|0
+http://www.fool.com/investing/general/2013/11/24/microsoft-bets-big-with-xbox-one-release.aspx|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.cnbc.com/id/101223798|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.cnbc.com/id/101223767|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.cnbc.com/id/101215734|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.fool.com/investing/general/2013/11/24/gold-bugs-heres-your-shot-to-call-out-warren-buffe.aspx|11/24/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/24/gamestops-comments-may-mean-the-sony-ps4-is-destro.aspx|11/24/2013|0|"Nike"|3
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/11/24/3-alternative-treatments-to-alzheimers-disease.aspx|11/24/2013|0|"Pfizer"|2
+http://www.fool.com/investing/general/2013/11/24/10-bagger-returns-without-rd.aspx|11/24/2013|0|"Pfizer"|1
+
+http://www.fool.com/investing/general/2013/11/24/3-retailers-for-a-long-term-portfolio.aspx|11/24/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/24/dow-16000-should-you-dump-these-losing-dow-stocks.aspx|11/24/2013|0|"AT&T"|0
+http://www.fool.com/investing/general/2013/11/24/sprint-and-best-buy-offer-a-serious-deal-to-studen.aspx|11/24/2013|0|"AT&T"|20
+http://www.fool.com/investing/general/2013/11/24/will-fuel-efficiency-lower-ticket-prices-for-flier.aspx|11/24/2013|0|"Boeing"|1
+http://www.fool.com/investing/general/2013/11/24/boeing-vs-caterpillar-which-stocks-dividend-domina.aspx|11/24/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/24/will-middle-eastern-carriers-crush-the-us-airlines.aspx|11/24/2013|0|"Boeing"|3
+http://www.fool.com/investing/general/2013/11/24/steel-is-cooked-if-this-auto-trend-catches-fire.aspx|11/24/2013|0|"Boeing"|2
+http://www.fool.com/investing/general/2013/11/24/defense-news-roundup-pentagon-awards-a-53-billion.aspx|11/24/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/24/is-alcoa-destined-for-greatness.aspx|11/24/2013|0|"Boeing"|6
+http://www.fool.com/investing/general/2013/11/24/boeing-vs-caterpillar-which-stocks-dividend-domina.aspx|11/24/2013|0|"Caterpillar Inc"|0
+http://www.fool.com/investing/general/2013/11/24/dow-16000-should-you-dump-these-losing-dow-stocks.aspx|11/24/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/24/fleetcor-a-fleeting-growth-opportunity.aspx|11/24/2013|0|"Chevron"|1
+http://www.fool.com/investing/general/2013/11/24/gold-bugs-heres-your-shot-to-call-out-warren-buffe.aspx|11/24/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/24/is-buffett-looking-for-exxonmobil-to-break-up.aspx|11/24/2013|0|"Chevron"|2
+http://www.fool.com/investing/general/2013/11/24/can-tivo-make-money-after-settling-with-google-and.aspx|11/24/2013|0|"Cisco Systems"|0
+http://www.fool.com/investing/general/2013/11/24/is-it-time-for-ebay-to-bite-the-bullet.aspx|11/24/2013|0|"Cisco Systems"|14
+http://www.cnbc.com/id/101223767|11/24/2013|0|"Cisco Systems"|11
+http://www.fool.com/investing/general/2013/11/24/2-companies-teaming-up-to-tackle-monsanto.aspx|11/24/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/24/is-isobutanol-the-perfect-olive-branch-for-the-epa.aspx|11/24/2013|0|"DuPont"|1
+http://www.fool.com/investing/general/2013/11/24/is-buffett-looking-for-exxonmobil-to-break-up.aspx|11/24/2013|0|"Exxon Mobil"|0
+http://www.fool.com/investing/general/2013/11/24/natural-gas-trains-are-here.aspx|11/24/2013|0|"General Electric"|0
+http://www.fool.com/investing/general/2013/11/24/home-depot-vs-target-which-stocks-dividend-dominat.aspx|11/24/2013|0|"Home Depot"|0
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/24/taxes-2014-1-big-break-you-shouldnt-miss.aspx|11/24/2013|0|"Home Depot"|3
+http://www.fool.com/investing/general/2013/11/24/3-alternative-treatments-to-alzheimers-disease.aspx|11/24/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.rttnews.com/2229030/sunday-telegraph-lloyds-to-sell-up-to-50-stake-in-tsb-at-ipo.aspx|11/24/2013|0|"JP Morgan"|2
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Merck & Co"|0
+http://www.cnbc.com/id/101223798|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.cnbc.com/id/101223767|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.cnbc.com/id/101215734|11/24/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.fool.com/investing/general/2013/11/24/gold-bugs-heres-your-shot-to-call-out-warren-buffe.aspx|11/24/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/24/gamestops-comments-may-mean-the-sony-ps4-is-destro.aspx|11/24/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/24/better-buy-merck-pfizer-or-johnson-johnson.aspx|11/24/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/11/24/10-bagger-returns-without-rd.aspx|11/24/2013|0|"Pfizer"|1
+http://www.fool.com/investing/general/2013/11/24/3-alternative-treatments-to-alzheimers-disease.aspx|11/24/2013|0|"Pfizer"|3
+http://www.fool.com/investing/general/2013/11/24/dow-16000-should-you-dump-these-losing-dow-stocks.aspx|11/24/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/24/4-takeaways-from-monster-beverages-earnings-call.aspx|11/24/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/11/24/do-these-delays-deal-an-irreparable-blow-to-obamac.aspx|11/24/2013|0|"UnitedHealth Group"|0
+http://www.fool.com/investing/general/2013/11/24/will-the-obamacare-website-woes-defang-the-obamaca.aspx|11/24/2013|0|"UnitedHealth Group"|1
+http://www.fool.com/investing/general/2013/11/24/dollar-stores-still-popular-with-middle-class-cons.aspx|11/24/2013|0|"Wal-Mart"|2
+http://www.fool.com/investing/general/2013/11/24/retailers-are-entering-a-cold-war-for-dominance-of.aspx|11/24/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/11/24/wal-mart-vs-united-parcel-service-which-stocks-div.aspx|11/24/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/11/24/amazon-goes-postal-why-should-it-concern-investors.aspx|11/24/2013|0|"Wal-Mart"|10
+http://www.fool.com/investing/general/2013/11/24/home-depot-vs-target-which-stocks-dividend-dominat.aspx|11/24/2013|0|"Wal-Mart"|3
+http://www.fool.com/investing/general/2013/11/24/3-big-movers-bank-of-america-yahoo-and-best-buy.aspx|11/24/2013|0|"Wal-Mart"|27
+http://www.fool.com/investing/general/2013/11/24/4-things-you-didnt-know-about-trader-joes.aspx|11/24/2013|0|"Wal-Mart"|47
+http://www.fool.com/investing/general/2013/11/23/why-was-american-express-the-dows-best-financial-s.aspx|11/23/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/23/2-warren-buffett-stocks-we-wouldnt-touch.aspx|11/23/2013|0|"American Express"|1
+http://www.fool.com/investing/general/2013/11/23/5-consumer-finance-stocks-we-love.aspx|11/23/2013|0|"American Express"|2
+http://www.bloomberg.com/news/2013-11-22/time-warner-files-plan-to-spin-off-magazine-publisher-next-year.html|11/23/2013|0|"American Express"|3
+http://www.zacks.com/stock/news/115189/Are-You-Outperforming-the-Market|11/23/2013|0|"American Express"|4
+http://www.fool.com/investing/general/2013/11/23/is-akamai-destined-for-greatness.aspx|11/23/2013|0|"AT&T"|1
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"AT&T"|20
+http://www.fool.com/investing/general/2013/11/23/believe-it-or-not-your-next-smartphone-is-basicall.aspx|11/23/2013|0|"AT&T"|7
+http://www.fool.com/investing/general/2013/11/23/snowden-nsa-spying-business-competitiveness.aspx|11/23/2013|0|"AT&T"|0
+http://www.cnbc.com/id/101223041|11/23/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/23/sikorsky-wins-47-million-to-convert-army-black-haw.aspx|11/23/2013|0|"Boeing"|9
+http://www.fool.com/investing/general/2013/11/23/pentagon-announces-331-million-in-defense-contract.aspx|11/23/2013|0|"Boeing"|7
+http://www.fool.com/retirement/general/2013/11/23/these-4-stocks-made-dow-16000-happen.aspx|11/23/2013|0|"Boeing"|8
+http://www.cnbc.com/id/101223137|11/23/2013|0|"Boeing"|3
+http://www.cnbc.com/id/101223127|11/23/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/23/lockheed-wins-a-south-korean-f-35-contract-maybe.aspx|11/23/2013|0|"Boeing"|6
+http://www.bloomberg.com/news/2013-11-23/jal-replaces-787-on-some-routes-at-boeing-order-on-engine-icing.html|11/23/2013|0|"Boeing"|1
+http://www.bloomberg.com/news/2013-11-23/businesses-wary-as-obama-picks-get-edge-in-senate-rules.html|11/23/2013|0|"Boeing"|11
+http://www.rttnews.com/2228940/boeing-warns-of-ge-engine-icing-risk-on-747-8s-dreamliners-reports.aspx|11/23/2013|0|"Boeing"|5
+http://www.bloomberg.com/news/2013-11-23/boeing-warns-of-ice-risks-for-ge-powered-dreamliners-in-storms.html|11/23/2013|0|"Boeing"|2
+http://www.fool.com/investing/general/2013/11/23/is-manitowoc-destined-for-greatness.aspx|11/23/2013|0|"Caterpillar Inc"|2
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/23/this-weeks-top-stocks.aspx|11/23/2013|0|"Chevron"|0
+http://www.bloomberg.com/news/2013-11-22/woods-s-world-challenge-golf-event-moving-to-florida-s-isleworth.html|11/23/2013|0|"Chevron"|3
+http://www.fool.com/investing/general/2013/11/23/snowden-nsa-spying-business-competitiveness.aspx|11/23/2013|0|"Cisco Systems"|0
+http://www.fool.com/investing/general/2013/11/23/is-akamai-destined-for-greatness.aspx|11/23/2013|0|"Cisco Systems"|14
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"Cisco Systems"|23
+http://www.fool.com/investing/general/2013/11/23/monsanto-controls-the-uncontrollables.aspx|11/23/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"DuPont"|2
+http://www.fool.com/investing/general/2013/11/23/is-this-peak-ethanol.aspx|11/23/2013|0|"DuPont"|1
+http://www.bloomberg.com/news/2013-11-23/boeing-warns-of-ice-risks-for-ge-powered-dreamliners-in-storms.html|11/23/2013|0|"General Electric"|3
+http://www.cnbc.com/id/101223137|11/23/2013|0|"General Electric"|2
+http://www.cnbc.com/id/101223041|11/23/2013|0|"General Electric"|0
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"General Electric"|5
+http://www.cnbc.com/id/101223127|11/23/2013|0|"General Electric"|1
+http://www.bloomberg.com/news/2013-11-22/truecar-said-to-consider-ipo-next-year-for-online-auto-retailer.html|11/23/2013|0|"Goldman Sachs Group"|0
+http://www.fool.com/investing/general/2013/11/23/lowes-got-smashed-was-it-justified.aspx|11/23/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"Home Depot"|1
+http://www.fool.com/investing/general/2013/11/23/7-high-paying-jobs-for-the-future-of-big-data.aspx|11/23/2013|0|"International Business Machines"|3
+http://www.rttnews.com/2228918/j-j-medivir-get-fda-approval-for-olysio-to-treat-hepatitis-c-virus-infection.aspx|11/23/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.bloomberg.com/news/2013-11-22/j-j-medivir-win-u-s-approval-for-hepatitis-c-pill.html|11/23/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.bloomberg.com/news/2013-11-22/fed-s-tarullo-says-volcker-rule-will-prevent-more-london-whales.html|11/23/2013|0|"JP Morgan"|1
+http://www.bloomberg.com/news/2013-11-22/jpmorgan-says-mbia-didn-t-read-report-allegedly-altered.html|11/23/2013|0|"JP Morgan"|0
+http://www.bloomberg.com/news/2013-11-22/j-j-medivir-win-u-s-approval-for-hepatitis-c-pill.html|11/23/2013|0|"Merck & Co"|0
+http://www.bloomberg.com/news/2013-11-23/microsoft-says-initial-xbox-one-sales-exceed-1-million.html|11/23/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.cnbc.com/id/101222864|11/23/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.fool.com/investing/general/2013/11/23/fords-next-generation-edge-will-leap-ahead-of-comp.aspx|11/23/2013|0|"Nike"|3
+http://www.fool.com/investing/general/2013/11/23/3-dividend-growth-companies-with-powerful-brands.aspx|11/23/2013|0|"Nike"|0
+http://www.fool.com/investing/general/2013/11/23/it-was-a-horrible-week-for-3-d-printing-stocks.aspx|11/23/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"Nike"|4
+http://www.fool.com/retirement/general/2013/11/23/these-4-stocks-made-dow-16000-happen.aspx|11/23/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/23/president-obama-changes-course-and-backs-hydrogen.aspx|11/23/2013|0|"Nike"|5
+http://www.reuters.com/finance/stocks/overview?symbol=PFIZ.NS|11/23/2013|0|"Pfizer"|0
+http://www.fool.com/investing/general/2013/11/23/the-3-worst-dow-stocks-to-own-last-week.aspx|11/23/2013|0|"Pfizer"|3
+http://www.fool.com/investing/general/2013/11/23/3-new-cholesterol-treatments-that-are-worth-watchi.aspx|11/23/2013|0|"Pfizer"|1
+http://www.fool.com/investing/general/2013/11/23/3-dividend-growth-companies-with-powerful-brands.aspx|11/23/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.fool.com/investing/general/2013/11/23/5-interesting-takeaways-from-coca-cola-femsas-earn.aspx|11/23/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/23/coca-cola-enterprises-is-good-but-invest-in-the-em.aspx|11/23/2013|0|"Coca-Cola"|2
+http://www.fool.com/investing/general/2013/11/23/5-takeaways-from-coca-cola-enterprises-earnings-ca.aspx|11/23/2013|0|"Coca-Cola"|1
+http://www.fool.com/investing/general/2013/11/23/4-things-you-didnt-know-about-coca-cola.aspx|11/23/2013|0|"Coca-Cola"|4
+http://www.fool.com/investing/general/2013/11/23/how-does-dr-pepper-stack-up-to-pepsi-and-coca-cola.aspx|11/23/2013|0|"Coca-Cola"|3
+http://www.fool.com/investing/general/2013/11/23/regulatory-similarities-between-gmo-foods-and-phar.aspx|11/23/2013|0|"Coca-Cola"|6
+http://www.fool.com/retirement/general/2013/11/23/these-4-stocks-made-dow-16000-happen.aspx|11/23/2013|0|"UnitedHealth Group"|0
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/23/the-3-most-expensive-tax-breaks-in-the-us.aspx|11/23/2013|0|"UnitedHealth Group"|1
+http://www.fool.com/investing/general/2013/11/23/critics-of-roger-goodells-increased-player-fines.aspx|11/23/2013|0|"Verizon Communications"|4
+http://www.fool.com/investing/general/2013/11/23/2-warren-buffett-stocks-we-wouldnt-touch.aspx|11/23/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/11/23/going-all-in-on-the-holidays-a-bad-strategy-for-be.aspx|11/23/2013|0|"Wal-Mart"|17
+http://www.fool.com/investing/general/2013/11/23/wal-mart-to-go-vs-amazonfresh-which-has-the-better.aspx|11/23/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/11/23/gap-and-fifth-pacifics-answer-to-fast-fashion.aspx|11/23/2013|0|"Wal-Mart"|16
+http://www.fool.com/investing/general/2013/11/23/black-friday-doesnt-matter-anymore.aspx|11/23/2013|0|"Wal-Mart"|37
+http://www.fool.com/investing/general/2013/11/23/3-things-you-didnt-know-about-disney.aspx|11/23/2013|0|"Walt Disney Company"|0
+http://www.bloomberg.com/news/2013-11-22/david-meline-says-3m-creates-novel-combinations-audio-.html|11/22/2013|0|"3M Co"|0
+http://www.cnbc.com/id/101221041|11/22/2013|0|"3M Co"|3
+http://www.zacks.com/stock/news/115176/AmEx-Rises-on-US-Bank-Alliance|11/22/2013|0|"American Express"|0
+http://www.fool.com/investing/general/2013/11/22/att-mobility-sprint-and-t-mobile-take-steps-agains.aspx|11/22/2013|0|"AT&T"|1
+http://www.bloomberg.com/news/2013-11-22/at-t-to-mylan-lead-surge-in-u-s-bond-sales-to-27-above-average.html|11/22/2013|0|"AT&T"|0
+http://www.zacks.com/stock/news/115157/Amdocs-Launches-Network-Solutions|11/22/2013|0|"AT&T"|8
+http://www.fool.com/investing/general/2013/11/22/fords-f-series-continues-its-domination-and-boeing.aspx|11/22/2013|0|"Boeing"|0
+http://www.fool.com/investing/general/2013/11/22/morning-dow-report-intel-home-depot-sink-boeing-so.aspx|11/22/2013|0|"Boeing"|1
+http://www.thestreet.com/story/12120770/1/dow-today-boeing-ba-leads-the-day-higher-intel-intc-lags.html|11/22/2013|0|"Boeing"|2
+http://www.thestreet.com/story/12121132/1/skip-the-lines-and-get-ahead-of-the-rush-southwest-airlines-launches-as-low-as-72-dollars-for-72-hours-pre-black-flyday-sale.html|11/22/2013|0|"Boeing"|21
+http://www.fool.com/investing/general/2013/11/22/will-united-technologies-crush-the-dow-jones-again.aspx|11/22/2013|0|"Boeing"|3
+http://www.fool.com/investing/general/2013/11/22/textron-buying-2-flight-simulator-companies.aspx|11/22/2013|0|"Boeing"|9
+http://www.bloomberg.com/news/2013-11-22/iran-is-playing-obama-says-savvy-saudi-prince.html|11/22/2013|0|"Boeing"|18
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/22/obamacare-cadillac-tax-what-it-means-for-you.aspx|11/22/2013|0|"Boeing"|23
+http://www.cnbc.com/id/101221728|11/22/2013|0|"Boeing"|16
+http://www.cnbc.com/id/101220318|11/22/2013|0|"Boeing"|7
+http://www.cnbc.com/id/101220327|11/22/2013|0|"Boeing"|5
+http://www.cnbc.com/id/101222433|11/22/2013|0|"Boeing"|10
+http://www.bloomberg.com/news/2013-11-22/businesses-wary-as-obama-picks-get-edge-in-senate-rules.html|11/22/2013|0|"Boeing"|15
+http://www.bloomberg.com/news/2013-11-22/south-korea-opts-to-buy-40-fighter-jets-with-stealth-capability.html|11/22/2013|0|"Boeing"|4
+http://www.cnbc.com/id/101220613|11/22/2013|0|"Boeing"|6
+http://www.zacks.com/stock/news/115086/Earnings-Beat-at-Wesco-Aircraft|11/22/2013|0|"Boeing"|11
+http://www.bloomberg.com/news/2013-11-22/manfacturers-wary-of-baucus-proposal-to-slow-deductions.html|11/22/2013|0|"Caterpillar Inc"|2
+http://www.cnbc.com/id/101222092|11/22/2013|0|"Caterpillar Inc"|1
+http://www.cnbc.com/id/101221472|11/22/2013|0|"Caterpillar Inc"|0
+http://money.cnn.com/2013/11/22/investing/stocks-markets/|11/22/2013|0|"Chevron"|5
+http://www.fool.com/investing/general/2013/11/22/the-motley-fools-fourth-worst-ceo-of-the-year-is.aspx|11/22/2013|0|"Chevron"|1
+http://www.bloomberg.com/news/2013-11-22/chevron-says-north-sea-discovery-won-t-pay-to-develop.html|11/22/2013|0|"Chevron"|0
+http://www.bloomberg.com/news/2013-11-22/repsol-may-spend-10-billion-on-assets-after-stake-sale-1-.html|11/22/2013|0|"Chevron"|6
+http://money.cnn.com/2013/11/22/technology/israel-tech-boom/|11/22/2013|0|"Cisco Systems"|1
+http://www.cnbc.com/id/101221124|11/22/2013|0|"Cisco Systems"|0
+http://www.thestreet.com/story/12117562/1/fast-money-recap-the-markets-roar-back.html|11/22/2013|0|"Cisco Systems"|11
+http://www.fool.com/investing/general/2013/11/22/todays-3-worst-stocks-in-the-sp-500.aspx|11/22/2013|0|"Cisco Systems"|18
+http://www.cnbc.com/id/101221125|11/22/2013|0|"Cisco Systems"|3
+http://www.fool.com/investing/general/2013/11/22/crop-seeds-what-big-players-should-you-invest-in.aspx|11/22/2013|0|"DuPont"|1
+http://www.bloomberg.com/news/2013-11-22/nokia-wwe-it-sugar-against-the-grain-intellectual-property.html|11/22/2013|0|"DuPont"|2
+http://www.zacks.com/stock/news/115120/DuPont-to-Jettison-Glass-Laminating-amp-Vinyls-Biz|11/22/2013|0|"DuPont"|0
+http://www.fool.com/investing/general/2013/11/22/how-exxon-mobil-bp-and-conocophillips-are-showing.aspx|11/22/2013|0|"Exxon Mobil"|2
+http://www.thestreet.com/story/12121294/1/nader-wants-fannie-freddie-hearing-on-shareholder-rights.html|11/22/2013|0|"Exxon Mobil"|0
+http://www.fool.com/investing/general/2013/11/22/exxonmobil-morningstar-sides-with-buffett-over-cha.aspx|11/22/2013|0|"Exxon Mobil"|3
+http://www.cnbc.com/id/101221694|11/22/2013|0|"Exxon Mobil"|1
+http://www.cnbc.com/id/101221278|11/22/2013|0|"Exxon Mobil"|9
+http://www.cnbc.com/id/101220363|11/22/2013|0|"Exxon Mobil"|4
+http://www.bloomberg.com/news/2013-11-22/oil-sands-miners-play-russian-roulette-with-toxic-water.html|11/22/2013|0|"Exxon Mobil"|5
+http://www.bloomberg.com/news/2013-11-22/harvard-yoga-scientists-find-proof-of-meditation-benefit.html|11/22/2013|0|"Exxon Mobil"|11
+http://www.fool.com/investing/general/2013/11/22/3-d-printed-finished-goods-are-no-joke.aspx|11/22/2013|0|"General Electric"|0
+http://www.thestreet.com/story/12121056/1/insider-trading-alert--ge-gpk-mo-csco-and-it-traded-by-insiders.html|11/22/2013|0|"General Electric"|1
+http://www.fool.com/investing/general/2013/11/22/textron-buying-2-flight-simulator-companies.aspx|11/22/2013|0|"General Electric"|8
+http://www.fool.com/investing/general/2013/11/22/cree-the-long-term-story-is-still-intact.aspx|11/22/2013|0|"General Electric"|6
+http://www.thestreet.com/story/12121209/1/5-dividend-stocks-that-want-to-pay-you-more.html|11/22/2013|0|"General Electric"|9
+http://www.thestreet.com/story/12119484/1/forum-energy-gearing-to-explode.html|11/22/2013|0|"General Electric"|2
+http://www.fool.com/investing/general/2013/11/22/will-united-technologies-crush-the-dow-jones-again.aspx|11/22/2013|0|"General Electric"|4
+http://money.cnn.com/2013/11/22/investing/stocks-markets/|11/22/2013|0|"General Electric"|11
+http://www.bloomberg.com/news/2013-11-22/borealis-caisse-said-shortlisted-in-port-of-brisbane-bidding.html|11/22/2013|0|"General Electric"|12
+http://www.cnbc.com/id/101221934|11/22/2013|0|"General Electric"|3
+http://www.bloomberg.com/news/2013-11-22/siemens-said-to-pick-von-drathen-for-board-support-group.html|11/22/2013|0|"General Electric"|7
+http://www.zacks.com/stock/news/115063/GE-Buys-Loan-Portfolio-from-Deutsche-Postbank|11/22/2013|0|"General Electric"|5
+http://www.bloomberg.com/news/2013-11-22/asian-stocks-rise-first-time-in-four-days-as-yen-weakens.html|11/22/2013|0|"Goldman Sachs Group"|14
+http://www.bloomberg.com/news/2013-11-22/harvard-yoga-scientists-find-proof-of-meditation-benefit.html|11/22/2013|0|"Goldman Sachs Group"|22
+http://www.cnbc.com/id/101221566|11/22/2013|0|"Goldman Sachs Group"|0
+http://www.cnbc.com/id/101222205|11/22/2013|0|"Goldman Sachs Group"|6
+http://www.cnbc.com/id/101221252|11/22/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-22/poland-seeks-growth-with-eu-cash-new-finance-chief-says.html|11/22/2013|0|"Goldman Sachs Group"|11
+http://www.bloomberg.com/news/2013-11-22/london-bullion-market-association-is-reviewing-benchmarks.html|11/22/2013|0|"Goldman Sachs Group"|10
+http://www.bloomberg.com/news/2013-11-22/china-stock-index-futures-rise-as-equities-head-for-weekly-gain.html|11/22/2013|0|"Goldman Sachs Group"|8
+http://www.bloomberg.com/news/2013-11-22/gold-analysts-most-bearish-since-june-on-fed-taper-commodities.html|11/22/2013|0|"Goldman Sachs Group"|13
+http://www.bloomberg.com/news/2013-11-21/bragging-rights-won-by-u-s-on-fiscal-squeeze-cutting-research.html|11/22/2013|0|"Goldman Sachs Group"|9
+http://www.bloomberg.com/news/2013-11-22/tradeweb-s-bank-owners-said-to-consider-new-bond-trading-system.html|11/22/2013|0|"Goldman Sachs Group"|5
+http://www.bloomberg.com/news/2013-11-22/rbc-urges-sec-to-test-overhaul-of-exchange-business-model.html|11/22/2013|0|"Goldman Sachs Group"|21
+http://www.bloomberg.com/news/2013-11-22/goldman-sachs-boosts-japan-stock-outlook-6th-time-in-2013.html|11/22/2013|0|"Goldman Sachs Group"|2
+http://www.bloomberg.com/news/2013-11-22/billionaire-fredriksen-sold-tui-travel-to-raise-tui-ag-stake.html|11/22/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-22/credit-suisse-partner-offers-to-exit-china-venture-before-merger.html|11/22/2013|0|"Goldman Sachs Group"|15
+http://www.bloomberg.com/news/2013-11-22/paulson-said-to-inform-clients-he-won-t-add-more-to-gold.html|11/22/2013|0|"Goldman Sachs Group"|20
+http://www.bloomberg.com/news/2013-11-22/pimco-sees-3-7-trillion-reason-for-adding-yuan-china-credit.html|11/22/2013|0|"Goldman Sachs Group"|19
+http://www.bloomberg.com/news/2013-11-22/goldman-sachs-said-to-seek-buyer-for-uranium-unit.html|11/22/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-11-22/taylor-jamison-outpace-commodity-hedge-funds-suffering-losses.html|11/22/2013|0|"Goldman Sachs Group"|12
+http://www.bloomberg.com/news/2013-11-22/vince-surges-after-200-million-fashion-ipo-priced-above-range.html|11/22/2013|0|"Goldman Sachs Group"|18
+http://www.bloomberg.com/news/2013-11-22/bernanke-s-crisis-playbook-reopens-as-qe-taper-nears-economy.html|11/22/2013|0|"Goldman Sachs Group"|24
+http://www.bloomberg.com/news/2013-11-22/cliffs-mine-shutdown-threatens-ring-of-fire-development.html|11/22/2013|0|"Goldman Sachs Group"|17
+http://www.bloomberg.com/news/2013-11-21/chrysler-banks-said-to-weigh-ipo-valuation-of-about-10-billion.html|11/22/2013|0|"Goldman Sachs Group"|16
+http://www.bloomberg.com/news/2013-11-22/u-s-stock-index-futures-little-changed-after-dow-record.html|11/22/2013|0|"Goldman Sachs Group"|23
+http://www.bloomberg.com/news/2013-11-22/goldman-would-refuse-another-greece-swap-sherwood-says.html|11/22/2013|0|"Goldman Sachs Group"|4
+http://www.fool.com/investing/general/2013/11/22/morning-dow-report-intel-home-depot-sink-boeing-so.aspx|11/22/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/22/1-housing-number-you-need-to-watch.aspx|11/22/2013|0|"Home Depot"|3
+http://www.fool.com/investing/general/2013/11/22/investor-beat-november-22-2013.aspx|11/22/2013|0|"Home Depot"|6
+http://www.thestreet.com/story/12120931/1/dow-today-home-depot-hd-lower.html|11/22/2013|0|"Home Depot"|1
+http://www.fool.com/investing/general/2013/11/22/cree-the-long-term-story-is-still-intact.aspx|11/22/2013|0|"Home Depot"|2
+http://www.thestreet.com/story/12119683/1/playstation-4-xbox-one-the-out-of-stock-epic-battle.html|11/22/2013|0|"Home Depot"|26
+http://www.cnbc.com/id/101222393|11/22/2013|0|"Home Depot"|5
+http://www.bloomberg.com/news/2013-11-22/u-s-stock-index-futures-little-changed-after-dow-record.html|11/22/2013|0|"Intel Corp"|5
+http://www.cnbc.com/id/101222349|11/22/2013|0|"Intel Corp"|8
+http://www.cnbc.com/id/101221640|11/22/2013|0|"Intel Corp"|2
+http://www.bloomberg.com/news/2013-11-21/intel-expanding-use-of-factories-for-other-chipmakers.html|11/22/2013|0|"Intel Corp"|1
+http://www.cnbc.com/id/101221060|11/22/2013|0|"Intel Corp"|6
+http://www.cnbc.com/id/101221741|11/22/2013|0|"Intel Corp"|7
+http://www.bloomberg.com/news/2013-11-21/asian-futures-rise-on-weaker-yen-while-platinum-declines.html|11/22/2013|0|"Intel Corp"|10
+http://www.cnbc.com/id/101222066|11/22/2013|0|"Intel Corp"|9
+http://www.bloomberg.com/news/2013-11-22/intel-drops-after-sales-forecast-falls-short-of-estimates.html|11/22/2013|0|"Intel Corp"|0
+http://www.bloomberg.com/news/2013-11-22/u-s-stock-index-futures-little-changed-after-dow-record.html|11/22/2013|0|"International Business Machines"|2
+http://www.thestreet.com/story/12121451/1/international-business-machines-corp-ibm-todays-featured-computer-hardware-laggard.html|11/22/2013|0|"International Business Machines"|0
+http://www.bloomberg.com/news/2013-11-22/-sexiest-carlsen-wins-world-chess-championship-upending-anand.html|11/22/2013|0|"International Business Machines"|4
+http://www.bloomberg.com/news/2013-11-22/druckenmiller-shorting-ibm-in-bet-cloud-computing-to-win.html|11/22/2013|0|"International Business Machines"|1
+http://www.fool.com/investing/general/2013/11/22/clarifying-breakthrough-designation-at-the-fda.aspx|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|3
+http://www.bloomberg.com/news/2013-11-22/disney-s-doc-mcstuffins-challenges-dora-on-toy-wishlists.html|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|6
+http://www.bloomberg.com/news/2013-11-21/j-j-hip-implant-judge-warns-of-rogue-websites-on-accord.html|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|4
+http://money.cnn.com/2013/11/22/investing/stocks-markets/|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|9
+http://www.zacks.com/stock/news/115140/PCYC-Earns-Milestone-Payments-on-Imbruvica|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.bloomberg.com/news/2013-11-22/sanofi-rheumatoid-arthritis-drug-reduces-pain-damage-in-study.html|11/22/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|5
+http://www.cnbc.com/id/101221125|11/22/2013|0|"JP Morgan"|1
+http://www.bloomberg.com/news/2013-11-22/bershidsky-on-europe-spotify-gets-4bn-pricetag.html|11/22/2013|0|"JP Morgan"|6
+http://www.bloomberg.com/news/2013-11-22/who-s-paying-for-jpmorgan-s-settlements-.html|11/22/2013|0|"JP Morgan"|0
+http://www.cnbc.com/id/101220879|11/22/2013|0|"McDonald's Corp"|0
+http://www.zacks.com/stock/news/115136/Burger-King-to-Debut-in-India|11/22/2013|0|"McDonald's Corp"|1
+http://www.thestreet.com/story/12121088/1/watch-for-todays-momo-momentum-stock-merck-mrk.html|11/22/2013|0|"Merck & Co"|0
+http://www.cnbc.com/id/101221532|11/22/2013|0|"Merck & Co"|3
+http://www.fool.com/investing/general/2013/11/22/fda-to-amarin-no-appeal-for-you.aspx|11/22/2013|0|"Merck & Co"|4
+http://www.bloomberg.com/news/2013-11-22/glaxo-pfizer-s-hiv-treatment-recommended-by-eu-regulator.html|11/22/2013|0|"Merck & Co"|2
+http://www.bloomberg.com/news/2013-11-22/nokia-wwe-it-sugar-against-the-grain-intellectual-property.html|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.bloomberg.com/news/2013-11-22/xbox-one-has-not-one-but-three-operating-systems.html|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.thestreet.com/story/12121478/1/microsoft-corporation-msft-nokia-corporation-nok-deal-to-clear-eu-report.html|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|0
+http://www.bloomberg.com/news/2013-11-22/soros-increases-holding-in-teva-to-most-in-three-years.html|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|5
+http://www.bloomberg.com/news/2013-11-21/secret-octopus-dad-has-indie-key-to-sony-s-console-success-tech.html|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|8
+http://www.cnbc.com/id/101220739|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|9
+http://www.cnbc.com/id/101221055|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|6
+http://www.zacks.com/stock/news/115134/Nokia-Unveils-Enhanced-Music-App|11/22/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.thestreet.com/story/12121163/1/dow-today-nike-nke-higher.html|11/22/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/22/why-shares-of-3d-systems-popped-today.aspx|11/22/2013|0|"Nike"|3
+http://www.fool.com/investing/general/2013/11/22/nike-the-fresh-market-and-ups-it-was-all-about-ret.aspx|11/22/2013|0|"Nike"|2
+http://www.cnbc.com/id/101220852|11/22/2013|0|"Nike"|6
+http://www.cnbc.com/id/101219299|11/22/2013|0|"Nike"|8
+http://www.fool.com/investing/general/2013/11/22/3-d-printed-finished-goods-are-no-joke.aspx|11/22/2013|0|"Nike"|12
+http://www.zacks.com/stock/news/115116/Nike-Hikes-Quarterly-Dividend|11/22/2013|0|"Nike"|0
+http://www.bloomberg.com/news/2013-11-22/glaxo-pfizer-s-hiv-treatment-recommended-by-eu-regulator.html|11/22/2013|0|"Pfizer"|0
+http://www.bloomberg.com/news/2013-11-22/sanofi-rheumatoid-arthritis-drug-reduces-pain-damage-in-study.html|11/22/2013|0|"Pfizer"|6
+http://www.bloomberg.com/news/2013-11-22/manfacturers-wary-of-baucus-proposal-to-slow-deductions.html|11/22/2013|0|"Pfizer"|8
+http://www.thestreet.com/story/12120911/1/novartis-nvs-commits-to-5-billion-share-repurchase.html|11/22/2013|0|"Pfizer"|7
+http://www.fool.com/investing/general/2013/11/22/what-you-need-to-know-about-petsmarts-recent-earni.aspx|11/22/2013|0|"Pfizer"|3
+http://www.cnbc.com/id/101221532|11/22/2013|0|"Pfizer"|1
+http://www.cnbc.com/id/101220324|11/22/2013|0|"Pfizer"|13
+http://www.cnbc.com/id/101220852|11/22/2013|0|"Pfizer"|5
+http://www.rttnews.com/2228756/viiv-healthcare-tivicay-gets-positive-chmp-opinion-in-europe-to-treat-hiv.aspx|11/22/2013|0|"Pfizer"|4
+http://www.fool.com/investing/general/2013/11/22/why-you-should-take-a-look-at-colgate-palmolive-an.aspx|11/22/2013|0|"Procter & Gamble" OR "Procter And Gamble"|0
+http://www.thestreet.com/story/12121454/1/coca-cola-enterprises-inc-cce-todays-featured-consumer-goods-laggard.html|11/22/2013|0|"Coca-Cola"|0
+http://www.fool.com/investing/general/2013/11/22/heres-sodastreams-answer-to-weak-flavor-sales.aspx|11/22/2013|0|"Coca-Cola"|19
+http://www.cnbc.com/id/101222433|11/22/2013|0|"United Technologies Corp"|0
+http://www.fool.com/how-to-invest/personal-finance/taxes/2013/11/22/obamacare-cadillac-tax-what-it-means-for-you.aspx|11/22/2013|0|"UnitedHealth Group"|0
+http://www.bloomberg.com/news/2013-11-21/nyc-closes-projected-2-billion-budget-deficit-bloomberg-says.html|11/22/2013|0|"Verizon Communications"|28
+http://www.cnbc.com/id/101183772|11/22/2013|0|"Verizon Communications"|17
+http://www.bloomberg.com/news/2013-11-22/manfacturers-wary-of-baucus-proposal-to-slow-deductions.html|11/22/2013|0|"Visa Inc"|1
+http://www.thestreet.com/story/12121441/1/wal-mart-stores-inc-wmt-todays-featured-retail-winner.html|11/22/2013|0|"Wal-Mart"|4
+http://www.fool.com/investing/general/2013/11/22/8-fascinating-reads.aspx|11/22/2013|0|"Wal-Mart"|7
+http://www.fool.com/investing/general/2013/11/22/what-does-costco-do-that-everyone-else-doesnt.aspx|11/22/2013|0|"Wal-Mart"|20
+http://www.fool.com/investing/general/2013/11/22/mcdonalds-awful-pr-is-enough-to-make-you-grimace.aspx|11/22/2013|0|"Wal-Mart"|6
+http://www.fool.com/investing/general/2013/11/22/this-weeks-5-dumbest-stock-moves.aspx|11/22/2013|0|"Wal-Mart"|5
+http://www.fool.com/investing/general/2013/11/22/wal-mart-rallies-sends-dow-to-record-close-above-1.aspx|11/22/2013|0|"Wal-Mart"|2
+http://www.fool.com/investing/general/2013/11/22/nike-the-fresh-market-and-ups-it-was-all-about-ret.aspx|11/22/2013|0|"Wal-Mart"|22
+http://www.cnbc.com/id/101221934|11/22/2013|0|"Wal-Mart"|3
+http://money.cnn.com/2013/11/22/pf/walmart-thanksgiving-worker/|11/22/2013|0|"Wal-Mart"|0
+http://www.cnbc.com/id/101220739|11/22/2013|0|"Wal-Mart"|1
+http://www.bloomberg.com/news/2013-11-21/asia-stocks-drop-on-china-data-as-yen-weakens-with-baht.html|11/21/2013|0|"American Express"|3
+http://www.cnbc.com/id/101202639|11/21/2013|0|"American Express"|2
+http://www.cnbc.com/id/101218547|11/21/2013|0|"AT&T"|3
+http://www.bloomberg.com/news/2013-11-21/sprint-drops-to-last-in-ranking-of-major-u-s-carriers.html|11/21/2013|0|"AT&T"|10
+http://www.cnbc.com/id/101219712|11/21/2013|0|"AT&T"|41
+http://www.reuters.com/finance/stocks/overview?symbol=7270.T|11/21/2013|0|"Boeing"|15
+http://www.fool.com/investing/general/2013/11/21/boeing-adds-dozens-of-new-777-787-orders-to-its-bo.aspx|11/21/2013|0|"Boeing"|4
+http://www.fool.com/investing/general/2013/11/21/how-boeings-monster-year-has-headlined-the-dows-sk.aspx|11/21/2013|0|"Boeing"|7
+http://www.thestreet.com/story/12117797/1/boeings-massive-777x-order-list-is-it-partly-a-shell-game.html|11/21/2013|0|"Boeing"|1
+http://www.cnbc.com/id/101218050|11/21/2013|0|"Boeing"|21
+http://www.cnbc.com/id/101216946|11/21/2013|0|"Boeing"|16
+http://www.cnbc.com/id/101217567|11/21/2013|0|"Boeing"|2
+http://www.bloomberg.com/news/2013-11-21/south-korean-military-to-decide-on-7-8-billion-of-fighter-jets.html|11/21/2013|0|"Boeing"|10
+http://www.bloomberg.com/news/2013-11-21/american-airlines-issues-512-million-of-debt-backed-by-planes.html|11/21/2013|0|"Boeing"|19
+http://www.cnbc.com/id/101216414|11/21/2013|0|"Boeing"|13
+http://www.cnbc.com/id/101216937|11/21/2013|0|"Boeing"|11
+http://www.cnbc.com/id/101215139|11/21/2013|0|"Boeing"|17
+http://www.cnbc.com/id/101216678|11/21/2013|0|"Boeing"|9
+http://www.bloomberg.com/news/2013-11-21/no-renaissance-for-u-s-factory-workers-as-pay-stagnates.html|11/21/2013|0|"Boeing"|6
+http://www.bloomberg.com/news/2013-11-21/united-studying-boeing-777x-jets-for-long-range-fleet-cfo-says.html|11/21/2013|0|"Boeing"|0
+http://www.bloomberg.com/news/2013-11-21/atlas-cargo-jet-lands-at-wrong-airport-on-short-runway.html|11/21/2013|0|"Boeing"|8
+http://www.zacks.com/stock/news/115037/Boeing-Wins-Twin-DoD-Orders|11/21/2013|0|"Boeing"|5
+http://www.fool.com/investing/general/2013/11/21/big-trouble-for-big-yellow.aspx|11/21/2013|0|"Caterpillar Inc"|1
+http://www.fool.com/investing/general/2013/11/21/despite-an-awful-2013-upside-remains-for-caterpill.aspx|11/21/2013|0|"Caterpillar Inc"|2
+http://www.fool.com/investing/general/2013/11/21/morning-dow-report-unitedhealth-chevron-rise-cater.aspx|11/21/2013|0|"Caterpillar Inc"|3
+http://www.fool.com/investing/general/2013/11/21/johnson-controls-announces-3-billion-buyback-incre.aspx|11/21/2013|0|"Caterpillar Inc"|5
+http://www.zacks.com/stock/news/114976/Caterpillar-Slips-as-Sales-Drop-Again|11/21/2013|0|"Caterpillar Inc"|0
+http://www.cnbc.com/id/101218050|11/21/2013|0|"Caterpillar Inc"|4
+http://www.fool.com/investing/general/2013/11/21/morning-dow-report-unitedhealth-chevron-rise-cater.aspx|11/21/2013|0|"Chevron"|0
+http://www.fool.com/investing/general/2013/11/21/did-buffett-miss-out-when-buying-exxonmobil.aspx|11/21/2013|0|"Chevron"|1
+http://www.thestreet.com/story/12117558/1/jim-cramers-6-stocks-in-60-seconds-pm-pxd-nus-sjm-rad-gme.html|11/21/2013|0|"Chevron"|3
+http://www.bloomberg.com/news/2013-11-21/bp-negotiating-to-extend-azeri-acg-oil-contract-beyond-30-years.html|11/21/2013|0|"Chevron"|2
+http://www.bloomberg.com/news/2013-11-21/bezeq-drops-as-emerging-network-signs-customer-tel-aviv-mover.html|11/21/2013|0|"Cisco Systems"|23
+http://www.bloomberg.com/news/2013-11-21/solar-may-power-smartwatches-and-smoke-alarms-alta-says.html|11/21/2013|0|"Cisco Systems"|11
+http://www.thestreet.com/story/12119625/1/aruba-networks-appoints-john-dilullo-as-executive-vice-president-of-worldwide-sales.html|11/21/2013|0|"Cisco Systems"|33
+http://www.bloomberg.com/news/2013-11-21/chinese-hackers-seen-exploiting-cloud-to-spy-on-u-s-.html|11/21/2013|0|"Cisco Systems"|36
+http://www.cnbc.com/id/101217251|11/21/2013|0|"Cisco Systems"|22
+http://www.fool.com/investing/general/2013/11/21/cisco-selloff-offers-fresh-entry-points-for-long-t.aspx|11/21/2013|0|"Cisco Systems"|0
+http://www.reuters.com/finance/stocks/overview?symbol=3405.T|11/21/2013|0|"DuPont"|5
+http://www.thestreet.com/story/12118669/1/kuraray-to-acquire-dupont-glass-laminating-solutionsvinyls.html|11/21/2013|0|"DuPont"|2
+http://www.fool.com/investing/general/2013/11/21/the-important-takeaways-from-deere-companys-earnin.aspx|11/21/2013|0|"DuPont"|4
+http://www.cnbc.com/id/101219797|11/21/2013|0|"DuPont"|9
+http://www.bloomberg.com/news/2013-11-21/wikipedia-using-professor-riles-corporate-spying-defense.html|11/21/2013|0|"DuPont"|6
+http://www.bloomberg.com/news/2013-11-21/india-rejects-u-s-plan-to-use-ozone-treaty-to-cut-hfcs.html|11/21/2013|0|"DuPont"|7
+http://www.fool.com/investing/general/2013/11/21/a-way-to-profit-from-mankinds-attachment-to-food.aspx|11/21/2013|0|"DuPont"|3
+http://www.bloomberg.com/news/2013-11-21/dupont-to-sell-glass-and-vinyls-unit-to-japan-s-kuraray.html|11/21/2013|0|"DuPont"|0
+http://www.rttnews.com/2228067/dupont-to-sell-glass-laminating-solutions-vinyls-to-kuraray-for-543-mln.aspx|11/21/2013|0|"DuPont"|1
+http://www.bloomberg.com/news/2013-11-21/bp-negotiating-to-extend-azeri-acg-oil-contract-beyond-30-years.html|11/21/2013|0|"Exxon Mobil"|3
+http://www.thestreet.com/story/12117558/1/jim-cramers-6-stocks-in-60-seconds-pm-pxd-nus-sjm-rad-gme.html|11/21/2013|0|"Exxon Mobil"|2
+http://www.fool.com/investing/general/2013/11/21/exxon-mobil-did-warren-buffett-just-invest-in-a-va.aspx|11/21/2013|0|"Exxon Mobil"|1
+http://www.thestreet.com/story/12118777/1/apache-exxon-mobil-rally-as-crude-oil-declines.html|11/21/2013|0|"Exxon Mobil"|0
+http://www.rttnews.com/2227782/kentz-bags-5-year-engineering-framework-contract-for-samref-in-saudi-arabia.aspx|11/21/2013|0|"Exxon Mobil"|5
+http://www.bloomberg.com/news/2013-11-21/yale-students-urge-university-to-sell-fossil-fuel-investments.html|11/21/2013|0|"Exxon Mobil"|4
+http://www.fool.com/investing/general/2013/11/21/treasury-to-exit-general-motors-stake-by-years-end.aspx|11/21/2013|0|"General Electric"|0
+http://www.thestreet.com/story/12119359/1/smart-water-heat-and-ge-appliances-new-promotion-aims-to-raise-awareness-and-increase-adoption-of-efficient-heat-pump-technology-used-in-the-geospringtm-water-heaters-photo-ge.html|11/21/2013|0|"General Electric"|6
+http://www.fool.com/investing/general/2013/11/21/5-biotech-trends-powering-repligens-growth.aspx|11/21/2013|0|"General Electric"|3
+http://www.cnbc.com/id/101218050|11/21/2013|0|"General Electric"|4
+http://www.bloomberg.com/news/2013-11-21/ge-to-supply-795-megawatts-of-wind-turbines-in-brazil-colorado.html|11/21/2013|0|"General Electric"|1
+http://www.bloomberg.com/news/2013-11-21/eads-bids-for-stake-in-italy-s-avio-space-propulsion-business.html|11/21/2013|0|"General Electric"|2
+http://www.bloomberg.com/news/2013-11-21/no-renaissance-for-u-s-factory-workers-as-pay-stagnates.html|11/21/2013|0|"General Electric"|8
+http://www.bloomberg.com/news/2013-11-21/the-great-disruption-comes-to-auto-dealers.html|11/21/2013|0|"General Electric"|5
+http://www.cnbc.com/id/101217018|11/21/2013|0|"Goldman Sachs Group"|0
+http://www.bloomberg.com/news/2013-11-21/asia-stocks-drop-on-china-data-as-yen-weakens-with-baht.html|11/21/2013|0|"Goldman Sachs Group"|22
+http://www.bloomberg.com/news/2013-11-20/pboc-says-no-longer-in-china-s-favor-to-boost-record-reserves.html|11/21/2013|0|"Goldman Sachs Group"|19
+http://www.thestreet.com/story/12119822/1/goldman-sachs-group-inc-gs-todays-featured-financial-services-winner.html|11/21/2013|0|"Goldman Sachs Group"|5
+http://www.thestreet.com/story/12119273/1/5-stocks-moving-the-financial-sector-upward.html|11/21/2013|0|"Goldman Sachs Group"|11
+http://www.bloomberg.com/news/2013-11-21/gold-trades-near-four-month-low-after-fed-reserve-signals-taper.html|11/21/2013|0|"Goldman Sachs Group"|7
+http://www.bloomberg.com/news/2013-11-21/goldman-sachs-says-currency-unit-didn-t-post-third-quarter-loss.html|11/21/2013|0|"Goldman Sachs Group"|1
+http://www.bloomberg.com/news/2013-11-21/the-jpmorgan-settlement-isn-t-justice.html|11/21/2013|0|"Goldman Sachs Group"|14
+http://www.bloomberg.com/news/2013-11-21/china-s-stocks-fall-before-flash-pmi-as-fed-signals-stimulus-cut.html|11/21/2013|0|"Goldman Sachs Group"|10
+http://www.bloomberg.com/news/2013-11-21/chiquita-sec-shell-records-payday-lenders-compliance.html|11/21/2013|0|"Goldman Sachs Group"|13
+http://www.bloomberg.com/news/2013-11-21/china-s-president-will-drive-change-paulson-says.html|11/21/2013|0|"Goldman Sachs Group"|23
+http://www.bloomberg.com/news/2013-11-21/mexico-s-economy-grows-more-than-forecast-as-borrowing-costs-cut.html|11/21/2013|0|"Goldman Sachs Group"|12
+http://www.bloomberg.com/news/2013-11-21/goldman-predicts-significant-losses-for-gold-iron-ore-in-2014.html|11/21/2013|0|"Goldman Sachs Group"|4
+http://www.bloomberg.com/news/2013-11-21/goldman-sachs-selling-first-italian-cmbs-deal-for-seven-years.html|11/21/2013|0|"Goldman Sachs Group"|3
+http://www.bloomberg.com/news/2013-11-21/philip-morris-falls-most-in-five-months-as-profit-growth-slows.html|11/21/2013|0|"Goldman Sachs Group"|8
+http://www.bloomberg.com/news/2013-11-21/goldman-s-currency-trading-revenue-fell-on-options-bet-wsj-says.html|11/21/2013|0|"Goldman Sachs Group"|2
+http://www.bloomberg.com/news/2013-11-21/weil-on-finance-goldman-s-mysterious-trade.html|11/21/2013|0|"Goldman Sachs Group"|9
+http://www.bloomberg.com/news/2013-11-21/u-s-stock-index-futures-advance-before-jobless-report.html|11/21/2013|0|"Goldman Sachs Group"|25
+http://www.bloomberg.com/news/2013-11-20/johnson-controls-boosts-stock-buyback-program-dividend.html|11/21/2013|0|"Goldman Sachs Group"|18
+http://www.bloomberg.com/news/2013-11-21/life-insurance-unit-sales-threaten-credit-ratings-moody-s-says.html|11/21/2013|0|"Goldman Sachs Group"|20
+http://www.bloomberg.com/news/2013-11-21/alstom-said-to-mandate-goldman-for-preheaters-unit-sale.html|11/21/2013|0|"Goldman Sachs Group"|6
+http://www.bloomberg.com/news/2013-11-20/sensex-earnings-to-slow-on-vote-aberdeen-says-corporate-india.html|11/21/2013|0|"Goldman Sachs Group"|24
+http://www.bloomberg.com/news/2013-11-21/u-s-should-watch-australia-dark-pool-laws-schapiro-says.html|11/21/2013|0|"Goldman Sachs Group"|21
+http://www.fool.com/investing/general/2013/11/21/home-depot-vs-lowes-who-had-the-better-quarter.aspx|11/21/2013|0|"Home Depot"|0
+http://www.fool.com/investing/general/2013/11/21/can-lowes-and-home-depot-improve-your-portfolio.aspx|11/21/2013|0|"Home Depot"|1
+http://www.fool.com/investing/general/2013/11/21/consumer-countdown-for-thursday-november-21.aspx|11/21/2013|0|"Home Depot"|3
+http://www.thestreet.com/story/12119133/1/ivw-hd-v-ma-etf-inflow-alert.html|11/21/2013|0|"Home Depot"|14
+http://www.thestreet.com/story/12119385/1/reports-of-retails-death-are-greatly-exaggerated.html|11/21/2013|0|"Home Depot"|7
+http://www.bloomberg.com/news/2013-11-21/consumers-outlook-for-u-s-economy-improves-after-two-year-low.html|11/21/2013|0|"Home Depot"|4
+http://www.cnbc.com/id/101218543|11/21/2013|0|"Home Depot"|25
+http://www.cnbc.com/id/101219215|11/21/2013|0|"Home Depot"|6
+http://www.cnbc.com/id/101202639|11/21/2013|0|"Home Depot"|2
+http://www.cnbc.com/id/101219703|11/21/2013|0|"Home Depot"|43
+http://www.bloomberg.com/news/2013-11-21/asia-stocks-drop-on-china-data-as-yen-weakens-with-baht.html|11/21/2013|0|"Intel Corp"|10
+http://www.cnbc.com/id/101218455|11/21/2013|0|"Intel Corp"|1
+http://www.cnbc.com/id/101219369|11/21/2013|0|"Intel Corp"|2
+http://www.cnbc.com/id/101218334|11/21/2013|0|"Intel Corp"|0
+http://www.cnbc.com/id/101217573|11/21/2013|0|"Intel Corp"|5
+http://www.bloomberg.com/news/2013-11-20/arm-sees-shift-toward-cheaper-smartphones-boosting-chip-royalty.html|11/21/2013|0|"Intel Corp"|7
+http://www.thestreet.com/story/12119719/1/dow-today-visa-inc-class-a-v-leads-the-day-higher-international-business-machines-ibm-lags.html|11/21/2013|0|"International Business Machines"|0
+http://www.fool.com/investing/general/2013/11/21/todays-3-reads-health-care-gone-mobile-a-brazilian.aspx|11/21/2013|0|"International Business Machines"|1
+http://www.reuters.com/finance/stocks/PACT.O/key-developments/article/2874699|11/21/2013|0|"International Business Machines"|6
+http://www.bloomberg.com/news/2013-11-21/china-s-bribery-culture-poses-risks-for-multinationals.html|11/21/2013|0|"International Business Machines"|2
+http://www.bloomberg.com/news/2013-11-21/sears-loss-widens-as-lampert-seeks-asset-sales.html|11/21/2013|0|"International Business Machines"|3
+http://www.bloomberg.com/news/2013-11-20/atos-seeks-purchases-to-make-worldline-europe-s-payment-leader.html|11/21/2013|0|"International Business Machines"|5
+http://www.thestreet.com/story/12119127/1/dow-component-johnson-johnson-jnj-to-go-ex-dividend-tomorrow.html|11/21/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|0
+http://www.fool.com/investing/general/2013/11/21/pfizer-and-merck-ride-the-dows-triple-digit-surge.aspx|11/21/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|1
+http://www.cnbc.com/id/101218003|11/21/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|3
+http://www.bloomberg.com/news/2013-11-21/fifa-extends-adidas-partnership-to-60-years-with-new-accord.html|11/21/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|4
+http://www.bloomberg.com/news/2013-11-21/jpmorgan-deal-offers-turning-point-for-attorney-general-holder.html|11/21/2013|0|"Johnson and Johnson" OR "Johnson & Johnson"|10
+http://www.bloomberg.com/news/2013-11-21/jpmorgan-deal-offers-turning-point-for-attorney-general-holder.html|11/21/2013|0|"JP Morgan"|0
+http://www.cnbc.com/id/101217018|11/21/2013|0|"JP Morgan"|7
+http://www.zacks.com/commentary/30035/q4-earnings-estimates-coming-down|11/21/2013|0|"JP Morgan"|8
+http://www.cnbc.com/id/101218744|11/21/2013|0|"McDonald's Corp"|1
+http://www.cnbc.com/id/101218543|11/21/2013|0|"McDonald's Corp"|2
+http://www.fool.com/investing/general/2013/11/21/pfizer-and-merck-ride-the-dows-triple-digit-surge.aspx|11/21/2013|0|"Merck & Co"|1
+http://www.bloomberg.com/news/2013-11-21/new-jersey-towns-face-tax-vacuum-minus-drugmakers-muni-credit.html|11/21/2013|0|"Merck & Co"|0
+http://www.bloomberg.com/news/2013-11-20/cholesterol-drug-from-trash-seen-preventing-heart-attack-health.html|11/21/2013|0|"Merck & Co"|4
+http://www.bloomberg.com/news/2013-11-21/chinese-hackers-seen-exploiting-cloud-to-spy-on-u-s-.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|4
+http://www.cnbc.com/id/101218672|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|1
+http://www.cnbc.com/id/101216445|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|7
+http://www.cnbc.com/id/101219797|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|8
+http://www.reuters.com/finance/stocks/NOK.N/key-developments|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|16
+http://www.cnbc.com/id/101217251|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|14
+http://www.cnbc.com/id/101217254|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|12
+http://www.bloomberg.com/news/2013-11-21/microsoft-to-take-over-nokia-s-landmark-headquarters.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|6
+http://www.cnbc.com/id/101216902|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|13
+http://www.cnbc.com/id/101218613|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|15
+http://www.bloomberg.com/news/2013-11-21/gamestop-says-2-3-million-customers-waiting-for-ps4.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|3
+http://www.bloomberg.com/news/2013-11-21/nokia-should-face-antitrust-probe-sierra-wireless-urges-eu.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|2
+http://www.zacks.com/stock/news/115007/NSN-Rebuffs-ALU-Buyout-Talks|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|5
+http://www.bloomberg.com/news/2013-11-20/bt-sees-champions-league-as-step-to-soccer-dominance.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|10
+http://www.bloomberg.com/news/2013-11-21/after-nokia-stmicro-bets-on-european-factories.html|11/21/2013|0|"Microsoft Corp" OR "Microsoft Corporation"|11
+http://www.bloomberg.com/news/2013-11-21/fifa-extends-adidas-partnership-to-60-years-with-new-accord.html|11/21/2013|0|"Nike"|2
+http://www.fool.com/investing/general/2013/11/21/jim-cramer-was-right-under-armour-is-a-tech-compan.aspx|11/21/2013|0|"Nike"|1
+http://www.fool.com/investing/general/2013/11/21/settle-down-folks-lululemon-is-doing-fine.aspx|11/21/2013|0|"Nike"|5
+http://www.fool.com/investing/general/2013/11/21/can-foot-locker-ever-catch-up-to-nike-and-under-ar.aspx|11/21/2013|0|"Nike"|0
+http://www.fool.com/investing/general/2013/11/21/general-motors-shares-surge-on-treasury-exit-plans.aspx|11/21/2013|0|"Nike"|7
+http://www.fool.com/investing/general/2013/11/21/socially-responsible-funds-should-you-bother.aspx|11/21/2013|0|"Nike"|3
+http://www.fool.com/investing/general/2013/11/21/what-to-expect-from-wal-mart-in-2014.aspx|11/21/2013|0|"Nike"|12
+http://www.fool.com/investing/general/2013/11/21/why-more-upside-remains-as-johnson-controls-shares.aspx|11/21/2013|0|"Nike"|8
+http://www.fool.com/investing/general/2013/11/21/pfizer-and-merck-ride-the-dows-triple-digit-surge.aspx|11/21/2013|0|"Pfizer"|0
+http://www.reuters.com/finance/stocks/CIPL.NS/key-developments|11/21/2013|0|"Pfizer"|4
+http://www.bloomberg.com/news/2013-11-21/hilton-said-to-plan-increase-in-ipo-size-to-2-25-billion.html|11/21/2013|0|"Pfizer"|12
+http://www.bloomberg.com/news/2013-11-21/china-s-bribery-culture-poses-risks-for-multinationals.html|11/21/2013|0|"Pfizer"|32
+http://www.bloomberg.com/news/2013-11-20/cholesterol-drug-from-trash-seen-preventing-heart-attack-health.html|11/21/2013|0|"Pfizer"|13
+http://www.bloomberg.com/news/2013-11-21/biomarin-seen-luring-13-billion-takeover-bid-real-m-a.html|11/21/2013|0|"Pfizer"|2
+http://www.rttnews.com/2228077/pfizer-gsk-to-collaborate-for-phase-i-ii-study-with-palbociclib-trametinib.aspx|11/21/2013|0|"Pfizer"|1
+http://www.zacks.com/stock/news/114975/Athersys-Narrows-Loss-Shares-Rise|11/21/2013|0|"Pfizer"|14
+http://www.bloomberg.com/news/2013-11-20/vonn-s-knee-injury-poses-more-opportunity-than-threat-for-nbc.html|11/21/2013|0|"Procter & Gamble" OR "Procter And Gamble"|1
+http://www.thestreet.com/story/12119277/1/kof-mo-and-pm-3-consumer-goods-stocks-pushing-the-sector-lower.html|11/21/2013|0|"Coca-Cola"|0
+http://www.zacks.com/stock/news/114999/SodaStream-Launches-Flavor-Capsules|11/21/2013|0|"Coca-Cola"|1
+http://www.cnbc.com/id/101219185|11/21/2013|0|"Coca-Cola"|7
+http://www.zacks.com/stock/news/115015/PepsiCo-Kept-Neutral-on-Mixed-Q3|11/21/2013|0|"Coca-Cola"|2
+http://www.bloomberg.com/news/2013-11-21/f-35-production-depends-on-tests-not-budgets-carter-says.html|11/21/2013|0|"United Technologies Corp"|0
+http://www.thestreet.com/story/12119825/1/unitedhealth-group-inc-unh-todays-featured-health-services-winner.html|11/21/2013|0|"UnitedHealth Group"|0
+http://www.fool.com/investing/general/2013/11/21/todays-3-reads-health-care-gone-mobile-a-brazilian.aspx|11/21/2013|0|"UnitedHealth Group"|2
+http://www.fool.com/investing/general/2013/11/21/morning-dow-report-unitedhealth-chevron-rise-cater.aspx|11/21/2013|0|"UnitedHealth Group"|1
+http://buzz.money.cnn.com/2013/11/21/obamacare-insurers-stocks/|11/21/2013|0|"UnitedHealth Group"|3
+http://www.cnbc.com/id/101217248|11/21/2013|0|"UnitedHealth Group"|4
+http://www.cnbc.com/id/101217256|11/21/2013|0|"UnitedHealth Group"|13
+http://www.bloomberg.com/news/2013-11-20/ericsson-cfo-says-vodafone-network-spending-plan-boon-to-market.html|11/21/2013|0|"Verizon Communications"|42
+http://www.bloomberg.com/news/2013-11-20/vodafone-chief-is-open-to-his-beautiful-assets-being-circled.html|11/21/2013|0|"Verizon Communications"|1
+http://www.fool.com/investing/general/2013/11/21/disneys-espn-could-benefit-from-aereo.aspx|11/21/2013|0|"Verizon Communications"|4
+http://www.cnbc.com/id/101218547|11/21/2013|0|"Verizon Communications"|6
+http://www.thestreet.com/story/12119719/1/dow-today-visa-inc-class-a-v-leads-the-day-higher-international-business-machines-ibm-lags.html|11/21/2013|0|"Visa Inc"|0
+http://www.thestreet.com/story/12119133/1/ivw-hd-v-ma-etf-inflow-alert.html|11/21/2013|0|"Visa Inc"|1
+http://www.thestreet.com/story/12118776/1/wal-mart-stores-incs-buy-recommendation-affirmed.html|11/21/2013|0|"Wal-Mart"|4
+http://www.thestreet.com/story/12119385/1/reports-of-retails-death-are-greatly-exaggerated.html|11/21/2013|0|"Wal-Mart"|33
+http://www.fool.com/investing/general/2013/11/21/what-to-expect-from-wal-mart-in-2014.aspx|11/21/2013|0|"Wal-Mart"|1
+http://www.fool.com/investing/general/2013/11/21/big-box-retail-can-fit-any-portfolio.aspx|11/21/2013|0|"Wal-Mart"|6
+http://www.fool.com/investing/general/2013/11/21/dow-16000-disney-helps-launch-index-to-new-record.aspx|11/21/2013|0|"Wal-Mart"|43
+http://www.fool.com/investing/general/2013/11/21/l-brands-edges-out-market-expectations.aspx|11/21/2013|0|"Wal-Mart"|47
+http://www.fool.com/investing/general/2013/11/21/why-costco-is-beating-wal-mart.aspx|11/21/2013|0|"Wal-Mart"|0
+http://www.fool.com/investing/general/2013/11/21/wal-mart-and-the-power-of-buy-and-hold.aspx|11/21/2013|0|"Wal-Mart"|3
+http://www.fool.com/investing/general/2013/11/21/consumer-countdown-for-thursday-november-21.aspx|11/21/2013|0|"Wal-Mart"|12
+http://www.thestreet.com/story/12119832/1/walt-disney-co-dis-todays-featured-media-winner.html|11/21/2013|0|"Walt Disney Company"|0
